@@ -20,6 +20,7 @@
  *   { type: "video",     embedUrl: "https://www.youtube.com/embed/ID", caption: "..." }
  *   { type: "podcast",   label: "...", url: "...", description: "..." }
  *   { type: "closing",   text: "..." }
+ *   { type: "audio",    src: "audio/file.mp3", image: "images/...", label: "Kapitel anhören" }
  */
 
 const CHAPTERS = [
@@ -37,6 +38,14 @@ const CHAPTERS = [
     accentColor: null,              // null = Standard-Salbeigrün (#6B9A8B)
     publishDate: "2026-03-15",
     body: [
+
+      /* ── 0. Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/Fliegen.mp3",
+        image: "images/chapters/Flugzeug.jpg",
+        label: "Kapitel 1 anhören"
+      },
 
       /* ── 1. Ein Gedanke, der einen kurz umhaut ── */
       {

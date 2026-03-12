@@ -70,6 +70,8 @@
     ${nextChapter ? renderNextChapter(nextChapter) : ''}
   `;
 
+  initAudioPlayers();
+
   // ── BLOCK RENDERERS ─────────────────────────────────────────
 
   function renderHero(ch, num) {
@@ -179,6 +181,50 @@
           </a>
         `;
 
+      case 'audio': {
+        const imgHtml = block.image
+          ? `<div class="block-audio__image"><img src="${esc(block.image)}" alt="" loading="lazy" /></div>`
+          : '';
+        return `
+          <div class="block-audio" data-audio-player>
+            <div class="block-audio__card">
+              ${imgHtml}
+              <div class="block-audio__content">
+                <div class="block-audio__header">
+                  <span class="block-audio__tag">Jetzt hören</span>
+                  <p class="block-audio__label">${esc(block.label || 'Kapitel anhören')}</p>
+                </div>
+                <div class="block-audio__controls">
+                  <button class="block-audio__play-btn" data-audio-play aria-label="Abspielen">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" data-icon-play>
+                      <path d="M5 3.5l13 6.5-13 6.5V3.5z" fill="currentColor"/>
+                    </svg>
+                  </button>
+                  <div class="block-audio__timeline">
+                    <div class="block-audio__progress" data-audio-progress>
+                      <div class="block-audio__progress-fill" data-audio-fill style="width:0%"></div>
+                    </div>
+                    <div class="block-audio__times">
+                      <span data-audio-current>0:00</span>
+                      <span data-audio-total>--:--</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-audio__speed">
+                  <span class="block-audio__speed-label">Tempo</span>
+                  <button class="block-audio__speed-btn" data-audio-speed="0.75">0.75x</button>
+                  <button class="block-audio__speed-btn is-active" data-audio-speed="1">1x</button>
+                  <button class="block-audio__speed-btn" data-audio-speed="1.25">1.25x</button>
+                  <button class="block-audio__speed-btn" data-audio-speed="1.5">1.5x</button>
+                  <button class="block-audio__speed-btn" data-audio-speed="2">2x</button>
+                </div>
+                <audio data-audio-el src="${esc(block.src)}" preload="metadata"></audio>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
       case 'closing':
         return `<p class="block-closing">${md(block.text)}</p>`;
 
@@ -214,6 +260,78 @@
         </div>
       </section>
     `;
+  }
+
+  // ── AUDIO PLAYER ────────────────────────────────────────────
+
+  function initAudioPlayers() {
+    var players = mount.querySelectorAll('[data-audio-player]');
+    players.forEach(function (player) {
+      var audio      = player.querySelector('[data-audio-el]');
+      var playBtn    = player.querySelector('[data-audio-play]');
+      var fill       = player.querySelector('[data-audio-fill]');
+      var progressBar = player.querySelector('[data-audio-progress]');
+      var currentEl  = player.querySelector('[data-audio-current]');
+      var totalEl    = player.querySelector('[data-audio-total]');
+      var speedBtns  = player.querySelectorAll('[data-audio-speed]');
+      if (!audio || !playBtn) return;
+
+      function fmt(s) {
+        var m = Math.floor(s / 60);
+        var sec = Math.floor(s % 60);
+        return m + ':' + (sec < 10 ? '0' : '') + sec;
+      }
+
+      var playIcon = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 3.5l13 6.5-13 6.5V3.5z" fill="currentColor"/></svg>';
+      var pauseIcon = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="4" y="3" width="4" height="14" rx="1" fill="currentColor"/><rect x="12" y="3" width="4" height="14" rx="1" fill="currentColor"/></svg>';
+
+      audio.addEventListener('loadedmetadata', function () {
+        if (totalEl) totalEl.textContent = fmt(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function () {
+        if (!audio.duration) return;
+        var pct = (audio.currentTime / audio.duration) * 100;
+        if (fill) fill.style.width = pct + '%';
+        if (currentEl) currentEl.textContent = fmt(audio.currentTime);
+      });
+
+      audio.addEventListener('ended', function () {
+        playBtn.setAttribute('aria-label', 'Abspielen');
+        playBtn.innerHTML = playIcon;
+        if (fill) fill.style.width = '0%';
+        if (currentEl) currentEl.textContent = '0:00';
+      });
+
+      playBtn.addEventListener('click', function () {
+        if (audio.paused) {
+          audio.play();
+          playBtn.setAttribute('aria-label', 'Pause');
+          playBtn.innerHTML = pauseIcon;
+        } else {
+          audio.pause();
+          playBtn.setAttribute('aria-label', 'Abspielen');
+          playBtn.innerHTML = playIcon;
+        }
+      });
+
+      if (progressBar) {
+        progressBar.addEventListener('click', function (e) {
+          if (!audio.duration) return;
+          var rect = progressBar.getBoundingClientRect();
+          var pct = (e.clientX - rect.left) / rect.width;
+          audio.currentTime = Math.max(0, Math.min(1, pct)) * audio.duration;
+        });
+      }
+
+      speedBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          audio.playbackRate = parseFloat(btn.dataset.audioSpeed);
+          speedBtns.forEach(function (b) { b.classList.remove('is-active'); });
+          btn.classList.add('is-active');
+        });
+      });
+    });
   }
 
   // ── HELPERS ─────────────────────────────────────────────────

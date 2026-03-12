@@ -362,6 +362,190 @@ ol.block-list li::before {
   flex-shrink: 0;
 }
 
+/* ── BLOCK: AUDIO PLAYER ─────────────────────────────────────── */
+
+.block-audio {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-card);
+  box-shadow: var(--shadow-md);
+}
+
+.block-audio__card {
+  display: flex;
+}
+
+.block-audio__image {
+  width: 200px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.block-audio__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.block-audio__content {
+  flex: 1;
+  padding: var(--space-6) var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  min-width: 0;
+}
+
+.block-audio__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.block-audio__tag {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--chapter-accent, var(--color-green-dark));
+  background-color: var(--chapter-accent-light, var(--color-green-light));
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+}
+
+.block-audio__label {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-primary);
+  line-height: var(--leading-snug);
+  margin-bottom: 0;
+}
+
+.block-audio__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.block-audio__play-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--chapter-accent, var(--color-green));
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform var(--dur-fast) var(--ease-out),
+              box-shadow var(--dur-fast) var(--ease-out);
+}
+
+.block-audio__play-btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(107, 154, 139, 0.4);
+}
+
+.block-audio__play-btn:active {
+  transform: scale(0.96);
+}
+
+.block-audio__timeline {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.block-audio__progress {
+  position: relative;
+  height: 6px;
+  background-color: var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: height var(--dur-fast) var(--ease-out);
+}
+
+.block-audio__progress:hover {
+  height: 8px;
+}
+
+.block-audio__progress-fill {
+  height: 100%;
+  background-color: var(--chapter-accent, var(--color-green));
+  border-radius: var(--radius-full);
+  pointer-events: none;
+  transition: width 0.1s linear;
+}
+
+.block-audio__times {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+  font-variant-numeric: tabular-nums;
+}
+
+.block-audio__speed {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.block-audio__speed-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.04em;
+  margin-right: var(--space-1);
+}
+
+.block-audio__speed-btn {
+  font-size: var(--text-xs);
+  font-family: var(--font-body);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-secondary);
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-3);
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease-out),
+              border-color var(--dur-fast) var(--ease-out),
+              color var(--dur-fast) var(--ease-out);
+}
+
+.block-audio__speed-btn:hover {
+  background-color: var(--color-bg-section);
+  border-color: var(--chapter-accent, var(--color-green));
+}
+
+.block-audio__speed-btn.is-active {
+  background-color: var(--chapter-accent-light, var(--color-green-light));
+  border-color: var(--chapter-accent, var(--color-green));
+  color: var(--chapter-accent, var(--color-green-dark));
+  font-weight: var(--weight-semibold);
+}
+
+@media (max-width: 560px) {
+  .block-audio__image {
+    display: none;
+  }
+  .block-audio__content {
+    padding: var(--space-5) var(--space-5);
+  }
+}
+
 /* ── BLOCK: CLOSING ──────────────────────────────────────────── */
 
 .block-closing {
