@@ -42,19 +42,60 @@
       <canvas id="hero-canvas" class="home-hero__canvas" aria-hidden="true"></canvas>
 
       <div class="container home-hero__inner">
-        <div class="home-hero__eyebrow">Herzlich willkommen</div>
         <h1 class="home-hero__title">You won the<br><em>Time Lottery</em></h1>
-        <p class="home-hero__subtitle">
-          Du lebst in einer Zeit, in der Flugzeuge fliegen, Supermarktregale sich füllen,
-          Krankheiten geheilt werden und wir es kaum noch bemerken.
-          Das hier ist eine Liebeserklärung an die unsichtbaren Wunder unseres Alltags.
-        </p>
+        <div class="home-hero__subtitle">
+          <p class="home-hero__subtitle-hook"><strong>Warum Du verdammt nochmal der glücklichste Mensch der Geschichte sein solltest!</strong></p>
+          <p>Stell dir vor, es gäbe eine Lotterie. Keine normale Lotterie mit Zahlen und Rubbelkarten, sondern die größte, verrückteste Lotterie aller Zeiten: die <strong>Zeitlotterie</strong>. 10.000 Lose. 10.000 Generationen von Menschen, die jemals auf diesem Planeten gelebt haben. Und du? Du hast das goldene Ticket gezogen.</p>
+        </div>
         <a href="#chapters" class="home-hero__scroll-cue" aria-label="Zu den Kapiteln scrollen">
           <span class="home-hero__scroll-label">Kapitel entdecken</span>
           <svg class="home-hero__scroll-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M10 3v14M4 13l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </a>
+      </div>
+    </section>
+
+    <!-- INTRO (collapsible) -->
+    <section class="home-intro">
+      <div class="container">
+        <div class="home-intro__card">
+          <div class="home-intro__header">
+            <span class="home-intro__tag">Einleitung</span>
+            <p class="home-intro__preview">10.000 Lose. 10.000 Generationen von Menschen, die jemals auf diesem Planeten gelebt haben. Und du? Du hast das goldene Ticket gezogen.</p>
+            <button class="home-intro__btn" id="intro-btn" aria-expanded="false" aria-controls="intro-content">
+              <span class="home-intro__btn-label">Einleitung lesen</span>
+              <svg class="home-intro__btn-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <path d="M4 6l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="home-intro__content" id="intro-content">
+            <div class="home-intro__prose">
+              <p>Genau so sieht es nämlich aus: Die ältesten Homo-sapiens-Funde werden auf 300.000 Jahre datiert, und seither hat es ungefähr 10.000 Generationen gegeben. Und du bist nicht der Homo sapiens aus der Steinzeit, der mit einem spitzen Stock versucht hat, ein Mammut zu erlegen (und dabei meistens selbst fast draufgegangen ist). Du bist nicht der Bauer im Mittelalter, der mit 30 schon alle Zähne verloren hatte und dessen Lebenserwartung irgendwo zwischen &bdquo;kurz&ldquo; und &bdquo;sehr kurz&ldquo; lag. Du bist nicht das Kind in einer Fabrik zur Zeit der Industrialisierung, das an gefährlichen Maschinen arbeitete, kaum Schulbildung bekam und dessen kleiner Lohn die Familie gerade so vor dem Verhungern bewahrte.</p>
+              <p class="home-intro__accent">Nein. Du bist hier. Jetzt. Im 21. Jahrhundert.</p>
+              <p>Du bist der eine aus 10.000, der in einer Zeit lebt, in der du morgens von einem Wecker geweckt wirst (statt von einem Säbelzahntiger), in der du warmes Wasser aus der Wand bekommst (ohne es erst am Fluss holen zu müssen), in der du Essen im Kühlschrank hast (das nicht nach drei Tagen vergammelt ist), in der du mit Menschen auf der anderen Seite der Welt sprechen kannst (ohne monatelang mit dem Schiff zu reisen).</p>
+              <p>Und trotzdem, <strong>trotzdem!</strong>, meckern wir, wenn das WLAN zu langsam ist. Wir fluchen, wenn wir im Stau stehen. Wir regen uns auf, wenn die Heizung nicht sofort anspringt oder der Supermarkt unsere Lieblings-Chips nicht mehr hat.</p>
+              <p>Wir vergessen viel zu oft, wie verdammt gut wir es haben! Wir leben in der komfortabelsten Ära der Menschheitsgeschichte und sehen das als selbstverständlich an.</p>
+              <p>Dieses Buch ist eine Erinnerung. Eine liebevolle, manchmal freche, hoffentlich lustige Erinnerung daran, dass wir im Alltag von Dingen umgeben sind, die für 9.999 Generationen vor uns wie <strong>Magie</strong> gewirkt hätten. Dinge, die so selbstverständlich geworden sind, dass wir sie gar nicht mehr wahrnehmen.</p>
+              <div class="home-intro__wonders">
+                <p>Das warme Wasser aus dem Hahn? Ein Wunder.</p>
+                <p>Das Auto, das uns in 20 Minuten zur Arbeit bringt? Ein Wunder.</p>
+                <p>Der Kühlschrank, der unser Essen frisch hält? Ein Wunder.</p>
+                <p>Die Waschmaschine, die uns Stunden an Arbeit erspart? Ein verdammtes Wunder.</p>
+              </div>
+              <p>Aber wir sehen sie nicht mehr. Wir hetzen durch unseren Tag, gestresst, genervt, unzufrieden und übersehen dabei, dass wir in einem Zeitalter leben, das unsere Vorfahren sich nicht mal in ihren wildesten Träumen hätten vorstellen können.</p>
+              <p>In diesem Buch nehme ich dich mit auf eine Reise durch die kleinen, großen Wunder unseres Alltags. Durch die Dinge, die unser Leben leichter, schöner, komfortabler machen und die wir viel zu oft als selbstverständlich hinnehmen.</p>
+              <p>Jedes Kapitel widmet sich einem dieser alltäglichen Helden: dem Kühlschrank, der Waschmaschine, dem Auto, dem Internet, der Heizung, dem Licht auf Knopfdruck. Wir schauen uns an, wie das Leben <strong>ohne</strong> diese alltäglichen Helden war (Spoiler: meistens ziemlich beschissen), wie sie erfunden wurden (oft durch Zufall oder pure Verzweiflung) und warum sie unser Leben so unglaublich bereichern.</p>
+              <p>Und am Ende jedes Kapitels gibt es ein paar Fragen. Nicht um dich zu nerven, sondern um dich zum Nachdenken zu bringen. Zum Innehalten. Zum bewussten Wahrnehmen und dankbar sein.</p>
+              <div class="home-intro__divider" aria-hidden="true">✦</div>
+              <p><strong>Denn hier ist die Wahrheit: Du hast die Zeitlotterie gewonnen.</strong> Du lebst in der besten Zeit, die es jemals gab! Nicht perfekt, klar. Aber verdammt gut. Und das sollten wir öfter feiern.</p>
+              <p>Also mach dir einen Kaffee (aus der Maschine, nicht am Lagerfeuer), setz dich bequem hin (auf ein Sofa, nicht auf einen Stein), schalte das Licht an (per Knopfdruck, nicht mit Feuerstein) und lass uns gemeinsam entdecken, wie reich wir eigentlich sind.</p>
+              <p class="home-intro__welcome">Willkommen im Club der Gewinner.<br>Willkommen im 21. Jahrhundert.<br>Willkommen in deinem verdammt guten Leben.</p>
+              <p class="home-intro__ps"><em>P.S.: Falls du jetzt denkst &bdquo;Ja, aber mein Leben ist trotzdem stressig und schwer&ldquo;, ich verstehe dich. Dieses Buch will deine Probleme nicht kleinreden. Es will dir nur zeigen, dass du trotz allem auf einem verdammt guten Fundament stehst. Und manchmal hilft es, das zu sehen.</em></p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -101,6 +142,21 @@
   <script src="js/chapters.js"></script>
   <script src="js/home.js"></script>
   <script src="js/hero-shader.js"></script>
+  <script>
+    (function () {
+      var btn = document.getElementById('intro-btn');
+      var content = document.getElementById('intro-content');
+      var label = btn && btn.querySelector('.home-intro__btn-label');
+      if (!btn || !content) return;
+      btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        btn.classList.toggle('is-open', !open);
+        content.classList.toggle('is-open', !open);
+        if (label) label.textContent = open ? 'Einleitung lesen' : 'Einleitung schließen';
+      });
+    })();
+  </script>
 
 </body>
 </html>
