@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title & meta are set dynamically by chapter.js -->
+  <title>Kapitel — You won the Time Lottery</title>
+  <meta name="description" content="" id="meta-description" />
+
+  <!-- Open Graph (dynamic) -->
+  <meta property="og:title" content="" id="og-title" />
+  <meta property="og:description" content="" id="og-description" />
+  <meta property="og:type" content="article" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/chapter.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ──────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="Startseite">
+        <span class="site-header__logo-mark">✦</span>
+        <span class="site-header__logo-text">Time Lottery</span>
+      </a>
+      <a href="index.html" class="site-header__back" aria-label="Zurück zur Übersicht">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M13 8H3M7 12L3 8l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Alle Kapitel
+      </a>
+    </div>
+  </header>
+
+  <main id="chapter-mount">
+    <!-- Content is rendered by chapter.js -->
+    <div class="chapter-loading" id="chapter-loading" aria-live="polite">
+      <div class="container">
+        <p>Kapitel wird geladen…</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">✦ You won the Time Lottery</p>
+      <p class="site-footer__copy">Ein Buch über die Dinge, die wir nie wirklich sehen — obwohl sie unser Leben prägen.</p>
+    </div>
+  </footer>
+
+  <!-- ── SCRIPTS ──────────────────────────────────────────────── -->
+  <script src="js/chapters.js"></script>
+  <script src="js/chapter.js"></script>
+
+</body>
+</html>

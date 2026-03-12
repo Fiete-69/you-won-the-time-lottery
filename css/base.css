@@ -1,0 +1,144 @@
+/* ============================================================
+   BASE — Reset, Typography, Global Styles
+   ============================================================ */
+
+/* ── RESET ─────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, video, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* ── LINKS ──────────────────────────────────────────────────── */
+
+a {
+  color: var(--color-green-dark);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: color var(--dur-fast) var(--ease-out),
+              text-decoration-color var(--dur-fast) var(--ease-out);
+}
+
+a:hover {
+  color: var(--color-green);
+  text-decoration-color: currentColor;
+}
+
+/* ── FOCUS VISIBLE ──────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ── TYPOGRAPHY ─────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  color: var(--color-text-primary);
+}
+
+h1 { font-size: var(--text-5xl); }
+h2 { font-size: var(--text-3xl); }
+h3 { font-size: var(--text-2xl); }
+h4 { font-size: var(--text-xl); }
+
+p {
+  margin-bottom: var(--space-4);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: var(--weight-semibold);
+}
+
+/* ── LAYOUT UTILITIES ───────────────────────────────────────── */
+
+.container {
+  width: 100%;
+  max-width: var(--max-width-site);
+  margin-inline: auto;
+  padding-inline: var(--space-6);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: var(--space-4);
+  }
+}
+
+/* ── SELECTION COLOR ────────────────────────────────────────── */
+
+::selection {
+  background-color: var(--color-yellow-light);
+  color: var(--color-text-primary);
+}
+
+/* ── SCROLLBAR (Webkit) ─────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-section);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-dashed);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ── FADE-UP ANIMATION (triggered by IntersectionObserver) ──── */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity var(--dur-slow) var(--ease-out),
+              transform var(--dur-slow) var(--ease-out);
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

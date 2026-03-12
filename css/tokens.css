@@ -1,0 +1,139 @@
+/* ============================================================
+   DESIGN TOKENS — You won the Time Lottery
+   Single source of truth for all visual decisions.
+   ============================================================ */
+
+:root {
+
+  /* ── COLORS ─────────────────────────────────────────────── */
+
+  /* Backgrounds */
+  --color-bg-base:          #FDFAF5;   /* warm white / parchment */
+  --color-bg-card:          #FFFFFF;
+  --color-bg-section:       #F5F0E8;   /* cream, alternating sections */
+  --color-bg-hero:          #1C1A17;   /* dark overlay behind hero text */
+
+  /* Accent — Yellow (primary highlight) */
+  --color-yellow:           #F4C842;
+  --color-yellow-light:     #FDF3C0;
+  --color-yellow-dark:      #C9A020;
+
+  /* Accent — Sage Green (default chapter accent) */
+  --color-green:            #6B9A8B;
+  --color-green-light:      #E4EDEA;
+  --color-green-dark:       #4A7266;
+
+  /* Accent — Coral (CTAs, warmth) */
+  --color-coral:            #E8816A;
+  --color-coral-light:      #FAEAE6;
+  --color-coral-dark:       #C4604A;
+
+  /* Accent — Sky Blue (subtle, links) */
+  --color-blue:             #6FA8C4;
+  --color-blue-light:       #E3F0F6;
+
+  /* Text */
+  --color-text-primary:     #1C1A17;   /* near-black, warm — contrast 13.4:1 on bg-base */
+  --color-text-secondary:   #5C5650;   /* medium warm grey — contrast 5.8:1 on bg-base */
+  --color-text-muted:       #9C9690;   /* light warm grey — decorative only */
+  --color-text-inverse:     #FDFAF5;   /* on dark backgrounds */
+
+  /* Borders */
+  --color-border:           #E8E3D8;
+  --color-border-dashed:    #D0C9BC;
+
+  /* Shadows */
+  --color-shadow:           rgba(28, 26, 23, 0.08);
+  --color-shadow-strong:    rgba(28, 26, 23, 0.14);
+
+  /* Chapter accent — overridden per chapter via inline style */
+  --chapter-accent:         var(--color-green);
+  --chapter-accent-light:   var(--color-green-light);
+
+  /* ── TYPOGRAPHY ─────────────────────────────────────────── */
+
+  --font-heading:   'Playfair Display', 'Lora', Georgia, serif;
+  --font-body:      'DM Sans', 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Scale */
+  --text-xs:    0.75rem;    /*  12px */
+  --text-sm:    0.875rem;   /*  14px */
+  --text-base:  1rem;       /*  16px */
+  --text-lg:    1.125rem;   /*  18px */
+  --text-xl:    1.25rem;    /*  20px */
+  --text-2xl:   1.5rem;     /*  24px */
+  --text-3xl:   1.875rem;   /*  30px */
+  --text-4xl:   2.25rem;    /*  36px */
+  --text-5xl:   3rem;       /*  48px */
+  --text-6xl:   3.75rem;    /*  60px */
+
+  /* Fluid headline: scales between 36px and 60px */
+  --text-hero:  clamp(2.25rem, 5vw, 3.75rem);
+  --text-title: clamp(1.875rem, 3.5vw, 2.75rem);
+
+  /* Line heights */
+  --leading-tight:   1.2;
+  --leading-snug:    1.375;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+  --leading-loose:   1.8;
+
+  /* Weights */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* ── SPACING (8pt grid) ─────────────────────────────────── */
+
+  --space-1:   0.25rem;    /*   4px */
+  --space-2:   0.5rem;     /*   8px */
+  --space-3:   0.75rem;    /*  12px */
+  --space-4:   1rem;       /*  16px */
+  --space-5:   1.25rem;    /*  20px */
+  --space-6:   1.5rem;     /*  24px */
+  --space-8:   2rem;       /*  32px */
+  --space-10:  2.5rem;     /*  40px */
+  --space-12:  3rem;       /*  48px */
+  --space-16:  4rem;       /*  64px */
+  --space-20:  5rem;       /*  80px */
+  --space-24:  6rem;       /*  96px */
+  --space-32:  8rem;       /* 128px */
+
+  /* ── LAYOUT ─────────────────────────────────────────────── */
+
+  --max-width-site:    1200px;
+  --max-width-content: 720px;   /* prose column */
+  --max-width-narrow:  560px;
+
+  /* ── BORDERS & RADIUS ───────────────────────────────────── */
+
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-2xl:  32px;
+  --radius-full: 9999px;
+
+  /* ── SHADOWS ─────────────────────────────────────────────── */
+
+  --shadow-sm:   0 1px 3px var(--color-shadow);
+  --shadow-md:   0 4px 16px var(--color-shadow);
+  --shadow-lg:   0 8px 32px var(--color-shadow);
+  --shadow-hover: 0 12px 40px var(--color-shadow-strong);
+
+  /* ── ANIMATION ───────────────────────────────────────────── */
+
+  --ease-out:    cubic-bezier(0.0, 0.0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0.0, 0.2, 1);
+  --dur-fast:    150ms;
+  --dur-base:    250ms;
+  --dur-slow:    400ms;
+
+  /* ── Z-INDEX ─────────────────────────────────────────────── */
+
+  --z-base:    0;
+  --z-above:   10;
+  --z-nav:     100;
+  --z-overlay: 200;
+}
