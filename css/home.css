@@ -329,6 +329,14 @@
   margin-bottom: 0;
 }
 
+.home-intro__hook {
+  font-size: var(--text-xl) !important;
+  font-weight: var(--weight-bold);
+  color: var(--color-text-primary) !important;
+  line-height: var(--leading-snug) !important;
+  margin-bottom: var(--space-4) !important;
+}
+
 .home-intro__accent {
   font-size: var(--text-xl) !important;
   font-weight: var(--weight-semibold);
