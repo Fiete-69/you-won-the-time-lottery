@@ -29,61 +29,145 @@ const CHAPTERS = [
     id: "flugzeug",
     status: "published",            // "published" | "coming-soon"
     order: 1,
-    title: "Das Wunder in Sitz 32B",
-    subtitle: "Wie ein Metallrohr uns in wenigen Stunden um die Welt katapultiert — und wir dabei einfach schlafen.",
+    title: "Heute hier, Morgen dort (und jeder findet's ganz normal)",
+    subtitle: "Wir sitzen in einem Metallrohr, rasen mit 900 km/h durch die Luft — und finden das langweilig. Kurz innehalten.",
     topic: "Luftfahrt",
     cardImage: "images/chapters/Flugzeug.jpg",
     heroImage: "images/chapters/Flugzeug.jpg",
     accentColor: null,              // null = Standard-Salbeigrün (#6B9A8B)
     publishDate: "2026-03-15",
     body: [
+
+      /* ── 1. Ein Gedanke, der einen kurz umhaut ── */
       {
         type: "intro",
-        text: "Vor nur 120 Jahren war es für einen Menschen schlicht unmöglich, in acht Stunden von Deutschland nach New York zu reisen. Die Überquerung des Atlantiks dauerte Wochen — für die wenigen, die es sich leisten konnten. Heute beschweren wir uns darüber, dass das WLAN an Bord zu langsam ist."
-      },
-      {
-        type: "heading",
-        text: "Ein fliegender Wohnblock — mit 900 km/h"
+        text: "Stell dir vor, du erklärst deiner Urgroßmutter, dass du morgen früh in Frankfurt frühstückst und abends Sushi in Tokio isst. Sie würde dich vermutlich **mit dem Löffel schlagen** und nach dem Arzt rufen."
       },
       {
         type: "paragraph",
-        text: "Ein modernes Großraumflugzeug wie der Airbus A380 wiegt beladen über 560 Tonnen. Das entspricht ungefähr dem Gewicht von 80 ausgewachsenen Elefanten. Und dennoch hebt dieses Gebilde ab, erreicht Reiseflughöhen von fast 13.000 Metern und hält dort eine Kabine auf angenehmen 22 Grad — während draußen -60 Grad Celsius herrschen und der Luftdruck so niedrig ist, dass ungeschütztes Atmen tödlich wäre."
+        text: "Und weißt du was? *Sie hätte nicht mal Unrecht.*"
+      },
+      {
+        type: "paragraph",
+        text: "Was wir heute als völlig \u201Enormalen\u201C Dienstag betrachten — Koffer packen, zum Flughafen fahren, einsteigen, schlafen, aufwachen, andere Seite der Welt — ist objektiv betrachtet eines der verrücktesten Dinge, die die Menschheit je hingekriegt hat. Wir sitzen in einem **70 Tonnen schweren Metallrohr**, das mit **900 Stundenkilometern** in **zehn Kilometern Höhe** durch die Luft rast, trinken dabei Tomatensaft (warum eigentlich immer Tomatensaft?) und finden das alles sogar oft langweilig."
       },
       {
         type: "pullquote",
-        text: "Jede sichere Landung ist ein kleines Wunder, das wir nie feiern. Vielleicht sollten wir damit anfangen.",
+        text: "Wir haben verlernt, staunend aus dem Fenster zu schauen. Dabei **fliegen wir**. *Wir. Fliegen. Einfach so.*",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 2. Hintergrund & Geschichte ── */
+      {
+        type: "heading",
+        text: "Wie wir vom Boden losgekommen sind"
+      },
+      {
+        type: "paragraph",
+        text: "Jahrtausende lang war der Mensch das einzige Wesen auf diesem Planeten, das unbedingt fliegen wollte — aber es einfach nicht konnte. Vögel: kein Problem. Insekten: easy. Menschen: nope, Schwerkraft sagt nein."
+      },
+      {
+        type: "paragraph",
+        text: "Die Sehnsucht war trotzdem immer da. **Ikarus** flog der Sonne entgegen — und wir alle kennen das Ende. *(Spoiler: schlecht ausgegangen.)* **Leonardo da Vinci** zeichnete im 15. Jahrhundert Flugmaschinen, die seiner Zeit um Jahrhunderte voraus waren."
+      },
+      {
+        type: "paragraph",
+        text: "Dann kamen **die Gebrüder Wright**. **1903**, in Kitty Hawk, North Carolina, hob ein Flugzeug zum ersten Mal kontrolliert ab — für ganze **zwölf Sekunden**. Zwölf Sekunden! Eine kurze Zeit, aber ein gewaltiger Schritt für die Menschheit."
+      },
+      {
+        type: "paragraph",
+        text: "Innerhalb *weniger Jahrzehnte* entwickelte sich aus diesem wackeligen Holzgestell mit Propeller das moderne Passagierflugzeug. Und plötzlich war die Welt eine andere. Nicht kleiner — aber *erreichbarer*."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Der kürzeste kommerzielle Flug der Welt dauert gerade einmal **57 Sekunden** — er verbindet zwei schottische Inseln, die nur 2,7 Kilometer auseinanderliegen. Warum überhaupt fliegen? Weil das raue Meer oft keine Bootsfahrt erlaubt.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 3. Warum es unser Leben bereichert ── */
+      {
+        type: "heading",
+        text: "Konkret, überdreht und ehrlich: Was das Fliegen bedeutet"
+      },
+      {
+        type: "paragraph",
+        text: "Lass uns kurz innehalten und uns vorstellen, wie die Welt *ohne* Flugzeuge aussähe."
+      },
+      {
+        type: "paragraph",
+        text: "*Stell dir vor: Du willst deine Freundin in Neuseeland besuchen. Ohne Flugzeug.* Du packst deinen Koffer, buchst eine Schiffsreise, verabschiedest dich von deiner Familie — die ahnt, dass sie dich eine Weile nicht sehen wird — und schaukelst dann **wochenlang** über den Ozean. Wenn du ankommst, bist du seekrank, bärtig und hast hoffentlich noch nicht vergessen, warum du überhaupt gefahren bist. Deine Freundin hat aber inzwischen einen Neuseeländer geheiratet und die ganze Reise war für die Katz."
+      },
+      {
+        type: "paragraph",
+        text: "Stattdessen: Du buchst einen Flug, schläfst ein bisschen, schaust zwei Filme, isst ein Fertiggericht, das du zuhause nie anfassen würdest, und landest **24 Stunden später** am anderen Ende der Welt. Frisch genug, um direkt zum Strand zu fahren."
+      },
+      {
+        type: "paragraph",
+        text: "Das Flugzeug hat nicht nur Reisen möglich gemacht — es hat die Art verändert, wie wir *die Welt denken*. Kontinente, die früher für die meisten Menschen abstrakte Begriffe auf einer Landkarte waren, sind heute Reiseziele. **Bangkok. Buenos Aires. Kapstadt. Reykjavik.** Alles erreichbar. Alles real."
+      },
+      {
+        type: "paragraph",
+        text: "Familien, die über Kontinente verteilt leben, können sich trotzdem sehen und umarmen. Kulturen begegnen sich. Menschen lernen, dass \u201Edie anderen\u201C gar nicht so anders sind. Und manchmal lernt man auch, dass das Essen in Vietnam tatsächlich *besser* ist als das, was man zuhause als \u201Evietnamesisch\u201C bezeichnet hat."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Jeden Tag sind weltweit rund **100.000 Flüge** in der Luft — das sind etwa **10 Millionen Menschen** gleichzeitig, die irgendwo zwischen Himmel und Erde hängen. Die längste Nonstop-Strecke der Welt verbindet Singapur mit New York: *knapp 19 Stunden in der Luft.*",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 4. Kleine Reflexion ── */
+      {
+        type: "heading",
+        text: "Ein Denkanstoß — ohne Kitsch"
+      },
+      {
+        type: "paragraph",
+        text: "Wir reden viel darüber, was uns das Fliegen kostet — an Geld, an CO₂, an Nerven beim Check-in. Das sind echte Gespräche, die wir führen müssen. Aber manchmal vergessen wir dabei, was es uns *gibt*."
+      },
+      {
+        type: "pullquote",
+        text: "Es gibt uns die Welt. Nicht als Bild im Reiseprospekt. Nicht als Doku auf Netflix. Sondern *wirklich* — leibhaftig, mit allen Gerüchen, Geräuschen und Geschmäckern.",
         attribution: "You won the Time Lottery"
       },
       {
-        type: "heading",
-        text: "Zahlen, die uns eigentlich sprachlos machen sollten"
-      },
-      {
-        type: "list",
-        ordered: false,
-        items: [
-          "Über 100.000 Flüge starten und landen weltweit jeden Tag sicher",
-          "Das Fliegen ist 95× sicherer als das Autofahren (pro Kilometer)",
-          "Ein einziges Triebwerk leistet mehr als 30.000 PS",
-          "Die Bordelektronik eines modernen Flugzeugs umfasst mehrere Millionen Codezeilen",
-          "Der Autopilot steuert das Flugzeug über 99 % der Flugdauer selbstständig"
-        ]
+        type: "paragraph",
+        text: "Das Salz der Meeresluft in **Lissabon**. Der Lärm eines Marktplatzes in **Marrakesch**. Die Stille eines Reisfeldes in **Japan** bei Sonnenaufgang."
       },
       {
         type: "paragraph",
-        text: "Hinter jedem dieser Flüge stecken Jahrzehnte der Ingenieurskunst, Tausende von Sicherheitsprüfungen und ein weltweites Netzwerk aus Fluglotsen, Technikern und Piloten, das rund um die Uhr arbeitet — damit wir pünktlich zu unserem Meeting kommen oder unsere Familie in der Ferne besuchen können."
-      },
-      {
-        type: "heading",
-        text: "Was wirklich passiert, wenn wir einsteigen"
-      },
-      {
-        type: "paragraph",
-        text: "Die Druckkabine, in der wir sitzen, ist eines der faszinierendsten Konstrukte der Menschheit. Die Außenhülle des Flugzeugs muss enormem Druck standhalten — und gleichzeitig so leicht wie möglich sein. Moderne Flugzeuge bestehen daher zu über 50 % aus Kohlefaserverbundwerkstoffen, die leichter als Aluminium, aber härter als Stahl sind. Jede Niete, jede Schweißnaht ist tausendfach getestet."
+        text: "Das Flugzeug ist kein Wunder mehr für uns — aber *vielleicht sollte es das wieder sein*. Zumindest für einen kurzen Moment, wenn wir das nächste Mal abheben und die Erde unter uns kleiner wird."
       },
       {
         type: "closing",
-        text: "Wenn du das nächste Mal in einem Flugzeug sitzt und über die knappe Beinfreiheit seufzt — schau kurz aus dem Fenster. Du sitzt in einem beheizten Metallrohr, sieben Meilen über dem Erdboden, mit fast Schallgeschwindigkeit. Das Frühstück kostet 8 Euro. Das Wunder ist kostenlos."
+        text: "Dann kurz die Kopfhörer rausnehmen. Aus dem Fenster schauen. Und denken: **Krass. Wir fliegen gerade. Einfach so.**"
+      },
+
+      /* ── 5. Mini-Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Mini-Alltags-Test: Der Staunen-Moment"
+      },
+      {
+        type: "paragraph",
+        text: "Beim nächsten Flug — oder beim nächsten Mal, wenn du ein Flugzeug am Himmel siehst: *Halte kurz inne. Schau hin.* Und erinnere dich daran, dass da oben Menschen sitzen, die gerade in wenigen Stunden ans andere Ende der Welt reisen. Was für deine Urgroßmutter ein **Wunder** gewesen wäre, ist für dich Alltag. Lass das kurz sacken."
+      },
+
+      /* ── 6. Nachdenk-Fragen ── */
+      {
+        type: "heading",
+        text: "Nachdenk-Fragen"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "**Welche Reise hat dich am meisten verändert** — und wärst du ohne das Flugzeug jemals hingekommen?",
+          "**Gibt es ein Land oder einen Ort**, den du immer besuchen wolltest, aber noch nicht hattest? Was hält dich wirklich davon ab?",
+          "**Wann hast du zuletzt wirklich gestaunt** — nicht über eine App oder ein Meme, sondern über etwas in der echten Welt?",
+          "**Wie würde dein Leben aussehen**, wenn Reisen so aufwendig wäre wie vor 150 Jahren? Was würdest du vermissen?",
+          "**Nimmst du dir beim Reisen Zeit**, wirklich anzukommen — oder bist du schon wieder am Planen, bevor du überhaupt gelandet bist?",
+          "**Was wäre das Erste**, was du tun würdest, wenn du morgen einen Freiflug irgendwohin auf der Welt hättest? Wo würde die Reise hingehen?"
+        ]
       }
     ],
     nextChapterId: "supermarkt"

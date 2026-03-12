@@ -127,13 +127,13 @@
   function renderBlock(block) {
     switch (block.type) {
       case 'intro':
-        return `<p class="block-intro">${esc(block.text)}</p>`;
+        return `<p class="block-intro">${md(block.text)}</p>`;
 
       case 'heading':
         return `<h2 class="block-heading">${esc(block.text)}</h2>`;
 
       case 'paragraph':
-        return `<p class="block-paragraph">${esc(block.text)}</p>`;
+        return `<p class="block-paragraph">${md(block.text)}</p>`;
 
       case 'image':
         return `
@@ -146,7 +146,7 @@
       case 'list': {
         const tag = block.ordered ? 'ol' : 'ul';
         const items = (block.items || [])
-          .map(item => `<li>${esc(item)}</li>`)
+          .map(item => `<li>${md(item)}</li>`)
           .join('');
         return `<${tag} class="block-list">${items}</${tag}>`;
       }
@@ -154,7 +154,7 @@
       case 'pullquote':
         return `
           <blockquote class="block-pullquote">
-            <p class="block-pullquote__text">${esc(block.text)}</p>
+            <p class="block-pullquote__text">${md(block.text)}</p>
             ${block.attribution
               ? `<span class="block-pullquote__attribution">${esc(block.attribution)}</span>`
               : ''}
@@ -194,7 +194,7 @@
         `;
 
       case 'closing':
-        return `<p class="block-closing">${esc(block.text)}</p>`;
+        return `<p class="block-closing">${md(block.text)}</p>`;
 
       default:
         return '';
@@ -231,6 +231,14 @@
   }
 
   // ── HELPERS ─────────────────────────────────────────────────
+
+  // Inline markdown: **bold** and *italic* — HTML is escaped first for safety
+  function md(str) {
+    if (!str) return '';
+    return esc(str)
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g, '<em>$1</em>');
+  }
 
   function esc(str) {
     if (!str) return '';
