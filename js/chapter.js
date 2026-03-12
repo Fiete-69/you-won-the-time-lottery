@@ -95,20 +95,7 @@
   }
 
   function renderHeader(ch) {
-    const dateStr = ch.publishDate
-      ? new Date(ch.publishDate).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })
-      : '';
-
-    return `
-      <div class="chapter-header">
-        <div class="container">
-          <div class="chapter-header__inner">
-            <p class="chapter-header__subtitle">${esc(ch.subtitle)}</p>
-            ${dateStr ? `<p class="chapter-header__date">${dateStr}</p>` : ''}
-          </div>
-        </div>
-      </div>
-    `;
+    return '';
   }
 
   function renderBody(ch) {

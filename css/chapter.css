@@ -249,7 +249,7 @@ ol.block-list li::before {
 }
 
 .block-pullquote__text {
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-size: var(--text-xl);
   font-style: italic;
   line-height: var(--leading-relaxed);
