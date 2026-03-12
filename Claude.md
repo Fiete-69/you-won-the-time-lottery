@@ -15,3 +15,4 @@ Performance-optimiert (Core Web Vitals)
 
 ## Text-Regeln
 Keine Gedankenstriche (—) in Texten verwenden. Niemals. Weder in Kapiteln noch in Überschriften noch in Untertiteln. Stattdessen Komma, Doppelpunkt oder Punkt verwenden.
+Keine Topic-Badges (Luftfahrt, Alltag, etc.) in Kapitelkarten oder auf Kapitelseiten anzeigen. Das `topic`-Feld bleibt in chapters.js erhalten, wird aber nicht gerendert.

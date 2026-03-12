@@ -85,7 +85,6 @@
           <div class="container">
             <div class="chapter-hero__meta">
               <span class="chapter-hero__number">Kapitel ${num}</span>
-              <span class="chapter-hero__badge">${esc(ch.topic)}</span>
             </div>
             <h1 class="chapter-hero__title">${esc(ch.title)}</h1>
           </div>

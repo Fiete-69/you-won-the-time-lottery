@@ -44,13 +44,13 @@
       // ── Warm cream base ───────────────────────────────────
       vec3 bg = vec3(0.992, 0.980, 0.961); // #FDFAF5
 
-      // ── Brand accent colors (pastelified for brightness) ──
-      vec3 yellow = vec3(0.988, 0.940, 0.730); // warm pastel yellow
-      vec3 green  = vec3(0.820, 0.910, 0.880); // pastel sage green
-      vec3 coral  = vec3(0.980, 0.900, 0.870); // pastel coral
+      // ── Brand accent colors (soft but clearly visible) ──
+      vec3 yellow = vec3(0.960, 0.820, 0.380); // warm amber-yellow
+      vec3 green  = vec3(0.600, 0.790, 0.740); // sage green
+      vec3 coral  = vec3(0.940, 0.660, 0.620); // soft coral
 
       float d = length(uv);
-      float lw = 0.0025;
+      float lw = 0.005;
       vec3 color = bg;
 
       // ── Primary rings from center ─────────────────────────
@@ -61,7 +61,7 @@
         float fade   = (1.0 - phase) * (1.0 - phase); // quadratic fade
         float brightness = lw * (fi * 0.8 + 1.5);
         float ring   = brightness / (abs(d - radius) + lw * 0.5);
-        ring = min(ring, 1.0) * fade * 0.75;
+        ring = min(ring, 1.0) * fade * 0.90;
 
         // Rotate: yellow → green → coral → yellow …
         int ci = int(mod(fi, 3.0));
@@ -79,7 +79,7 @@
         float radius = phase * 1.6;
         float fade   = (1.0 - phase) * (1.0 - phase);
         float ring   = lw * 1.5 / (abs(d2 - radius) + lw * 0.5);
-        ring = min(ring, 1.0) * fade * 0.5;
+        ring = min(ring, 1.0) * fade * 0.70;
 
         int ci = int(mod(fi + 1.0, 3.0));
         vec3 c = (ci == 0) ? yellow : ((ci == 1) ? coral : green);

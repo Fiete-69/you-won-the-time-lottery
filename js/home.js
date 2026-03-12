@@ -60,7 +60,6 @@
       <div class="chapter-card__content">
         <div class="chapter-card__meta">
           <span class="chapter-card__number">Kapitel ${displayNumber}</span>
-          <span class="badge">${escapeHtml(chapter.topic)}</span>
         </div>
         <h3 class="chapter-card__title">${escapeHtml(chapter.title)}</h3>
         <p class="chapter-card__subtitle">${escapeHtml(chapter.subtitle)}</p>
@@ -93,7 +92,6 @@
       <div class="chapter-card__content">
         <div class="chapter-card__meta">
           <span class="chapter-card__number">Kapitel ${displayNumber}</span>
-          <span class="badge badge--coming-soon">${escapeHtml(chapter.topic)}</span>
         </div>
         <h3 class="chapter-card__title">${escapeHtml(chapter.title)}</h3>
       </div>

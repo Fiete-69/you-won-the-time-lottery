@@ -45,10 +45,6 @@ const CHAPTERS = [
       },
       {
         type: "paragraph",
-        text: "Und weißt du was? *Sie hätte nicht mal Unrecht.*"
-      },
-      {
-        type: "paragraph",
         text: "Was wir heute als völlig \u201Enormalen\u201C Dienstag betrachten: Koffer packen, zum Flughafen fahren, einsteigen, schlafen, aufwachen, andere Seite der Welt. Objektiv betrachtet ist das eines der verrücktesten Dinge, die die Menschheit je hingekriegt hat. Wir sitzen in einem **70 Tonnen schweren Metallrohr**, das mit **900 Stundenkilometern** in **zehn Kilometern Höhe** durch die Luft rast, trinken dabei Tomatensaft (warum eigentlich immer Tomatensaft?) und finden das alles sogar oft langweilig."
       },
       {

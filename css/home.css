@@ -61,6 +61,7 @@
   font-style: italic;
   color: var(--color-green-dark);
   position: relative;
+  letter-spacing: 0.03em;
 }
 
 /* Gradient underline beneath "Time Lottery." */
