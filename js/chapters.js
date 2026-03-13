@@ -42,7 +42,7 @@ const CHAPTERS = [
       /* ── 0. Audio Player ── */
       {
         type: "audio",
-        src: "audio/Fliegen.mp3",
+        src: "audio/Fliegen V2.mp3",
         image: "images/chapters/Flugzeug.jpg",
         label: "Kapitel 1 anhören"
       },
