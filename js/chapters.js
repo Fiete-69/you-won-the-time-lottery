@@ -34,7 +34,7 @@ const CHAPTERS = [
     subtitle: "Wir sitzen in einem Metallrohr, rasen mit 900 km/h durch die Luft und finden das langweilig. Kurz innehalten.",
     topic: "Luftfahrt",
     cardImage: "images/chapters/Flugzeug.jpg",
-    heroImage: "images/chapters/Flugzeug.jpg",
+    heroImage: "images/hero/Fliegen.png",
     accentColor: null,              // null = Standard-Salbeigrün (#6B9A8B)
     publishDate: "2026-03-15",
     body: [
@@ -195,7 +195,7 @@ const CHAPTERS = [
     subtitle: "Es ist überall, aber du siehst es nie. Ein Stück geschmolzener Sand, der die Menschheitsgeschichte umgeschrieben hat.",
     topic: "Alltag",
     cardImage: "images/chapters/Glas.jpg",
-    heroImage: "images/chapters/Glas.jpg",
+    heroImage: "images/hero/Glas.jpg",
     accentColor: null,
     publishDate: "2026-03-22",
     body: [
@@ -428,7 +428,7 @@ const CHAPTERS = [
     subtitle: "Jeder Gang ist ein Triumph der Menschheit, und wir schieben unseren Einkaufswagen teilnahmslos hindurch.",
     topic: "Alltag",
     cardImage: "images/chapters/Supermarkt.jpg",
-    heroImage: "images/chapters/Supermarkt.jpg",
+    heroImage: "images/hero/Supermarkt.png",
     accentColor: "#C4904A",         // Warmes Goldbraun passt zum Thema Lebensmittel
     publishDate: "2026-03-29",
     body: [
