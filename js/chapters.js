@@ -173,6 +173,14 @@ const CHAPTERS = [
           "Nimmst du dir beim Reisen Zeit, wirklich anzukommen? Oder bist du schon wieder am Planen, bevor du überhaupt gelandet bist?",
           "Wenn du morgen einen Freiflug gewinnen würdest und jeden Ort auf der Welt besuchen könntest? Wo würde die Reise hingehen?"
         ]
+      },
+
+      /* ── 7. Podcast Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/1 - Fliegen Podcast.mp3",
+        image: "images/chapters/Flugzeug.jpg",
+        label: "Kapitel 1 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)"
       }
     ],
     nextChapterId: "supermarkt"
