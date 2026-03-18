@@ -265,7 +265,7 @@
 }
 
 .home-intro__preview-hook {
-  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  font-size: clamp(1.25rem, 2.8vw, 1.75rem);
   font-family: var(--font-heading);
   font-weight: var(--weight-bold);
   color: var(--color-text-primary);
