@@ -675,3 +675,27 @@ ol.block-list li::before {
     display: none;
   }
 }
+
+
+/* ── PODCAST SCROLL BUTTON ───────────────────────────────────── */
+.block-podcast-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-4) 0 var(--space-8);
+  padding: 0.6rem 1.25rem;
+  border: 1.5px solid var(--color-accent);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--color-accent);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+.block-podcast-btn:hover {
+  background: var(--color-accent);
+  color: #fff;
+}

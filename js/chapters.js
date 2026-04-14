@@ -180,7 +180,8 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/1 - Fliegen Podcast.mp3",
         image: "images/chapters/Flugzeug.jpg",
-        label: "Kapitel 1 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)"
+        label: "Kapitel 1 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)",
+        isPodcast: true
       }
     ],
     nextChapterId: "glas"
@@ -413,7 +414,8 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Podcast.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 2 - Podcast Folge - Das unsichtbare Wunder"
+        label: "Kapitel 2 - Podcast Folge - Das unsichtbare Wunder",
+        isPodcast: true
       }
     ],
     nextChapterId: "musik"
@@ -690,7 +692,8 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Podcast.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 3 - Podcast Folge - Musik"
+        label: "Kapitel 3 - Podcast Folge - Musik",
+        isPodcast: true
       }
     ],
     nextChapterId: "supermarkt"

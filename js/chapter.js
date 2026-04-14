@@ -185,8 +185,15 @@
         const imgHtml = block.image
           ? `<div class="block-audio__image"><img src="${esc(block.image)}" alt="" loading="lazy" /></div>`
           : '';
+        const idAttr = block.isPodcast ? ' id="chapter-podcast"' : '';
+        const podcastBtn = !block.isPodcast
+          ? `<a href="#chapter-podcast" class="block-podcast-btn">
+               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M3 9l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+               Zum Podcast des Kapitels
+             </a>`
+          : '';
         return `
-          <div class="block-audio" data-audio-player>
+          <div class="block-audio" data-audio-player${idAttr}>
             <div class="block-audio__card">
               ${imgHtml}
               <div class="block-audio__content">
@@ -222,6 +229,7 @@
               </div>
             </div>
           </div>
+          ${podcastBtn}
         `;
       }
 
