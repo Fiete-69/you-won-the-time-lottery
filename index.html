@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/chapter.css" />
 </head>
 <body>
 
@@ -58,7 +59,43 @@
         <div class="home-intro__card">
           <div class="home-intro__header">
 <p class="home-intro__preview-hook">Warum <span class="home-intro__hook-du">Du</span> verdammt nochmal der glücklichste Mensch der Geschichte sein solltest!</p>
-            <p class="home-intro__preview">Stell dir vor, es gäbe eine Lotterie. Keine normale Lotterie mit Zahlen und Rubbelkarten, sondern die größte, verrückteste Lotterie aller Zeiten: die Zeitlotterie. 10.000 Lose. 10.000 Generationen von Menschen, die jemals auf diesem Planeten gelebt haben. Und du? Du hast das goldene Ticket gezogen.</p>
+            <p class="home-intro__preview">Stell dir vor, es gäbe eine Lotterie. Keine normale Lotterie mit Zahlen und Rubbelkarten, sondern die größte, verrückteste Lotterie aller Zeiten: die Zeitlotterie. 10.000 Lose. 10.000 Generationen von Menschen, die jemals auf diesem Planeten gelebt haben. Jedes Los ein komplett anderes Leben. Und du? Du greifst rein, ziehst ein Los und hältst das goldene Ticket in der Hand! Klingt übertrieben? Ist es nicht!</p>
+            <div class="block-audio" data-audio-player>
+              <div class="block-audio__card">
+                <div class="block-audio__image"><img src="images/chapters/Einleitung.jpg" alt="" loading="lazy" /></div>
+                <div class="block-audio__content">
+                  <div class="block-audio__header">
+                    <span class="block-audio__tag">Jetzt hören</span>
+                    <p class="block-audio__label">Einleitung</p>
+                  </div>
+                  <div class="block-audio__controls">
+                    <button class="block-audio__play-btn" data-audio-play aria-label="Abspielen">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                        <path d="M5 3.5l13 6.5-13 6.5V3.5z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                    <div class="block-audio__timeline">
+                      <div class="block-audio__progress" data-audio-progress>
+                        <div class="block-audio__progress-fill" data-audio-fill style="width:0%"></div>
+                      </div>
+                      <div class="block-audio__times">
+                        <span data-audio-current>0:00</span>
+                        <span data-audio-total>--:--</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="block-audio__speed">
+                    <span class="block-audio__speed-label">Tempo</span>
+                    <button class="block-audio__speed-btn" data-audio-speed="0.75">0.75x</button>
+                    <button class="block-audio__speed-btn is-active" data-audio-speed="1">1x</button>
+                    <button class="block-audio__speed-btn" data-audio-speed="1.25">1.25x</button>
+                    <button class="block-audio__speed-btn" data-audio-speed="1.5">1.5x</button>
+                    <button class="block-audio__speed-btn" data-audio-speed="2">2x</button>
+                  </div>
+                  <audio data-audio-el src="audio/0 - Einleitung - Time Lottery.mp3" preload="metadata"></audio>
+                </div>
+              </div>
+            </div>
             <button class="home-intro__btn" id="intro-btn" aria-expanded="false" aria-controls="intro-content">
               <span class="home-intro__btn-label">Einleitung lesen</span>
               <svg class="home-intro__btn-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -68,27 +105,28 @@
           </div>
           <div class="home-intro__content" id="intro-content">
             <div class="home-intro__prose">
-              <p>Genau so sieht es nämlich aus: Die ältesten Homo-sapiens-Funde werden auf 300.000 Jahre datiert, und seither hat es ungefähr 10.000 Generationen gegeben. Und du bist nicht der Homo sapiens aus der Steinzeit, der mit einem spitzen Stock versucht hat, ein Mammut zu erlegen (und dabei meistens selbst fast draufgegangen ist). Du bist nicht der Bauer im Mittelalter, der mit 30 schon alle Zähne verloren hatte und dessen Lebenserwartung irgendwo zwischen &bdquo;kurz&ldquo; und &bdquo;sehr kurz&ldquo; lag. Du bist nicht das Kind in einer Fabrik zur Zeit der Industrialisierung, das an gefährlichen Maschinen arbeitete, kaum Schulbildung bekam und dessen kleiner Lohn die Familie gerade so vor dem Verhungern bewahrte.</p>
+              <p>Genau so sieht es nämlich aus. Die ältesten Homo-sapiens-Funde werden auf 300.000 Jahre datiert, und seither hat es ungefähr 10.000 Generationen gegeben. Zehntausend! Und du bist nicht der arme Kerl aus der Steinzeit, der mit einem angespitzten Stock bewaffnet versucht hat, ein Mammut zu erlegen und dabei meistens selbst fast draufgegangen ist. (Spoiler: Mammuts mögen es nämlich nicht, wenn man versucht sie mit spitzen Stöcken zu piksen.)</p>
+              <p>Du bist auch nicht der Bauer im Mittelalter, der mit 30 schon alle Zähne verloren hatte und dessen Lebenserwartung irgendwo zwischen &bdquo;kurz&ldquo; und &bdquo;sehr kurz&ldquo; lag.</p>
               <p class="home-intro__accent">Nein. Du bist hier. Jetzt. Im 21. Jahrhundert.</p>
               <p>Du bist der eine aus 10.000, der in einer Zeit lebt, in der du morgens von einem Wecker geweckt wirst (statt von einem Säbelzahntiger), in der du warmes Wasser aus der Wand bekommst (ohne es erst am Fluss holen zu müssen), in der du Essen im Kühlschrank hast (das nicht nach drei Tagen vergammelt ist), in der du mit Menschen auf der anderen Seite der Welt sprechen kannst (ohne monatelang mit dem Schiff zu reisen).</p>
-              <p>Und trotzdem, <strong>trotzdem!</strong>, meckern wir, wenn das WLAN zu langsam ist. Wir fluchen, wenn wir im Stau stehen. Wir regen uns auf, wenn die Heizung nicht sofort anspringt oder der Supermarkt unsere Lieblings-Chips nicht mehr hat.</p>
+              <p>Und trotzdem meckern wir, wenn das WLAN zu langsam ist. Wir fluchen, wenn wir im Stau stehen. Wir regen uns auf, wenn die Heizung nicht sofort anspringt oder der Supermarkt unsere Lieblings-Chips nicht mehr hat.</p>
               <p>Wir vergessen viel zu oft, wie verdammt gut wir es haben! Wir leben in der komfortabelsten Ära der Menschheitsgeschichte und sehen das als selbstverständlich an.</p>
-              <p>Die Kapitel auf dieser Webseite sind eine Erinnerung. Eine liebevolle, manchmal freche, hoffentlich lustige Erinnerung daran, dass wir im Alltag von Dingen umgeben sind, die für 9.999 Generationen vor uns wie <strong>Magie</strong> gewirkt hätten. Dinge, die so selbstverständlich geworden sind, dass wir sie gar nicht mehr wahrnehmen.</p>
+              <p>Die nachfolgenden Kapitel sind eine Erinnerung. Eine liebevolle, manchmal freche, hoffentlich lustige Erinnerung daran, dass wir im Alltag von Dingen umgeben sind, die für 9.999 Generationen vor uns wie Magie gewirkt hätten. Dinge, die so selbstverständlich geworden sind, dass wir sie gar nicht mehr wahrnehmen.</p>
               <div class="home-intro__wonders">
                 <p>Das warme Wasser aus dem Hahn? Ein Wunder.</p>
                 <p>Das Auto, das uns in 20 Minuten zur Arbeit bringt? Ein Wunder.</p>
                 <p>Der Kühlschrank, der unser Essen frisch hält? Ein Wunder.</p>
-                <p>Die Waschmaschine, die uns Stunden an Arbeit erspart? Ein verdammtes Wunder.</p>
+                <p>Der Fernseher, der uns mit in den Amazonas-Dschungel nimmt, während wir entspannt auf der Couch liegen? Ein verdammtes Wunder.</p>
               </div>
               <p>Aber wir sehen sie nicht mehr. Wir hetzen durch unseren Tag, gestresst, genervt, unzufrieden und übersehen dabei, dass wir in einem Zeitalter leben, das unsere Vorfahren sich nicht mal in ihren wildesten Träumen hätten vorstellen können.</p>
-              <p>Ich nehme dich mit auf eine Reise durch die kleinen, großen Wunder unseres Alltags. Durch die Dinge, die unser Leben leichter, schöner, komfortabler machen und die wir viel zu oft als selbstverständlich hinnehmen.</p>
-              <p>Jedes Kapitel widmet sich einem dieser alltäglichen Helden: dem Kühlschrank, der Waschmaschine, dem Auto, dem Internet, der Heizung, dem Licht auf Knopfdruck. Wir schauen uns an, wie das Leben <strong>ohne</strong> diese alltäglichen Helden war (Spoiler: meistens ziemlich beschissen), wie sie erfunden wurden (oft durch Zufall oder pure Verzweiflung) und warum sie unser Leben so unglaublich bereichern.</p>
+              <p>Ich nehme dich mit auf eine Reise durch die kleinen, großen Wunder unseres Alltags. Durch die Dinge, die unser Leben leichter, schöner, komfortabler machen und die wir viel zu oft als selbstverständlich hinnehmen oder oft komplett übersehen.</p>
+              <p>Jedes Kapitel widmet sich einem dieser alltäglichen Helden. Wir schauen uns an, wie das Leben ohne diese alltäglichen Helden war (Spoiler: meistens ziemlich beschissen), wie sie erfunden wurden (oft durch Zufall oder pure Verzweiflung) und warum sie unser Leben so unglaublich bereichern.</p>
               <p>Und am Ende jedes Kapitels gibt es ein paar Fragen. Nicht um dich zu nerven, sondern um dich zum Nachdenken zu bringen. Zum Innehalten. Zum bewussten Wahrnehmen und dankbar sein.</p>
               <div class="home-intro__divider" aria-hidden="true">✦</div>
-              <p><strong>Denn hier ist die Wahrheit: Du hast die Zeitlotterie gewonnen.</strong> Du lebst in der besten Zeit, die es jemals gab! Nicht perfekt, klar. Aber verdammt gut. Und das sollten wir öfter feiern.</p>
+              <p>Denn hier ist die Wahrheit: Du hast die Zeitlotterie gewonnen. Du lebst in der besten Zeit, die es jemals gab! Nicht perfekt, klar. Aber verdammt gut. Und das sollten wir öfter feiern.</p>
               <p>Also mach dir einen Kaffee (aus der Maschine, nicht am Lagerfeuer), setz dich bequem hin (auf ein Sofa, nicht auf einen Stein), schalte das Licht an (per Knopfdruck, nicht mit Feuerstein) und lass uns gemeinsam entdecken, wie reich wir eigentlich sind.</p>
               <p class="home-intro__welcome">Willkommen im Club der Gewinner.<br>Willkommen im 21. Jahrhundert.<br>Willkommen in deinem verdammt guten Leben.</p>
-              <p class="home-intro__ps"><em>P.S.: Falls du jetzt denkst &bdquo;Ja, aber mein Leben ist trotzdem stressig und schwer&ldquo;, ich verstehe dich. Und ich will deine Probleme nicht kleinreden. Ich will dir nur zeigen, dass du trotz allem auf einem verdammt guten Fundament stehst. Und manchmal hilft es, das zu sehen.</em></p>
+              <p class="home-intro__ps"><em>P.S.: Falls du jetzt denkst &bdquo;Ja, aber mein Leben ist trotzdem stressig und schwer&ldquo;, ich verstehe dich. Wirklich. Und ich will deine Probleme nicht kleinreden und ich will dir auch nicht sagen, dass du gefälligst dankbar zu sein hast. Ich will dir nur zeigen, dass unter all dem Stress, dem Chaos und den To-do-Listen ein Fundament liegt, das so solide ist, wie es noch keine Generation vor uns je hatte. Und manchmal hilft es ungemein, wenn man das erkennt und wenn uns das bewusst wird.</em></p>
             </div>
           </div>
         </div>
@@ -139,6 +177,48 @@
   <script src="js/home.js"></script>
   <script src="js/hero-shader.js"></script>
   <script>
+    (function () {
+      var players = document.querySelectorAll('[data-audio-player]');
+      players.forEach(function (player) {
+        var audio       = player.querySelector('[data-audio-el]');
+        var playBtn     = player.querySelector('[data-audio-play]');
+        var fill        = player.querySelector('[data-audio-fill]');
+        var progressBar = player.querySelector('[data-audio-progress]');
+        var currentEl   = player.querySelector('[data-audio-current]');
+        var totalEl     = player.querySelector('[data-audio-total]');
+        var speedBtns   = player.querySelectorAll('[data-audio-speed]');
+        if (!audio || !playBtn) return;
+        function fmt(s) { var m = Math.floor(s/60), sec = Math.floor(s%60); return m+':'+(sec<10?'0':'')+sec; }
+        var playIcon  = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 3.5l13 6.5-13 6.5V3.5z" fill="currentColor"/></svg>';
+        var pauseIcon = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="4" y="3" width="4" height="14" rx="1" fill="currentColor"/><rect x="12" y="3" width="4" height="14" rx="1" fill="currentColor"/></svg>';
+        audio.addEventListener('loadedmetadata', function () { if (totalEl) totalEl.textContent = fmt(audio.duration); });
+        audio.addEventListener('timeupdate', function () {
+          if (!audio.duration) return;
+          if (fill) fill.style.width = (audio.currentTime / audio.duration * 100) + '%';
+          if (currentEl) currentEl.textContent = fmt(audio.currentTime);
+        });
+        audio.addEventListener('ended', function () { playBtn.setAttribute('aria-label','Abspielen'); playBtn.innerHTML = playIcon; if (fill) fill.style.width='0%'; if (currentEl) currentEl.textContent='0:00'; });
+        playBtn.addEventListener('click', function () {
+          if (audio.paused) { audio.play(); playBtn.setAttribute('aria-label','Pause'); playBtn.innerHTML = pauseIcon; }
+          else { audio.pause(); playBtn.setAttribute('aria-label','Abspielen'); playBtn.innerHTML = playIcon; }
+        });
+        if (progressBar) {
+          progressBar.addEventListener('click', function (e) {
+            if (!audio.duration) return;
+            var rect = progressBar.getBoundingClientRect();
+            audio.currentTime = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width)) * audio.duration;
+          });
+        }
+        speedBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            audio.playbackRate = parseFloat(btn.dataset.audioSpeed);
+            speedBtns.forEach(function (b) { b.classList.remove('is-active'); });
+            btn.classList.add('is-active');
+          });
+        });
+      });
+    })();
+
     (function () {
       var btn = document.getElementById('intro-btn');
       var content = document.getElementById('intro-content');
