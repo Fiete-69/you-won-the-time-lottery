@@ -699,57 +699,191 @@ const CHAPTERS = [
     nextChapterId: "supermarkt"
   },
 
-  /* ── KAPITEL 4: Der Supermarkt ───────────────────────────── */
+  /* ── KAPITEL 4: Das Schlaraffenland ───────────────────── */
   {
     id: "supermarkt",
     status: "published",
     order: 4,
-    title: "Das Lagerhaus der Wunder",
-    subtitle: "Jeder Gang ist ein Triumph der Menschheit, und wir schieben unseren Einkaufswagen teilnahmslos hindurch.",
+    title: "Das Schlaraffenland gleich um die Ecke",
+    subtitle: "Das Beste aus der ganzen Welt, vereint unter einem Dach. Immer verfügbar. Das ganze Jahr. Mehr Auswahl, als jeder Kaiser, König oder Pharao jemals hatte. Und alles liegt für dich bereit, nur wenige Minuten von deiner Haustüre entfernt.",
     topic: "Alltag",
     cardImage: "images/chapters/Supermarkt.jpg",
     heroImage: "images/hero/Supermarkt.png",
-    accentColor: "#C4904A",         // Warmes Goldbraun passt zum Thema Lebensmittel
+    accentColor: "#C4904A",
     publishDate: "2026-03-29",
     body: [
+
+      /* ── 1. Intro ── */
       {
         type: "intro",
-        text: "Stell dir vor, du wachst morgen früh auf und es gibt keinen Supermarkt mehr. Keine Regale, keine Kühlabteilung, keine frischen Brötchen. Was würde es bedeuten, dich selbst zu ernähren? Für die meisten Menschen wäre es eine Katastrophe. Und genau deshalb ist der Supermarkt um die Ecke eines der unterschätztesten Wunder unserer Zeit."
+        text: "Ich habe neulich eine Frau im Supermarkt beobachtet. (Nicht auf die creepy Art, sondern auf die Art, die man macht, wenn die Schlange an der Kasse mal wieder lang genug ist, um ein kleines Nickerchen einzulegen.) Sie stand vor dem Regal mit den Nudeln und sah aus, als würde sie eine Lebensentscheidung treffen. Links die Barilla. Rechts die De Cecco. Dazwischen drei Bio-Marken, zwei Eigenmarken, glutenfreie Penne, Vollkorn-Fusilli, Linsen-Rigatoni und irgendwas aus Kichererbsen, das aussah, als hätte jemand Lehm durch eine Nudelmaschine gejagt."
       },
+
+      /* ── 2. Abschnitt 1 ── */
       {
         type: "heading",
-        text: "Eine globale Lieferkette für dein Mittagessen"
+        text: "Von Kohl, Rüben und Brot zur Qual der Wahl"
       },
       {
         type: "paragraph",
-        text: "Ein durchschnittlicher deutscher Supermarkt führt zwischen 15.000 und 30.000 verschiedene Artikel. Hinter jedem dieser Produkte steckt eine Lieferkette, die mehrere Kontinente umspannt: Der Kaffee aus Äthiopien, die Avocado aus Peru, der Lachs aus Norwegen, das Olivenöl aus Griechenland. Alles landet innerhalb weniger Tage, manchmal Stunden, frisch und erschwinglich in deinem Einkaufskorb."
+        text: "Sie hat bestimmt zwei Minuten dort gestanden. Zwei Minuten. Für Nudeln."
+      },
+      {
+        type: "paragraph",
+        text: "Und ich dachte mir: Was für eine absurde, wunderbare, komplett verrückte Welt, in der Nudeln ein Problem sein können. In der man vor einem Regal steht und gestresst ist, weil es zu viel Auswahl gibt. Weißt du, was Menschen vor 200 Jahren für ein Problem hatten? Nicht „Spaghetti oder Penne“. Sondern „Essen oder kein Essen“. Und meistens war die Antwort: wenig Essen. Und das wenige war jeden Winter dasselbe: Kohl, Rüben, Brot, wenn es gut lief ein Stück Speck. Fertig. Kein Regal. Keine Auswahl. Kein Supermarkt."
+      },
+      {
+        type: "paragraph",
+        text: "Du greifst ins Regal. Avocados aus Peru. Mangos aus Indien. Käse aus Frankreich. Olivenöl aus Griechenland. Und das alles an einem ganz normalen Tag, in einem ganz normalen Laden, in einer ganz normalen Straße. Du wirfst es in den Wagen, als wäre es das Selbstverständlichste der Welt. Ist es aber nicht."
+      },
+      {
+        type: "paragraph",
+        text: "Was du da gerade machst, hätte für 99 Prozent aller Menschen, die jemals auf diesem Planeten gelebt haben, wie Science-Fiction geklungen. Ein Ort, an dem alles da ist. Immer. Das ganze Jahr. Egal ob Sommer oder Winter. Egal ob Erdbeeren gerade in deinem Land wachsen oder nicht. Sie sind da. Und sie kosten 2,49 Euro."
+      },
+      {
+        type: "paragraph",
+        text: "Willkommen im Supermarkt. Dem vielleicht unterschätztesten Wunder der modernen Welt."
+      },
+
+      /* ── 3. Abschnitt 2 ── */
+      {
+        type: "heading",
+        text: "Vom Überleben in der Natur bis zum Schlaraffenland"
+      },
+      {
+        type: "paragraph",
+        text: "Spulen wir mal zurück. Nicht hundert Jahre, nicht zweihundert. Spulen wir mal richtig weit zurück. Den größten Teil der Menschheitsgeschichte war die Frage „Was essen wir heute?“ keine Frage der Vorliebe, sondern eine des Überlebens. Du hast gegessen, was da war. Punkt. Und „da“ hieß: was in deiner unmittelbaren Umgebung wuchs, lief, schwamm oder flüchtete."
+      },
+      {
+        type: "paragraph",
+        text: "Im Mittelalter sah der Speiseplan für die meisten Menschen so aus: Brot, Brei, Gemüse aus dem eigenen Garten, vielleicht ein Stück Fleisch, wenn es gut lief. Gewürze? Luxusgut. Pfeffer war zeitweise so wertvoll, dass man damit bezahlen konnte wie mit Geld."
       },
       {
         type: "pullquote",
-        text: "Für den größten Teil der Menschheitsgeschichte war Hunger keine Nachricht, er war der Alltag. Wir sind die erste Generation, die ihn für selbstverständlich hält, ihn besiegt zu haben.",
-        attribution: "You won the Time Lottery"
-      },
-      {
-        type: "heading",
-        text: "Die Kühlung, die die Welt veränderte"
+        text: "Der Handel mit Gewürzen war einer der Hauptgründe, warum europäische Seefahrer sich auf den Weg um die halbe Welt machten. Im Grunde verdanken wir die Entdeckung neuer Kontinente der Tatsache, dass Essen ohne Würze ziemlich langweilig ist.",
+        attribution: "Fun Fact"
       },
       {
         type: "paragraph",
-        text: "Ohne Kühlkette wäre unser heutiger Supermarkt unmöglich. Die Erfindung der mechanischen Kühlung im 19. Jahrhundert und ihr weltweiter Ausbau im 20. Jahrhundert hat mehr Menschenleben gerettet als jede Medizin. Lebensmittelvergiftungen, die früher ganze Städte betrafen, sind heute für die meisten von uns eine abstrakte Gefahr. Die Kühlschranktür, an der du täglich vorbeigehst, ist eine der wichtigsten Errungenschaften der Menschheit."
+        text: "Obst gab es saisonal. Wenn die Apfelernte vorbei war, war sie vorbei. Dann gab es Äpfel im Keller, die langsam schrumpeliger wurden als die Haut nach zwei Stunden Badewanne. Und das war’s. Keine südafrikanischen Tafeltrauben im Februar. Keine Heidelbeeren aus Chile im Dezember. Wenn Winter war, wurde es mager. Und zwar wörtlich."
+      },
+      {
+        type: "paragraph",
+        text: "Noch Anfang des 20. Jahrhunderts kauften die meisten Menschen ihre Lebensmittel auf Märkten oder in kleinen Kramläden, in denen man an der Theke stand und dem Verkäufer sagte, was man brauchte. Selbst bedienen? Undenkbar. Auswahl? Überschaubar. Man nahm, was angeboten wurde und war froh drum."
+      },
+      {
+        type: "paragraph",
+        text: "Der Supermarkt, wie wir ihn kennen, ist eine erstaunlich junge Erfindung. Die Idee, dass man in einen großen Laden geht, sich selbst bedient und an einer Kasse bezahlt, entstand erst in den 1930er-Jahren in den USA. In Deutschland dauerte es nochmal gut zwanzig Jahre länger, bis das Konzept sich durchsetzte."
+      },
+      {
+        type: "paragraph",
+        text: "Seitdem ist die Sache, sagen wir mal, eskaliert. Heute hat ein durchschnittlicher deutscher Supermarkt je nach Größe zwischen 10.000 und 40.000 verschiedene Produkte im Sortiment. Vierzigtausend. Das ist mehr Auswahl, als ein mittelalterlicher König in seinem gesamten Leben zur Verfügung hatte. Und wir stehen vorm Regal und beschweren uns, dass unsere Lieblingsschokolade ausverkauft ist."
+      },
+
+      /* ── 4. Abschnitt 3 ── */
+      {
+        type: "heading",
+        text: "Willkommen in einer Welt, in der es alles gibt"
+      },
+      {
+        type: "paragraph",
+        text: "Machen wir das Gedankenspiel. Stell dir vor, der Supermarkt existiert nicht. Kein Laden, in dem du alles an einem Ort bekommst. Keine Kühlkette. Keine globalen Lieferwege. Zurück auf Anfang."
+      },
+      {
+        type: "paragraph",
+        text: "Stell dir vor: Es ist Januar. Du willst einen Salat machen. Frischer Salat wächst nicht. Tomaten? Gibt es nicht. Paprika? Vergiss es. Gurke? Träum weiter. Du hast: Kohl. Und Rüben. Vielleicht noch eingelegte Gurken, wenn du im Sommer clever warst. Dein Salat besteht jetzt aus Kohl und Essig. Guten Appetit."
+      },
+      {
+        type: "paragraph",
+        text: "Oder: Du hast Lust auf Pasta mit Tomatensoße. Netter Gedanke. Aber Tomaten kommen ursprünglich aus Südamerika und waren in Europa bis ins 16. Jahrhundert völlig unbekannt. Und Nudeln in der heutigen Form? Auch nicht selbstverständlich. Dein Lieblingsgericht ist das Ergebnis von Jahrhunderten globalem Austausch und du bestellst es beim Lieferdienst, als wäre es nichts."
+      },
+      {
+        type: "pullquote",
+        text: "Kartoffeln, Tomaten, Mais, Paprika, Kakao und Vanille kommen alle ursprünglich aus Amerika. Ohne die Entdeckung der „Neuen Welt“ würde es keinen Ketchup geben, keine Pommes, keine Schokolade und keinen Vanillepudding. Die europäische Küche wäre ohne diese Zutaten nicht wiederzuerkennen.",
+        attribution: "Fun Fact"
+      },
+      {
+        type: "paragraph",
+        text: "Heute lebst du in einer Realität, in der du morgens kolumbianischen Kaffee trinkst, mittags japanisches Sushi isst und abends mexikanische Tacos machst. Alles gekauft in einem Laden, in Jogginghose, in unter zwanzig Minuten. Das ist nicht normal. Das ist, historisch betrachtet, komplett verrückt."
+      },
+      {
+        type: "paragraph",
+        text: "Und es geht nicht nur um Luxus oder Genuss. Die Verfügbarkeit von Lebensmitteln hat unser Leben fundamental verändert. Wir müssen nicht mehr den Großteil unserer Zeit damit verbringen, Essen zu beschaffen, haltbar zu machen und zu lagern. Wir müssen keinen eigenen Garten haben. Wir müssen nicht einmachen, räuchern, pökeln und beten, dass die Vorräte bis zum Frühling reichen. Wir gehen einfach einkaufen. Und diese gesparte Zeit? Die stecken wir in Arbeit, in Bildung, in Hobbys. (Oder in Netflix.)"
+      },
+
+      /* ── 5. Abschnitt 4 ── */
+      {
+        type: "heading",
+        text: "Die verlorene Speisekarte"
+      },
+      {
+        type: "paragraph",
+        text: "Jetzt wird’s kurz richtig groß. Nicht Supermarkt-groß. Sondern Erdgeschichte-groß."
+      },
+      {
+        type: "paragraph",
+        text: "Wissenschaftler schätzen, dass rund 99,9 Prozent aller Arten, die jemals auf diesem Planeten existiert haben, ausgestorben sind. Lies das nochmal. 99,9 Prozent. Alles, was heute auf der Erde lebt, Tiere, Pflanzen, Pilze, alles zusammen, ist der klitzekleine Rest. Die Krümel, die übrig geblieben sind, nachdem die Natur 4,5 Milliarden Jahre lang ein Buffet aufgebaut, umgeworfen, neu aufgebaut und wieder umgeworfen hat. Fünf große Massenaussterben hat die Erde hinter sich, vom „Großen Sterben“ vor 250 Millionen Jahren, das 96 Prozent aller Arten auslöschte, bis zum Asteroiden, der vor 66 Millionen Jahren die Dinosaurier (und mit ihnen unzählige Pflanzenarten) von der Bühne fegte."
+      },
+      {
+        type: "paragraph",
+        text: "Und jetzt stell dir mal vor, was das für unseren Teller bedeuten würde. Blütenpflanzen, also die Gruppe, zu der praktisch alles gehört, was wir heute essen (Obst, Gemüse, Getreide, Gewürze), gibt es erst seit ungefähr 130 Millionen Jahren. Davor wuchs eine völlig andere Pflanzenwelt: riesige Baumfarne, die so hoch waren wie ein zehnstöckiges Haus. Schachtelhalmwälder, die aussahen wie von einem anderen Planeten. Samenfarne, Nagelbäume mit fleischigen Zapfen, die wie Beeren aussahen, und Pflanzen, deren Namen kein Mensch je erfahren wird, weil sie spurlos verschwunden sind, bevor irgendjemand sie hätte aufschreiben können."
+      },
+      {
+        type: "paragraph",
+        text: "Mutter Natur hat in Milliarden von Jahren Millionen von Pflanzenarten hervorgebracht. Millionen. Mit Geschmäckern, Aromen und Nährstoffen, die kein lebender Mensch je kosten wird. Stell dir vor, es gäbe all diese Arten noch. Stell dir vor, du gehst in den Supermarkt und statt dem normalen Obstregal stehen da plötzlich tausend Früchte, die du noch nie gesehen hast. Hunderte von Gewürzen, mit Aromen und Gerüchen, die du noch nie geschmeckt oder in der Nase hattest. Kräuter, die schon ausgestorben waren, als der erste Mensch seinen ersten aufrechten Schritt machte. Geschmäcker, für die es keine Worte gibt."
+      },
+      {
+        type: "paragraph",
+        text: "Das Obstregal im Supermarkt, über das wir uns eben noch gefreut haben? Es ist nicht die ganze Geschichte. Es ist das allerletzte Kapitel einer Geschichte, die Milliarden von Jahren alt ist. Die meisten Seiten sind längst herausgerissen. Was wir heute haben, ist wunderschön. Aber es ist nur der winzige, zufällige Rest eines unvorstellbar großen Ganzen. Und trotzdem: Was für ein Rest! Ein Rest, den es zu bewahren und erhalten gilt."
+      },
+      {
+        type: "paragraph",
+        text: "Denn allein in den letzten 250 Jahren sind nachweislich über 570 Pflanzenarten von der Erde verschwunden. Für immer. Weg. Keine Rückgabe, kein Umtausch. Und das sind nur die, von denen wir wissen. Die tatsächliche Zahl dürfte deutlich höher liegen, weil viele Pflanzen ausgestorben sind, bevor sie überhaupt jemand wissenschaftlich beschrieben hat."
+      },
+      {
+        type: "pullquote",
+        text: "Die alten Römer hatten ein Lieblingskraut namens Silphium. Es schmeckte ähnlich wie Lauch, war Gewürz, Gemüse und Medizin zugleich und war zeitweise so wertvoll, dass es mit Silber aufgewogen wurde. Es wuchs nur auf einem schmalen Landstreifen im heutigen Libyen, konnte nicht kultiviert werden und wurde schon in der Antike vollständig ausgerottet. Wir werden nie erfahren, wie es wirklich geschmeckt hat.",
+        attribution: "Fun Fact"
+      },
+
+      /* ── 6. Abschnitt 5 ── */
+      {
+        type: "heading",
+        text: "Das Wunder gleich um die Ecke"
+      },
+      {
+        type: "paragraph",
+        text: "Es gibt diesen Moment, den die meisten von uns kennen: Du stehst im Supermarkt und denkst: „Es gibt nichts, was ich will.“ Die Regale sind voll bis oben hin, 30.000 Produkte umgeben dich, und du schlurfst trotzdem gelangweilt durch die Gänge wie jemand, dem man 200 Fernsehkanäle gibt und der trotzdem sagt, es kommt nichts."
+      },
+      {
+        type: "paragraph",
+        text: "Das ist menschlich. Wir gewöhnen uns an alles. Aber manchmal lohnt es sich, kurz innezuhalten und sich klarzumachen, was hier eigentlich los ist: Du hast Zugang zu Lebensmitteln aus der ganzen Welt. Jeden Tag. Zu jeder Jahreszeit. Ohne selbst etwas anbauen, jagen oder haltbar machen zu müssen. Du kannst dir heute Abend ein Gericht aus praktisch jeder Kultur der Erde kochen. Du hast die Wahl zwischen zwanzig Sorten Brot. Und ja, es nervt manchmal, aber ganz ehrlich: Das ist ein Luxusproblem, das sich 99 Prozent aller jemals geborenen Menschen sehnlichst gewünscht hätten."
+      },
+      {
+        type: "paragraph",
+        text: "Das soll kein erhobener Zeigefinger sein. Kein „Du sollst gefälligst dankbar sein!“ Davon gibt es genug. Aber vielleicht ein kleiner Stupser: Das nächste Mal, wenn du an der Käsetheke stehst und dich ärgerst, dass der Ziegenfrischkäse mit Feige ausverkauft ist, denk kurz daran, dass deine Urgroßeltern froh waren, wenn es überhaupt Käse gab. Genau das ist nämlich der Punkt. Wir leben inmitten eines Wunders und merken es nicht mehr, weil wir mitten drin aufgewachsen sind."
+      },
+      {
+        type: "closing",
+        text: "Alltags-Test: Geh heute oder morgen in den Supermarkt. Aber nicht mit einer Einkaufsliste. Sondern mit offenen Augen. Bleib einmal bewusst stehen und schau dich um. Zähl die Länder, aus denen die Produkte in einem einzigen Regal kommen. Lies die Herkunftsetiketten. Peru, Spanien, Neuseeland, Türkei, Thailand. Du stehst in einem einzigen Gang und hast die halbe Weltkarte vor dir. Fünf Sekunden Staunen. Mehr braucht es nicht."
+      },
+
+      /* ── 7. Fragen zum Nachdenken ── */
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
       },
       {
         type: "list",
         ordered: false,
         items: [
-          "Im Mittelalter gaben Menschen bis zu 80 % ihres Einkommens für Essen aus, heute sind es im Schnitt 12 %",
-          "Frische Erdbeeren im Januar? Vor 50 Jahren undenkbar, heute normal",
-          "Ein Supermarktmitarbeiter koordiniert täglich Lieferungen aus bis zu 40 Ländern",
-          "Die Kühlkette eines Supermarkts verbraucht etwa so viel Strom wie 200 Einfamilienhäuser und hält damit Tonnen von Lebensmitteln frisch"
+          "Was ist das eine Lebensmittel, auf das du dich regelmäßig freust wie ein kleines Kind und ohne das du nicht leben könntest? Und hast du dir je überlegt, welchen verrückten Weg es genommen hat, um in deinem Kühlschrank zu landen?",
+          "Gibt es ein Gericht aus deiner Kindheit, für das deine Eltern oder Großeltern viel mehr Aufwand betreiben mussten als du heute?",
+          "Wenn du nur noch essen dürftest, was in deiner Region und zur aktuellen Jahreszeit wächst: Was würde dir am meisten fehlen?",
+          "Wenn du an das Essen deiner Kindheit denkst: Welches Gericht löst sofort ein warmes Gefühl aus, und wer hat es für dich gekocht?",
+          "Was glaubst du, würde ein Mensch aus dem 18. Jahrhundert sagen, wenn du ihn in einen heutigen Supermarkt führen würdest?",
+          "Wann hast du das letzte Mal etwas komplett Neues probiert? Ein Gericht aus einem fernen Land oder ein Gewürz oder eine Frucht, die du zuvor noch nie probiert hattest?"
         ]
-      },
-      {
-        type: "closing",
-        text: "Das nächste Mal, wenn du frustriert vor dem Regal stehst, weil die Lieblingssorte ausverkauft ist: Halte kurz inne. Du stehst inmitten des größten Logistikwunders der Geschichte. Tausende von Menschen auf der ganzen Welt haben dafür gesorgt, dass du heute Abend gut essen kannst. Guten Appetit."
       }
     ],
     nextChapterId: null
