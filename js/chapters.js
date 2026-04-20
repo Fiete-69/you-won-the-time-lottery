@@ -713,6 +713,14 @@ const CHAPTERS = [
     publishDate: "2026-03-29",
     body: [
 
+      /* ── 0. Audio Player (Text) ── */
+      {
+        type: "audio",
+        src: "audio/4 - Supermarkt Text.mp3",
+        image: "images/chapters/Supermarkt.jpg",
+        label: "Kapitel 4 anh\u00F6ren"
+      },
+
       /* ── 1. Intro ── */
       {
         type: "intro",
@@ -884,6 +892,15 @@ const CHAPTERS = [
           "Was glaubst du, würde ein Mensch aus dem 18. Jahrhundert sagen, wenn du ihn in einen heutigen Supermarkt führen würdest?",
           "Wann hast du das letzte Mal etwas komplett Neues probiert? Ein Gericht aus einem fernen Land oder ein Gewürz oder eine Frucht, die du zuvor noch nie probiert hattest?"
         ]
+      },
+
+      /* ── 8. Audio Player (Podcast) ── */
+      {
+        type: "audio",
+        src: "audio/4 - Supermarkt Podcast.mp3",
+        image: "images/chapters/Supermarkt.jpg",
+        label: "Kapitel 4 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
+        isPodcast: true
       }
     ],
     nextChapterId: null
