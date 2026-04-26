@@ -903,14 +903,155 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
+    nextChapterId: "zeit"
+  },
+
+  /* ── KAPITEL 5: Zeit ─────────────────────────────────────── */
+  {
+    id: "zeit",
+    status: "published",
+    order: 5,
+    title: "Wie ein paar Zeiger uns vor dem totalen Chaos retten",
+    subtitle: "Wir wissen jederzeit, wie spät es ist. Was für ein absurder, genialer Trick.",
+    topic: "Alltag",
+    cardImage: "images/chapters/Zeit.jpg",
+    heroImage: "images/hero/Zeit.png",
+    accentColor: null,
+    publishDate: "2026-04-26",
+    body: [
+      {
+        type: "audio",
+        src: "audio/5 - Zeit Text.mp3",
+        image: "images/chapters/Zeit.jpg",
+        label: "Kapitel 5 anhören"
+      },
+      {
+        type: "intro",
+        text: "Es ist 17:43 Uhr. Du weißt das, ohne nachzudenken. Ein kurzer Blick aufs Handy, fertig. Wir wissen jederzeit, wie spät es ist. Immer. Überall. Auf die Sekunde genau. Und das ist, wenn du kurz innehältst, ein absolut wahnsinniger Zustand."
+      },
+      {
+        type: "paragraph",
+        text: "Wir tragen das genaueste Messinstrument der Menschheitsgeschichte am Handgelenk oder in der Hosentasche. Wir checken die Zeit gefühlt 200 Mal am Tag. Und wir denken nie, wirklich nie, darüber nach, was für ein absurd genialer Trick das eigentlich ist: aus einem unsichtbaren, ungreifbaren, unkaufbaren Phänomen wie der Zeit so etwas Konkretes wie „17:43 Uhr" zu machen."
+      },
+      {
+        type: "heading",
+        text: "Wie wir gelernt haben, die Zeit zu messen"
+      },
+      {
+        type: "paragraph",
+        text: "Wie haben die Leute das früher gemacht? Kurze Antwort: schlecht. Längere Antwort: kreativ und ziemlich charmant. Die ersten Sonnenuhren sind vor mehreren Tausend Jahren entstanden. Im Prinzip ein Stock im Boden, dessen Schatten dir verrät, wo die Sonne gerade hängt. Das Problem: Sobald eine einzige Wolke vorbeizog, war Mittagspause. Und nachts? War sowieso einfach 'Nacht'. Punkt."
+      },
+      {
+        type: "paragraph",
+        text: "Der wirkliche Bruch kam mit den mechanischen Uhren im Mittelalter. Diese ersten großen Räderuhren wurden nicht für Kaufleute gebaut, nicht für Fürsten, nicht fürs Militär. Sondern für **Klöster**. Mönche mussten mehrmals täglich zu festen Zeiten beten, das sogenannte Stundengebet. Tagsüber ging das mit der Sonne noch irgendwie, aber nachts brauchten sie etwas Verlässliches. Also bauten sie Räderwerke, die im Dunkeln eine Glocke schlagen ließen. Aus diesen Klosteruhren wurden später die großen Turmuhren, die ganze Städte mit ihrem Schlag taktgaben."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Unser Wort 'Stunde' kommt direkt aus dem Stundengebet der Mönche. Unser komplettes modernes Zeitsystem ist im Grunde ein säkularisierter Klosteralltag. Beim nächsten Meeting also gerne dran denken: Du bist gerade quasi beim Beten.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "paragraph",
+        text: "Aus den riesigen Räderwerken wurden mit der Zeit immer kleinere Mechaniken: irgendwann die Taschenuhr, später die Quarzuhr und schließlich die **Atomuhr**. Eine Atomuhr ist so genau, dass sie über Millionen Jahre nur ein paar Sekunden danebenliegt. Dein Smartphone synchronisiert sich regelmäßig mit solchen Uhren, ohne dass du es merkst. Du hältst also, ohne Witz, einen winzigen Ableger eines der präzisesten Geräte der Welt in der Hand."
+      },
+      {
+        type: "heading",
+        text: "Als jede Stadt ihre eigene Zeit hatte"
+      },
+      {
+        type: "paragraph",
+        text: "Bis weit ins 19. Jahrhundert hinein hatte praktisch jede Stadt ihre eigene Uhrzeit. Nicht 'ungefähr die gleiche'. Sondern eine eigene. Die Uhrzeit richtete sich nach der Sonne. Wenn die Sonne über deinem Kirchturm im Zenit stand, war es 12 Uhr. Und weil die Sonne über München eben ein paar Minuten früher im Zenit steht als über Stuttgart, war es in München schon 12 Uhr, während in Stuttgart noch 11:48 Uhr war. Solange die schnellste Verbindung zwischen zwei Städten die Postkutsche war, hat das niemanden interessiert."
+      },
+      {
+        type: "paragraph",
+        text: "Dann kam die **Eisenbahn** und hat das Ganze gesprengt. Plötzlich war man in wenigen Stunden quer durchs Land. Plötzlich brauchte man Fahrpläne, die in mehreren Städten gleichzeitig stimmen mussten. Manche Bahnhöfe hatten zwei Uhren: eine für die Ortszeit und eine für die Eisenbahnzeit. Reisende kamen halbe Stunden zu früh oder zu spät. Erst Ende des 19. Jahrhunderts hat man sich international auf einheitliche Zeitzonen geeinigt. Erst seitdem ist '14 Uhr in Köln' tatsächlich auch '14 Uhr in Frankfurt'. Das ist erst etwas mehr als hundert Jahre her."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Die Armbanduhr war lange Zeit reiner Damenschmuck. Männer trugen Taschenuhren in der Weste. Erst im Ersten Weltkrieg änderte sich das: Soldaten im Schützengraben banden sich die Uhr ans Handgelenk, weil sie keine Zeit hatten, bei einem koordinierten Angriff in der Innentasche zu fummeln. Nach dem Krieg behielten sie die Gewohnheit. Die Männerarmbanduhr ist buchstäblich aus einem Notbehelf entstanden.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "heading",
+        text: "Warum Uhren unser Leben bereichern"
+      },
+      {
+        type: "paragraph",
+        text: "Mach mal kurz dieses Gedankenspiel. Du hast keine Uhr. Niemand hat eine. Nicht im Handy, nicht an der Wand, nicht am Bahnhof, nirgends. Wie verabredest du dich? 'Treffen wir uns, wenn die Sonne hinter dem dritten Hochhaus steht'? Wann gehst du arbeiten? Wann ist deine Pizza fertig? Wann verlässt dein Flieger Mallorca? Fußballspiele? Enden, wenn der Schiri Hunger bekommt."
+      },
+      {
+        type: "paragraph",
+        text: "Uhren machen uns aber auch innerlich freier. Klingt erstmal paradox, ist aber so. Denn wenn du weißt, dass dein Termin erst in 40 Minuten ist, kannst du diese 40 Minuten richtig auskosten. Du kannst dir sagen 'Ich hab Zeit', weil du tatsächlich weißt, wie viel davon."
+      },
+      {
+        type: "heading",
+        text: "Als eine Uhr Tausende Leben rettete"
+      },
+      {
+        type: "paragraph",
+        text: "Im 17. und 18. Jahrhundert waren Schiffsreisen lebensgefährlich. Nicht nur wegen Stürmen oder Piraten, sondern weil sich Schiffe schlicht verirrten. Den Breitengrad konnten Seefahrer mit der Sonne bestimmen, kein Problem. Aber den **Längengrad**? Das war ein riesiges, ungelöstes Rätsel. Ganze Flotten gingen unter, einfach weil niemand wusste, wo genau auf der Erde sie waren."
+      },
+      {
+        type: "paragraph",
+        text: "England setzte 1714 ein gigantisches Preisgeld aus. Ein englischer Tischler namens **John Harrison** verbrachte dann den größten Teil seines Lebens daran, eine Uhr zu bauen, die auch auf hoher See genau geht. Vier Jahrzehnte am gleichen Problem. Am Ende hat er es geschafft: Sein Marinechronometer veränderte die Welt. Genaue Zeitmessung rettete buchstäblich Tausende Leben und machte den globalen Handel erst möglich. Und jedes Mal, wenn dein Smartphone dir per GPS deinen Standort zeigt, steckt im Kern noch dieselbe Idee darin."
+      },
+      {
+        type: "heading",
+        text: "Als der Papst zehn Tage löschte"
+      },
+      {
+        type: "paragraph",
+        text: "Der Kalender, den Julius Caesar im Jahr 45 vor Christus eingeführt hatte, war pro Jahr ungefähr elf Minuten zu lang. Klingt harmlos. Über sechzehn Jahrhunderte aufaddiert kommen zehn Tage zusammen. **Papst Gregor XIII.** verordnete 1582 den wohl brachialsten Kalender-Fix der Geschichte: Auf den 4. Oktober folgte direkt der 15. Oktober. Zehn Tage einfach gestrichen. In einigen Städten kam es zu Aufständen, weil die Leute glaubten, der Papst hätte ihnen zehn Tage Lebenszeit geklaut."
+      },
+      {
+        type: "pullquote",
+        text: "„Die Zeit vergeht nicht schneller als früher, aber wir laufen eiliger an ihr vorbei."",
+        attribution: "George Orwell"
+      },
+      {
+        type: "closing",
+        text: "Zeit ist das einzige Gut auf dieser Welt, das absolut gerecht verteilt ist. Egal ob du im Penthouse wohnst oder zur Miete im dritten Hinterhof: Jeder Mensch hat genau 24 Stunden am Tag. 1.440 Minuten. 86.400 Sekunden. Du kannst dir keine einzige zusätzliche Lebenswoche kaufen. Was bleibt, ist nur die Frage: Was machst du mit der Zeit, die du hast?"
+      },
+      {
+        type: "heading",
+        text: "Mini-Alltags-Test"
+      },
+      {
+        type: "paragraph",
+        text: "Schau heute mindestens dreimal bewusst auf die Uhr und sag innerlich (oder laut, je nach Risikobereitschaft im Großraumbüro): 'Cool, ich weiß, wie spät es ist. Und ich bin noch da.' Bonus-Variante: Schreib dir heute drei Dinge auf, die du seit Jahren auf 'später' verschiebst. Suche dir eines davon aus und mach den allerersten kleinen Schritt. Eine E-Mail. Ein Anruf. Eine Recherche. Irgendetwas. Hauptsache, du wartest nicht auf den perfekten Moment."
+      },
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Mit welcher Person würdest du gerne mehr Zeit verbringen?",
+          "Wann hast du das letzte Mal das Gefühl gehabt, dass du 'Zeit hattest' und was hat dir dieses Gefühl konkret gegeben?",
+          "Welche Uhrzeit am Tag magst du am liebsten und warum genau diese?",
+          "Wenn dir jemand pro Woche fünf Stunden zusätzlich schenken würde, wofür würdest du sie nutzen und warum machst du das nicht jetzt schon?",
+          "Was wäre für dich 'verlorene Zeit' und stimmt diese Einschätzung wirklich, wenn du ehrlich bist?",
+          "Wem hast du in den letzten Wochen bewusst Zeit geschenkt und wem hättest du gerne mehr davon gegeben?"
+        ]
+      },
+      {
+        type: "audio",
+        src: "audio/5 - Zeit Podcast.mp3",
+        image: "images/chapters/Zeit.jpg",
+        label: "Kapitel 5 - Podcast Folge - Wie ein paar Zeiger uns vor dem totalen Chaos retten",
+        isPodcast: true
+      }
+    ],
     nextChapterId: null
   },
 
-  /* ── KAPITEL 5: Coming Soon — Der Fernseher ─────────────── */
+  /* ── KAPITEL 6: Coming Soon — Der Fernseher ─────────────── */
   {
     id: "fernseher",
     status: "coming-soon",
-    order: 5,
+    order: 6,
     title: "Die Box, die alles veränderte",
     subtitle: "Wie ein Gerät in der Wohnzimmerecke die Art, wie wir die Welt sehen, für immer neu geschrieben hat.",
     topic: "Technologie",
@@ -922,11 +1063,11 @@ const CHAPTERS = [
     nextChapterId: null
   },
 
-  /* ── KAPITEL 6: Coming Soon — Die medizinische Versorgung ── */
+  /* ── KAPITEL 7: Coming Soon — Die medizinische Versorgung ── */
   {
     id: "medizin",
     status: "coming-soon",
-    order: 6,
+    order: 7,
     title: "Der stille Lebensretter",
     subtitle: "Impfungen, Antibiotika, Röntgen: Warum wir einer unsichtbaren Revolution täglich das Leben verdanken.",
     topic: "Medizin",
