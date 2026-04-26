@@ -931,7 +931,7 @@ const CHAPTERS = [
       },
       {
         type: "paragraph",
-        text: "Wir tragen das genaueste Messinstrument der Menschheitsgeschichte am Handgelenk oder in der Hosentasche. Wir checken die Zeit gefühlt 200 Mal am Tag. Und wir denken nie, wirklich nie, darüber nach, was für ein absurd genialer Trick das eigentlich ist: aus einem unsichtbaren, ungreifbaren, unkaufbaren Phänomen wie der Zeit so etwas Konkretes wie „17:43 Uhr" zu machen."
+        text: "Wir tragen das genaueste Messinstrument der Menschheitsgeschichte am Handgelenk oder in der Hosentasche. Wir checken die Zeit gefühlt 200 Mal am Tag. Und wir denken nie, wirklich nie, darüber nach, was für ein absurd genialer Trick das eigentlich ist: aus einem unsichtbaren, ungreifbaren, unkaufbaren Phänomen wie der Zeit so etwas Konkretes wie '17:43 Uhr' zu machen."
       },
       {
         type: "heading",
@@ -1005,7 +1005,7 @@ const CHAPTERS = [
       },
       {
         type: "pullquote",
-        text: "„Die Zeit vergeht nicht schneller als früher, aber wir laufen eiliger an ihr vorbei."",
+        text: "„Die Zeit vergeht nicht schneller als früher, aber wir laufen eiliger an ihr vorbei.",
         attribution: "George Orwell"
       },
       {
