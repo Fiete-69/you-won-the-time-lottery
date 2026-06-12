@@ -1044,14 +1044,208 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
+    nextChapterId: "karten-navigation"
+  },
+
+  /* ── KAPITEL 6: Karten & Navigation ─────────────────────── */
+  {
+    id: "karten-navigation",
+    status: "published",
+    order: 6,
+    title: "Die Kunst, nicht verloren zu gehen",
+    subtitle: "Über die seltsame Kunst zu wissen, wo man ist: von Seefahrern, die Wellen lesen konnten, über Karten mit Drachen, bis zu dem blauen Punkt in deiner Hosentasche, der ohne Einstein jeden Tag um zehn Kilometer danebenliegen würde.",
+    topic: "Technologie",
+    cardImage: "images/chapters/6 - Karten & Navigation.jpg",
+    heroImage: "images/hero/6 - Karten & Navigation.jpg",
+    accentColor: null,
+    publishDate: "2026-06-12",
+    body: [
+
+      /* ── 0. Audio Player (Text) ── */
+      {
+        type: "audio",
+        src: "audio/6 - Karten und Navigation.mp3",
+        image: "images/chapters/6 - Karten & Navigation.jpg",
+        label: "Kapitel 6 anhören"
+      },
+
+      /* ── 1. Intro ── */
+      {
+        type: "intro",
+        text: "Du stehst in einer fremden Stadt, irgendwo zwischen Bahnhof und gefühltem Nirgendwo. Vor dreißig Jahren wäre das der Beginn einer mittleren Krise gewesen. Heute ziehst du ein Gerät aus der Hosentasche, ein blauer Punkt erscheint, und eine freundliche Stimme sagt dir, dass du in zweihundert Metern links abbiegen sollst. Du denkst dir nichts dabei. Gar nichts."
+      },
+      {
+        type: "paragraph",
+        text: "Dabei kommunizierst du in diesem Moment mit Satelliten, die in rund 20.000 Kilometern Höhe um die Erde rasen, ausgestattet mit Atomuhren und korrigiert nach Einsteins Relativitätstheorie. Damit du den Dönerladen findest."
+      },
+      {
+        type: "paragraph",
+        text: "Ganz ehrlich: Die Geschichte der Menschheit ist zu einem erstaunlichen Teil die Geschichte von Leuten, die sich verlaufen haben. Und von den wenigen, die deshalb auf brillante Ideen kamen. Dieses Kapitel handelt von diesen wenigen. Und von uns, die wir heute nicht mal mehr wissen müssen, wo Norden ist, weil unser Telefon das für uns übernimmt."
+      },
+
+      /* ── 2. Geschichte ── */
+      {
+        type: "heading",
+        text: "Wellen lesen, Brunnen vermessen, Drachen malen"
+      },
+      {
+        type: "paragraph",
+        text: "Bevor es Karten gab, gab es den Himmel. Sonne, Sterne, der Schatten eines Stocks: Das war jahrtausendelang das komplette Navigationsequipment der Menschheit. Und manche Kulturen haben daraus etwas gemacht, das auch heute noch sprachlos macht."
+      },
+      {
+        type: "paragraph",
+        text: "Die polynesischen Seefahrer überquerten Tausende Kilometer offenen Pazifik in Kanus. Ohne Kompass, ohne Karte, ohne irgendetwas, das wir als Instrument bezeichnen würden. Sie lasen stattdessen die Wellen. Sie wussten, wie eine Dünung sich verändert, wenn irgendwo hinter dem Horizont eine Insel liegt, sie folgten Vogelzügen und Sternenbahnen. Auf den Marshallinseln baute man sogenannte Stabkarten: Gitter aus Holzstäbchen und Muscheln, die keine Küstenlinien zeigten, sondern Wellenmuster. Eine Karte des Ozeans, gemacht aus dem Ozean selbst. Während Europa noch hauptsächlich an seinen Küsten entlangschipperte, fanden diese Leute eine Insel von der Größe eines Stadtparks mitten im größten Ozean der Welt."
+      },
+      {
+        type: "paragraph",
+        text: "Und dann war da Eratosthenes, ein griechischer Gelehrter in Alexandria, etwa 240 vor Christus. Er hörte, dass in der Stadt Syene, dem heutigen Assuan, die Sonne zur Sommersonnenwende mittags senkrecht in einen Brunnen schien. In Alexandria warf ein Stab zur selben Zeit aber einen kleinen Schatten. Aus diesem Winkel, der Entfernung zwischen den beiden Städten und einer ordentlichen Portion Geometrie berechnete er den Umfang der Erde. Mit einem Stock, einem Brunnen und seinem Kopf. Sein Ergebnis lag erstaunlich nah am tatsächlichen Wert. Es ist erstaunlich, welche großartigen Erkenntnisse man gewinnen kann, und das mit den allereinfachsten Hilfsmitteln."
+      },
+      {
+        type: "paragraph",
+        text: "Im europäischen Mittelalter wurde es dann erst mal wieder, sagen wir, kreativ. Karten waren damals weniger Geografie als Theologie. Auf vielen mittelalterlichen Weltkarten lag Jerusalem in der Mitte und oben war nicht Norden, sondern Osten, der Orient, wo das Paradies vermutet wurde. Wer eine Karte richtig herum drehen wollte, richtete sie nach dem Orient aus. Genau daher kommt unser Wort: sich orientieren. Wir tragen das Mittelalter bis heute in der Sprache mit uns herum, jedes Mal, wenn wir uns kurz orientieren müssen."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Der berühmte Satz „Hic sunt dracones", also „Hier sind Drachen", der angeblich auf allen alten Karten unbekannte Gebiete markierte, findet sich, soweit bekannt, nur auf einem einzigen historischen Objekt: dem kleinen Hunt-Lenox-Globus von etwa 1510. Auf allen anderen Karten füllte man die weißen Flecken eher mit Fantasietieren, erfundenen Inseln oder schlicht mit gar nichts. Der Drachen-Mythos ist also selbst eine Art Kartenlegende.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "paragraph",
+        text: "Der nächste große Sprung kam 1569, als der flämische Kartograf Gerhard Mercator eine Weltkarte entwarf, mit der Seefahrer endlich Kurslinien als gerade Striche einzeichnen konnten. Für die Navigation war das genial. Für unser Weltbild eher schwierig, denn die Mercator-Projektion verzerrt gnadenlos: Je näher an den Polen, desto aufgeblasener werden die Länder. Auf den meisten Weltkarten in Klassenzimmern sieht Grönland deshalb ungefähr so groß aus wie Afrika. In Wirklichkeit passt Grönland etwa vierzehn Mal in Afrika hinein. Wir haben also alle jahrelang auf eine Karte geschaut, die uns charmant angelogen hat."
+      },
+      {
+        type: "paragraph",
+        text: "Dann, im 20. Jahrhundert, hängte man die Landkarte einfach in den Weltraum. GPS wurde vom US-Militär entwickelt und lange Zeit bekamen Zivilisten absichtlich ein verschlechtertes Signal, genau genug für „irgendwo in diesem Stadtviertel", aber nicht für „vor dieser Haustür". Im Mai 2000 wurde diese künstliche Ungenauigkeit abgeschaltet, und über Nacht wurde das GPS für alle Menschen etwa zehnmal genauer. Es ist einer der seltenen Momente der Geschichte, in dem Millionen Geräte schlagartig besser wurden, ohne dass irgendjemand ein Update installieren musste."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Ohne Einsteins Relativitätstheorie wäre GPS unbrauchbar. Die Uhren in den Satelliten ticken wegen ihrer Geschwindigkeit und der geringeren Schwerkraft dort oben minimal anders als Uhren auf der Erde, um etwa 38 Millionstel Sekunden pro Tag. Klingt nach nichts, würde aber unkorrigiert dazu führen, dass dein Navi jeden Tag um rund zehn Kilometer weiter danebenliegt. Nach einer Woche stündest du laut Karte im Nachbarlandkreis.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 3. Mini-Geschichte ── */
+      {
+        type: "heading",
+        text: "Mini-Geschichte: Die Stadt, die es nicht gab. Bis sie jemand erfunden hat."
+      },
+      {
+        type: "paragraph",
+        text: "In den 1930er Jahren erfanden zwei amerikanische Kartenmacher, Otto G. Lindberg und Ernest Alpers, einen Ort namens Agloe und setzten ihn an eine staubige Kreuzung im Bundesstaat New York. Der Name war ein Anagramm ihrer Initialen, der Ort eine Falle: Wer Agloe auf seiner Karte hatte, musste bei ihnen abgekupfert haben, denn Agloe existierte nicht. So weit, so clever."
+      },
+      {
+        type: "paragraph",
+        text: "Dann passierte das Wunderbare: An genau dieser Kreuzung eröffnete später jemand einen Laden. Und weil auf der Karte dort nun mal „Agloe" stand, nannte er ihn Agloe General Store. Als der Konkurrent Rand McNally Jahre später Agloe ebenfalls auf seine Karten druckte und des Kopierens bezichtigt wurde, konnte er entspannt zurückgeben: Fahrt doch hin, der Ort ist da. Die Karte hatte die Wirklichkeit nicht abgebildet. Sie hatte sie erschaffen. Wenn das kein Argument dafür ist, große Pläne erst mal aufzuzeichnen."
+      },
+
+      /* ── 4. Warum Navigation unser Leben bereichert ── */
+      {
+        type: "heading",
+        text: "Warum Karten und Navigation unser Leben bereichern"
+      },
+      {
+        type: "paragraph",
+        text: "Vielleicht erinnerst du dich noch an Faltkarten im Auto. Diese Dinger hatten die Größe eines Bettlakens, raschelten wie ein nervöser Laubhaufen und ließen sich nach dem ersten Auseinanderfalten nie wieder in ihre Ursprungsform bringen. Nie. Es gibt vermutlich bis heute Handschuhfächer, in denen ein zerknülltes Ungetüm von 1998 vor sich hin existiert."
+      },
+      {
+        type: "paragraph",
+        text: "Heute dagegen: Du tippst eine Adresse ein und bekommst nicht nur den Weg, sondern auch die Ankunftszeit auf die Minute, den Stau hinter der nächsten Kurve und drei Alternativrouten. Du findest in einer fremden Millionenstadt ein bestimmtes Café, als wärst du dort aufgewachsen. Du schickst jemandem deinen Standort, statt zu erklären, dass du „bei so einem Brunnen, neben dem Baum mit den komischen Blättern" stehst. Und wenn du die Ausfahrt verpasst, sagt niemand „das war sie!", sondern eine unendlich geduldige Stimme berechnet einfach neu. Keine Vorwürfe. Kein Seufzen. Einfach: Route wird neu berechnet. Es gibt Beziehungen, die von dieser Gelassenheit lernen könnten."
+      },
+      {
+        type: "paragraph",
+        text: "Und das Beste: Navigation hat eine ganze Kategorie von Streit einfach abgeschafft. Der klassische Urlaubsbeifahrer-Konflikt, bei dem eine Person fährt, eine Person die Karte falsch herum hält und beide sich fragen, warum sie geheiratet haben, ist heute ein historisches Phänomen."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Londoner Taxifahrer müssen für ihre Lizenz Zehntausende Straßen und Routen auswendig lernen, eine Prüfung, die schlicht „The Knowledge" heißt. Hirnforscherinnen um Eleanor Maguire fanden um das Jahr 2000 heraus, dass bei diesen Fahrern ein Teil des Hippocampus, der Hirnregion für räumliche Orientierung, messbar vergrößert ist. Navigation ist also buchstäblich Krafttraining für den Kopf.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 5. Gedankenexperiment ── */
+      {
+        type: "heading",
+        text: "Stell dir vor, es gäbe das alles nicht"
+      },
+      {
+        type: "paragraph",
+        text: "Stell dir vor, du willst morgen Freunde in einer anderen Stadt besuchen, aber es gibt keine Navigation. Du druckst dir am Vorabend eine Wegbeschreibung aus (zwölf Schritte, Schritt sieben ist schon beim Drucken unklar). Unterwegs hältst du an einer Tankstelle und fragst einen Fremden, der mit großer Überzeugung in die falsche Richtung zeigt. Du verpasst eine Ausfahrt und merkst es vierzig Kilometer später an einem Ortsschild, das dir nichts sagt. Als du ankommst, sind alle schon beim Nachtisch und du erzählst eine Anreisegeschichte, die länger dauert als der Hauptgang gedauert hat."
+      },
+      {
+        type: "paragraph",
+        text: "Verabredungen wären wieder Hochpräzisionsplanung: exakter Treffpunkt, exakte Uhrzeit, und wer zu spät kommt, ist einfach weg, unauffindbar, verschollen im Stadtgebiet. Lieferdienste, Rettungswagen, Mitfahr-Apps, Wanderungen in unbekanntem Gelände: alles entweder unmöglich oder ein Abenteuer mit offenem Ausgang. Wir haben uns an einen Zustand gewöhnt, in dem Verlorengehen praktisch abgeschafft ist. Smartphone aus der Hosentasche gezogen, und wir wissen zu jeder Zeit auf ein paar Meter genau, wo auf der Erde wir uns befinden. Das ist, historisch betrachtet, völlig verrückt."
+      },
+
+      /* ── 6. Reflexion ── */
+      {
+        type: "heading",
+        text: "Kleine Reflexion: Die Karte und das Gebiet"
+      },
+      {
+        type: "paragraph",
+        text: "Der Wissenschaftler Alfred Korzybski hat einen Satz geprägt, der weit über die Geografie hinausweist:"
+      },
+      {
+        type: "pullquote",
+        text: "„Eine Landkarte ist nicht das Gebiet, das sie abbildet."",
+        attribution: "Alfred Korzybski, polnisch-amerikanischer Philosoph und Sprachwissenschaftler"
+      },
+      {
+        type: "paragraph",
+        text: "Das gilt für Straßenkarten und es gilt für Lebenspläne. Auch unsere Vorstellungen von der Zukunft, von anderen Menschen, von uns selbst sind nur Karten: nützlich, aber nie das Gelände. Manchmal lohnt es sich, vom Plan aufzusehen und nachzuschauen, wie es da draußen wirklich aussieht."
+      },
+      {
+        type: "paragraph",
+        text: "Und noch etwas: Wir wissen heute jederzeit auf drei Meter genau, wo wir sind. Das ist ein Wunder. Aber kein Satellit der Welt kann dir sagen, wo du hinwillst. Der blaue Punkt zeigt deine Position, nicht deine Richtung. Die musst du immer noch selbst eingeben. Vielleicht ist das die eigentliche Pointe der ganzen Navigationsgeschichte: Die Technik hat das Verlorengehen abgeschafft, aber das Ankommen müssen wir nach wie vor selbst erledigen."
+      },
+      {
+        type: "closing",
+        text: "Und ab und zu, ganz ehrlich, darf man sich auch wieder verlaufen. Absichtlich. Ohne Ziel durch ein Viertel streifen, falsch abbiegen, schauen, was passiert. Früher war Verirren ein Risiko. Heute ist es ein Luxus. Man sollte sich Luxus gelegentlich gönnen. Lass dich darauf ein und schlendere bei der nächsten Gelegenheit durch eine unbekannte Stadt oder ein unbekanntes Viertel, es führt zu unvorhersehbaren, aber wunderschönen Begegnungen."
+      },
+
+      /* ── 7. Mini-Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Mini-Alltags-Test"
+      },
+      {
+        type: "paragraph",
+        text: "Nimm dir heute oder in den nächsten Tagen eine Strecke vor, die du nicht in- und auswendig kennst, und geh oder fahr sie ohne Navigation. Schau dir vorher kurz die Karte an, präg dir zwei, drei Anhaltspunkte ein und dann: Handy in die Tasche. Achte darauf, was sich verändert. Du wirst Dinge sehen, an denen du sonst vorbeigefahren wärst, du wirst dich zweimal unsicher fühlen und einmal unverhältnismäßig stolz, wenn du ankommst. Bonusrunde für Fortgeschrittene: Zeichne aus dem Gedächtnis eine kleine Karte deines eigenen Viertels. Es ist erstaunlich, wie viele weiße Flecken direkt vor der Haustür liegen. Drachen darfst du gerne reinmalen."
+      },
+
+      /* ── 8. Nachdenk-Fragen ── */
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Wann hast du dich zum letzten Mal richtig verlaufen und was hast du dabei entdeckt?",
+          "Würdest du eine längere Reise machen, wenn du dich nur auf Papierkarten und Schilder verlassen müsstest?",
+          "Wem oder was vertraust du blind die Richtung an, im Auto und im Leben?",
+          "Welche „Karte" in deinem Kopf, also welche feste Vorstellung, könnte mit dem echten Gelände nicht mehr übereinstimmen?",
+          "Wenn dein Leben ein Navi hätte: Welches Ziel würdest du heute eingeben? Wo soll die Reise hingehen?",
+          "Wo in deinem Alltag wäre ein bewusster Umweg vielleicht die schönere Route?"
+        ]
+      },
+
+      /* ── 9. Podcast Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/6 - Karten und Navigation Podcast.mp3",
+        image: "images/chapters/6 - Karten & Navigation.jpg",
+        label: "Kapitel 6 - Podcast Folge - Die Kunst, nicht verloren zu gehen",
+        isPodcast: true
+      }
+    ],
     nextChapterId: null
   },
 
-  /* ── KAPITEL 6: Coming Soon — Der Fernseher ─────────────── */
+  /* ── KAPITEL 7: Coming Soon — Der Fernseher ─────────────── */
   {
     id: "fernseher",
     status: "coming-soon",
-    order: 6,
+    order: 7,
     title: "Die Box, die alles veränderte",
     subtitle: "Wie ein Gerät in der Wohnzimmerecke die Art, wie wir die Welt sehen, für immer neu geschrieben hat.",
     topic: "Technologie",
@@ -1063,11 +1257,11 @@ const CHAPTERS = [
     nextChapterId: null
   },
 
-  /* ── KAPITEL 7: Coming Soon — Die medizinische Versorgung ── */
+  /* ── KAPITEL 8: Coming Soon — Die medizinische Versorgung ── */
   {
     id: "medizin",
     status: "coming-soon",
-    order: 7,
+    order: 8,
     title: "Der stille Lebensretter",
     subtitle: "Impfungen, Antibiotika, Röntgen: Warum wir einer unsichtbaren Revolution täglich das Leben verdanken.",
     topic: "Medizin",
