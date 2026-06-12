@@ -1106,7 +1106,7 @@ const CHAPTERS = [
       },
       {
         type: "pullquote",
-        text: "**Fun Fact:** Der berühmte Satz „Hic sunt dracones", also „Hier sind Drachen", der angeblich auf allen alten Karten unbekannte Gebiete markierte, findet sich, soweit bekannt, nur auf einem einzigen historischen Objekt: dem kleinen Hunt-Lenox-Globus von etwa 1510. Auf allen anderen Karten füllte man die weißen Flecken eher mit Fantasietieren, erfundenen Inseln oder schlicht mit gar nichts. Der Drachen-Mythos ist also selbst eine Art Kartenlegende.",
+        text: "**Fun Fact:** Der berühmte Satz „Hic sunt dracones”, also „Hier sind Drachen”, der angeblich auf allen alten Karten unbekannte Gebiete markierte, findet sich, soweit bekannt, nur auf einem einzigen historischen Objekt: dem kleinen Hunt-Lenox-Globus von etwa 1510. Auf allen anderen Karten füllte man die weißen Flecken eher mit Fantasietieren, erfundenen Inseln oder schlicht mit gar nichts. Der Drachen-Mythos ist also selbst eine Art Kartenlegende.",
         attribution: "You won the Time Lottery"
       },
       {
@@ -1115,7 +1115,7 @@ const CHAPTERS = [
       },
       {
         type: "paragraph",
-        text: "Dann, im 20. Jahrhundert, hängte man die Landkarte einfach in den Weltraum. GPS wurde vom US-Militär entwickelt und lange Zeit bekamen Zivilisten absichtlich ein verschlechtertes Signal, genau genug für „irgendwo in diesem Stadtviertel", aber nicht für „vor dieser Haustür". Im Mai 2000 wurde diese künstliche Ungenauigkeit abgeschaltet, und über Nacht wurde das GPS für alle Menschen etwa zehnmal genauer. Es ist einer der seltenen Momente der Geschichte, in dem Millionen Geräte schlagartig besser wurden, ohne dass irgendjemand ein Update installieren musste."
+        text: "Dann, im 20. Jahrhundert, hängte man die Landkarte einfach in den Weltraum. GPS wurde vom US-Militär entwickelt und lange Zeit bekamen Zivilisten absichtlich ein verschlechtertes Signal, genau genug für „irgendwo in diesem Stadtviertel”, aber nicht für „vor dieser Haustür”. Im Mai 2000 wurde diese künstliche Ungenauigkeit abgeschaltet, und über Nacht wurde das GPS für alle Menschen etwa zehnmal genauer. Es ist einer der seltenen Momente der Geschichte, in dem Millionen Geräte schlagartig besser wurden, ohne dass irgendjemand ein Update installieren musste."
       },
       {
         type: "pullquote",
@@ -1134,7 +1134,7 @@ const CHAPTERS = [
       },
       {
         type: "paragraph",
-        text: "Dann passierte das Wunderbare: An genau dieser Kreuzung eröffnete später jemand einen Laden. Und weil auf der Karte dort nun mal „Agloe" stand, nannte er ihn Agloe General Store. Als der Konkurrent Rand McNally Jahre später Agloe ebenfalls auf seine Karten druckte und des Kopierens bezichtigt wurde, konnte er entspannt zurückgeben: Fahrt doch hin, der Ort ist da. Die Karte hatte die Wirklichkeit nicht abgebildet. Sie hatte sie erschaffen. Wenn das kein Argument dafür ist, große Pläne erst mal aufzuzeichnen."
+        text: "Dann passierte das Wunderbare: An genau dieser Kreuzung eröffnete später jemand einen Laden. Und weil auf der Karte dort nun mal „Agloe” stand, nannte er ihn Agloe General Store. Als der Konkurrent Rand McNally Jahre später Agloe ebenfalls auf seine Karten druckte und des Kopierens bezichtigt wurde, konnte er entspannt zurückgeben: Fahrt doch hin, der Ort ist da. Die Karte hatte die Wirklichkeit nicht abgebildet. Sie hatte sie erschaffen. Wenn das kein Argument dafür ist, große Pläne erst mal aufzuzeichnen."
       },
 
       /* ── 4. Warum Navigation unser Leben bereichert ── */
@@ -1148,7 +1148,7 @@ const CHAPTERS = [
       },
       {
         type: "paragraph",
-        text: "Heute dagegen: Du tippst eine Adresse ein und bekommst nicht nur den Weg, sondern auch die Ankunftszeit auf die Minute, den Stau hinter der nächsten Kurve und drei Alternativrouten. Du findest in einer fremden Millionenstadt ein bestimmtes Café, als wärst du dort aufgewachsen. Du schickst jemandem deinen Standort, statt zu erklären, dass du „bei so einem Brunnen, neben dem Baum mit den komischen Blättern" stehst. Und wenn du die Ausfahrt verpasst, sagt niemand „das war sie!", sondern eine unendlich geduldige Stimme berechnet einfach neu. Keine Vorwürfe. Kein Seufzen. Einfach: Route wird neu berechnet. Es gibt Beziehungen, die von dieser Gelassenheit lernen könnten."
+        text: "Heute dagegen: Du tippst eine Adresse ein und bekommst nicht nur den Weg, sondern auch die Ankunftszeit auf die Minute, den Stau hinter der nächsten Kurve und drei Alternativrouten. Du findest in einer fremden Millionenstadt ein bestimmtes Café, als wärst du dort aufgewachsen. Du schickst jemandem deinen Standort, statt zu erklären, dass du „bei so einem Brunnen, neben dem Baum mit den komischen Blättern” stehst. Und wenn du die Ausfahrt verpasst, sagt niemand „das war sie!”, sondern eine unendlich geduldige Stimme berechnet einfach neu. Keine Vorwürfe. Kein Seufzen. Einfach: Route wird neu berechnet. Es gibt Beziehungen, die von dieser Gelassenheit lernen könnten."
       },
       {
         type: "paragraph",
@@ -1156,7 +1156,7 @@ const CHAPTERS = [
       },
       {
         type: "pullquote",
-        text: "**Fun Fact:** Londoner Taxifahrer müssen für ihre Lizenz Zehntausende Straßen und Routen auswendig lernen, eine Prüfung, die schlicht „The Knowledge" heißt. Hirnforscherinnen um Eleanor Maguire fanden um das Jahr 2000 heraus, dass bei diesen Fahrern ein Teil des Hippocampus, der Hirnregion für räumliche Orientierung, messbar vergrößert ist. Navigation ist also buchstäblich Krafttraining für den Kopf.",
+        text: "**Fun Fact:** Londoner Taxifahrer müssen für ihre Lizenz Zehntausende Straßen und Routen auswendig lernen, eine Prüfung, die schlicht „The Knowledge” heißt. Hirnforscherinnen um Eleanor Maguire fanden um das Jahr 2000 heraus, dass bei diesen Fahrern ein Teil des Hippocampus, der Hirnregion für räumliche Orientierung, messbar vergrößert ist. Navigation ist also buchstäblich Krafttraining für den Kopf.",
         attribution: "You won the Time Lottery"
       },
 
@@ -1185,7 +1185,7 @@ const CHAPTERS = [
       },
       {
         type: "pullquote",
-        text: "„Eine Landkarte ist nicht das Gebiet, das sie abbildet."",
+        text: "„Eine Landkarte ist nicht das Gebiet, das sie abbildet.”",
         attribution: "Alfred Korzybski, polnisch-amerikanischer Philosoph und Sprachwissenschaftler"
       },
       {
@@ -1223,7 +1223,7 @@ const CHAPTERS = [
           "Wann hast du dich zum letzten Mal richtig verlaufen und was hast du dabei entdeckt?",
           "Würdest du eine längere Reise machen, wenn du dich nur auf Papierkarten und Schilder verlassen müsstest?",
           "Wem oder was vertraust du blind die Richtung an, im Auto und im Leben?",
-          "Welche „Karte" in deinem Kopf, also welche feste Vorstellung, könnte mit dem echten Gelände nicht mehr übereinstimmen?",
+          "Welche „Karte” in deinem Kopf, also welche feste Vorstellung, könnte mit dem echten Gelände nicht mehr übereinstimmen?",
           "Wenn dein Leben ein Navi hätte: Welches Ziel würdest du heute eingeben? Wo soll die Reise hingehen?",
           "Wo in deinem Alltag wäre ein bewusster Umweg vielleicht die schönere Route?"
         ]
