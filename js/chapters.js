@@ -1238,22 +1238,201 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
-    nextChapterId: null
+    nextChapterId: "fernseher-bildschirme"
   },
 
-  /* ── KAPITEL 7: Coming Soon — Der Fernseher ─────────────── */
+  /* ── KAPITEL 7: Fernseher & Bildschirme ────────────────── */
   {
-    id: "fernseher",
-    status: "coming-soon",
+    id: "fernseher-bildschirme",
+    status: "published",
     order: 7,
-    title: "Die Box, die alles veränderte",
-    subtitle: "Wie ein Gerät in der Wohnzimmerecke die Art, wie wir die Welt sehen, für immer neu geschrieben hat.",
+    title: "Das Fenster zur Welt",
+    subtitle: "Über das Fenster, das wir uns an die Wand gehängt haben: von Höhlenmalereien mit eingebauter Bewegung über eine Puppe namens Stooky Bill bis zu dem Moment, in dem eine halbe Milliarde Menschen gleichzeitig auf den Mond schaute.",
     topic: "Technologie",
-    cardImage: "images/chapters/fernseher-card.jpg",
-    heroImage: null,
+    cardImage: "images/chapters/7 - Fernseher & Bildschirme.jpg",
+    heroImage: "images/hero/7 - Fernseher & Bildschirme.jpg",
     accentColor: null,
-    publishDate: null,              // noch nicht geplant
-    body: [],
+    publishDate: "2026-06-17",
+    body: [
+
+      /* ── 0. Audio Player (Text) ── */
+      {
+        type: "audio",
+        src: "audio/7 - Fernseher & Bildschirme Text.mp3",
+        image: "images/chapters/7 - Fernseher & Bildschirme.jpg",
+        label: "Kapitel 7 anhören"
+      },
+
+      /* ── 1. Intro ── */
+      {
+        type: "intro",
+        text: "In deinem Wohnzimmer hängt ein flaches, schwarzes Rechteck. Die meiste Zeit tut es nichts. Aber auf Knopfdruck zeigt es dir die Tiefsee, das Innere eines Vulkans, ein Fußballstadion in Madrid oder das Gesicht deiner besten Freundin, die gerade in Australien sitzt. In Farbe, gestochen scharf, in Echtzeit, wenn du willst."
+      },
+      {
+        type: "paragraph",
+        text: "Wir nennen dieses Ding ganz unaufgeregt „den Fernseher“ und streiten höchstens darüber, wer die Fernbedienung hat. Dabei ist es, nüchtern betrachtet, das Absurdeste, was in einer durchschnittlichen Wohnung herumsteht. Jeder Mensch vor 1930 hätte beim Anblick eines laufenden Bildschirms vermutlich erst einen Exorzisten gerufen und dann vorsichtig nachgeschaut, wo hinter dem Gerät die kleinen Leute wohnen."
+      },
+      {
+        type: "paragraph",
+        text: "Die Geschichte dieses Rechtecks ist im Grunde die Geschichte eines uralten Menschheitswunsches: Wir wollten schon immer Dinge sehen, die gerade nicht da sind. Wir haben nur ein paar Zehntausend Jahre gebraucht, bis es geklappt hat."
+      },
+
+      /* ── 2. Von der Höhlenwand zum Wohnzimmer ── */
+      {
+        type: "heading",
+        text: "Von der Höhlenwand zum Wohnzimmer"
+      },
+      {
+        type: "paragraph",
+        text: "Angefangen hat alles mit Bildern, die sich nicht bewegten, es aber gerne getan hätten. In steinzeitlichen Höhlen wie Chauvet in Frankreich malten Menschen vor Zehntausenden Jahren Tiere mit acht Beinen oder mehreren Köpfen übereinander. Forschende vermuten: Das war Absicht. Im flackernden Licht einer Feuerstelle scheinen diese Tiere zu laufen. Die Steinzeit hatte also möglicherweise schon so etwas wie ein Daumenkino, nur in Wandgröße und mit Lagerfeuer als Projektor. Der Wunsch nach bewegten Bildern ist offenbar älter als das Rad."
+      },
+      {
+        type: "paragraph",
+        text: "Danach blieb das Bild für sehr lange Zeit stehen. Jahrtausendelang waren Zeichnungen, Gemälde und später Buchillustrationen die einzige Möglichkeit, die Welt abzubilden. Wer wissen wollte, wie ein Elefant aussieht, ohne einen zu treffen, musste dem Künstler vertrauen. Das ging unterschiedlich gut aus: Manche mittelalterliche Elefanten-Illustration sieht aus wie ein deprimiertes Pferd mit Staubsaugerschlauch, der Zeichner kannte das Tier eben nur vom Hörensagen."
+      },
+      {
+        type: "paragraph",
+        text: "Im 17. Jahrhundert kam die **Laterna magica**, eine frühe Projektionslaterne, mit der man gemalte Glasbilder an Wände werfen konnte. Findige Schausteller projizierten damit in abgedunkelten Sälen Geister und Skelette auf Rauchschwaden und nannten das Ganze Phantasmagorie. Das Publikum zahlte Eintritt, um sich zu Tode zu erschrecken. Das Geschäftsmodell von Horrorfilmen ist also deutlich älter als der Film."
+      },
+      {
+        type: "paragraph",
+        text: "Dann, um 1826, gelang dem Franzosen **Joseph Nicéphore Niépce** die erste erhaltene Fotografie: ein verschwommener Blick aus seinem Fenster. Die Belichtung dauerte viele Stunden, die Wirklichkeit musste also stillhalten. Für Porträts hieß das anfangs: minutenlang regungslos sitzen, den Kopf in eine Halterung geklemmt. Deshalb schaut auf alten Fotos auch niemand fröhlich. Die Leute hatten keine schlechte Laune, sie hatten einen Krampf."
+      },
+      {
+        type: "paragraph",
+        text: "Das Bild war eingefangen. Jetzt fehlte nur noch die Bewegung. Und die kam, wie so oft in der Geschichte, über einen Streit. Im Kalifornien der 1870er Jahre stritt man sich darüber, ob ein galoppierendes Pferd jemals alle vier Hufe gleichzeitig in der Luft hat. Mit bloßem Auge nicht zu entscheiden. Der Fotograf **Eadweard Muybridge** baute deshalb 1878 eine Reihe von Kameras entlang einer Rennbahn auf, die ein galoppierendes Pferd in Serie ablichteten. Ergebnis: Ja, es fliegt, für einen Sekundenbruchteil. Und ganz nebenbei hatte Muybridge etwas viel Größeres erfunden: Einzelbilder, die schnell hintereinander abgespielt eine Bewegung ergeben. Das Prinzip von Film, Fernsehen und jedem Video, das du je gesehen hast, verdanken wir letztlich der Frage, wie genau ein Pferd rennt."
+      },
+      {
+        type: "paragraph",
+        text: "1895 führten die **Brüder Lumière** in Paris erstmals öffentlich Filme vor zahlendem Publikum vor: Arbeiter, die eine Fabrik verlassen, ein Zug, der in einen Bahnhof einfährt. Heute würde man sagen: schwacher Content. Damals eine Sensation."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Die berühmte Geschichte, das Publikum sei beim Anblick des einfahrenden Zuges schreiend aus dem Saal geflohen, ist nach heutigem Stand der Forschung vor allem eine schöne Legende. Belege für eine Massenpanik gibt es nicht. Die Zuschauer waren beeindruckt, aber sie wussten durchaus, dass sie vor einer Leinwand saßen. Der Mythos hält sich trotzdem hartnäckig, vermutlich weil wir gerne glauben, dass früher alle naiver waren als wir. Sagt die Generation, die versucht hat, auf Zeitungsfotos zu zoomen.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "paragraph",
+        text: "Kino war großartig, aber man musste dafür das Haus verlassen. Der nächste logische Schritt: die bewegten Bilder direkt in die Wohnung holen. Und hier betritt einer der schönsten Bastler der Technikgeschichte die Bühne."
+      },
+
+      /* ── 3. Mini-Geschichte: Stooky Bill ── */
+      {
+        type: "heading",
+        text: "Mini-Geschichte: Stooky Bill, der erste Fernsehstar"
+      },
+      {
+        type: "paragraph",
+        text: "Der Schotte **John Logie Baird** hatte in den 1920er Jahren wenig Geld, eine angeschlagene Gesundheit und eine fixe Idee: Bilder durch die Luft übertragen. Seinen ersten Fernsehapparat baute er aus dem, was herumlag, darunter eine alte Hutschachtel, eine Keksdose, Stopfnadeln, Fahrradlampenlinsen, Bindfaden und Siegellack. Das klingt nach Kindergeburtstag, war aber der Anfang des Fernsehens."
+      },
+      {
+        type: "paragraph",
+        text: "Es gab nur ein Problem: Die Scheinwerfer, die er für die Aufnahme brauchte, waren so grell und heiß, dass kein Mensch lange davor sitzen wollte. Also setzte Baird eine Bauchrednerpuppe vor die Apparatur. Sie hieß **Stooky Bill**, hatte ein bemaltes Gesicht und beschwerte sich nicht, auch als ihr im Laufe der Versuche die Haare versengten und der Lack Risse bekam. 1925 flimmerte Stooky Bills Gesicht als erstes erkennbares Fernsehbild über Bairds Empfänger. Der erste Star der Fernsehgeschichte war also eine leicht angekokelte Holzpuppe. Kurz darauf holte Baird den Büroboten aus dem Stockwerk darunter vor die Kamera und machte den jungen **William Taynton** damit zum ersten Menschen im Fernsehen. Begeistert soll er nicht gewesen sein. Es war ihm schlicht zu heiß."
+      },
+
+      /* ── 4. Vom Lagerfeuer-Ersatz zum Fenster zur Welt ── */
+      {
+        type: "heading",
+        text: "Vom Lagerfeuer-Ersatz zum Fenster zur Welt"
+      },
+      {
+        type: "paragraph",
+        text: "Was dann kam, ging erstaunlich schnell. In den 1930er Jahren starteten die ersten regelmäßigen Fernsehprogramme, in Deutschland flimmerte es ab 1935. Eigene Geräte hatte praktisch niemand, also ging man in sogenannte Fernsehstuben, öffentliche Räume mit einem Apparat, vor dem sich Fremde versammelten. Fernsehen war am Anfang kein Möbelstück, sondern ein Gemeinschaftserlebnis: Menschen im Dunkeln, die gemeinsam auf flackernde Bilder starren. Die Steinzeithöhle lässt grüßen."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Als 1967 in Deutschland das Farbfernsehen eingeführt wurde, sollte Willy Brandt den Start feierlich per Knopfdruck auslösen. Der Moment ging in die Geschichte ein, allerdings anders als geplant: Das Bild wurde schon ein paar Sekunden vor dem Knopfdruck bunt, weil ein Techniker hinter den Kulissen zu früh auslöste. Der große symbolische Knopf war ohnehin nur Show. Das deutsche Farbfernsehen begann also mit einer kleinen, liebevollen Mogelei.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "paragraph",
+        text: "Und dann kam der Moment, in dem das Fernsehen zeigte, was es wirklich kann. Im Juli 1969 saßen schätzungsweise mehr als eine **halbe Milliarde Menschen** gleichzeitig vor ihren Geräten und sahen zu, wie ein Mensch den Mond betrat. Ein verrauschtes, geisterhaftes Schwarz-Weiß-Bild, 384.000 Kilometer weit gereist, direkt ins Wohnzimmer. Zum ersten Mal erlebte ein riesiger Teil der Menschheit denselben Augenblick im selben Augenblick, nicht als Zeitungsbericht am nächsten Tag, sondern live. Es gibt Momente, in denen Technik plötzlich ganz still und groß wird. Das war so einer."
+      },
+
+      /* ── 5. Warum Bildschirme unser Leben bereichern ── */
+      {
+        type: "heading",
+        text: "Warum Bildschirme unser Leben bereichern"
+      },
+      {
+        type: "paragraph",
+        text: "Du hast den Himalaya gesehen. Den Amazonas. Die Antarktis. Die Tiefsee, in der Anglerfische mit Laternen am Kopf herumschwimmen, als hätte sich die Evolution einen Scherz erlaubt. Wahrscheinlich warst du an keinem dieser Orte. Trotzdem kennst du sie, ihre Farben, ihre Geräusche, ihre Bewegung. Noch vor wenigen Generationen war das exklusives Wissen von Forschungsreisenden, die dafür Jahre und gelegentlich Gliedmaßen investierten. Du brauchst dafür ein Sofa."
+      },
+      {
+        type: "paragraph",
+        text: "Und es geht ja längst nicht nur um Dokus. Du kannst dein Hotel vorab im Video begutachten, statt einer Postkarte von 1987 zu vertrauen. Du schickst deiner Familie ein Urlaubsvideo vom Strand, während du noch Sand zwischen den Zehen hast, und niemand findet das erstaunlich. Großeltern sehen ihre Enkel aufwachsen, obwohl tausend Kilometer dazwischenliegen. Und an einem verregneten Sonntag kann ein ganzes Land denselben Krimi schauen und sich am Montag gemeinsam über das Ende ärgern. Bildschirme verbinden uns mit Orten, an die wir nie kommen, und mit Menschen, die wir nicht erreichen könnten. Das ist, bei allem berechtigten Gemecker über Glotze und Dauerberieselung, ziemlich genau das, was sich die Menschheit an der Höhlenwand erträumt hat."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Der Regisseur **Orson Welles**, immerhin einer der größten Filmemacher des 20. Jahrhunderts, sagte 1956 über das neue Medium: „Ich hasse das Fernsehen. Ich hasse es so sehr wie Erdnüsse. Aber ich kann nicht aufhören, Erdnüsse zu essen.“ Ehrlicher ist das Verhältnis der Menschheit zum Bildschirm nie wieder zusammengefasst worden.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 6. Stell dir vor, es gäbe keine Bildschirme ── */
+      {
+        type: "heading",
+        text: "Stell dir vor, es gäbe keine Bildschirme"
+      },
+      {
+        type: "paragraph",
+        text: "Stell dir vor, du willst wissen, wie die Antarktis aussieht. Du gehst in die Bibliothek und leihst dir ein Buch. Es enthält Beschreibungen („sehr weiß, sehr kalt, erstaunlich windig“) und vielleicht ein paar Fotos. Bewegung, Geräusch, Größe: musst du dir denken. Die Mondlandung erfährst du aus der Zeitung, einen Tag später, als Text. Das Fußballspiel hörst du im Radio, und der Reporter beschreibt das Tor so aufgeregt, dass du dir drei Versionen davon vorstellst, alle falsch. Deine Schwester wandert nach Kanada aus, und ihr Gesicht existiert für dich nur noch als Erinnerung. Serien-Marathon im Schlafanzug, leider unmöglich."
+      },
+      {
+        type: "paragraph",
+        text: "Im Fernsehen ist auch viel zu sehen, was die Welt nicht vermissen würde, wenn es weg wäre, das muss man fairerweise sagen. Aber die Welt wäre viel kleiner, wenn es gar keinen Fernseher und bewegten Bilder mehr aus den verschiedensten Winkeln der Erde geben würde. Sie würde dort enden, wo deine eigenen Augen aufhören."
+      },
+
+      /* ── 7. Kleine Reflexion ── */
+      {
+        type: "heading",
+        text: "Kleine Reflexion: Das Fenster und der Ausblick"
+      },
+      {
+        type: "paragraph",
+        text: "Ein Bildschirm ist ein Fenster. Das ist seine ganze Magie und sein ganzes Problem. Ein Fenster ist großartig, solange man ab und zu rausgeht. Wer nur noch durchs Fenster schaut, verwechselt irgendwann den Ausblick mit dem Draußen."
+      },
+      {
+        type: "closing",
+        text: "Vielleicht ist das der faire Deal mit diesem Gerät: Es zeigt uns die Welt, aber es ersetzt sie nicht. Die Doku über den Himalaya ist ein Geschenk, gerade weil die meisten von uns nie dort oben stehen werden. Das Urlaubsvideo der Freunde ist schön, der eigene Strand ist schöner. Und der erstaunlichste Bildschirmmoment bleibt der, in dem man gemeinsam schaut: zu zweit unter einer Decke, mit Freunden beim Endspiel, mit Kindern, die zum ersten Mal einen Blauwal sehen und ungefähr dreißig Fragen pro Minute stellen. Das Flackern verbindet, seit der Höhle. Es kommt nur darauf an, wer mit am Feuer sitzt."
+      },
+
+      /* ── 8. Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Alltags-Test"
+      },
+      {
+        type: "paragraph",
+        text: "Such dir heute Abend ganz bewusst eine Doku oder ein Video über einen Ort aus, an den du im Leben vermutlich nie reisen wirst. Tiefsee, Wüste, Raumstation, such dir was aus. Und dann schau es wie früher: Licht aus, Handy weg, kein zweiter Bildschirm auf dem Schoß, volle Aufmerksamkeit für das Fenster an der Wand. Danach kurz innehalten: Du hast gerade einen Ort besucht, den vor hundert Jahren kein Mensch zu sehen bekam, egal wie reich er war. Bonusaufgabe: Erzähl morgen jemandem davon, nur mit Worten, wie ein mittelalterlicher Elefanten-Zeichner. Du wirst merken, wie schwer das ist und wie wertvoll die Bilder sind. Das rechteckige Ding, das so gut wie jeder zuhause hat, in welcher Größe auch immer, ist ein Wunder. Nur vergessen wir das viel zu oft."
+      },
+
+      /* ── 9. Sechs Fragen zum Nachdenken ── */
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Welcher Ort, den du nur vom Bildschirm kennst, hat dich am meisten beeindruckt?",
+          "Was war ein Fernsehmoment, den du mit anderen geteilt hast und der dir bis heute in Erinnerung ist?",
+          "Wann hat dir ein Bildschirm zuletzt echte Nähe geschenkt, zum Beispiel zu einem Menschen weit weg?",
+          "Schaust du meistens bewusst oder läuft das Fenster zur Welt bei dir oft nur nebenbei?",
+          "Welchen Ort, den du bisher nur aus Videos kennst, würdest du gerne einmal mit eigenen Augen sehen?",
+          "Wenn du nur noch eine Stunde Bildschirmzeit pro Woche hättest: Wofür würdest du sie verwenden?"
+        ]
+      },
+
+      /* ── 10. Podcast Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/7 - Fernseher & Bildschirme Podcast.mp3",
+        image: "images/chapters/7 - Fernseher & Bildschirme.jpg",
+        label: "Kapitel 7 - Podcast Folge - Das Fenster zur Welt",
+        isPodcast: true
+      }
+    ],
     nextChapterId: null
   },
 
