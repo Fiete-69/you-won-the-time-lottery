@@ -1433,14 +1433,235 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
+    nextChapterId: "nacht"
+  },
+
+  /* ── KAPITEL 8: Als die Nacht verhandelbar wurde ── */
+  {
+    id: "nacht",
+    status: "published",
+    order: 8,
+    title: "Als die Nacht verhandelbar wurde",
+    subtitle: "Über das Licht auf Knopfdruck, das die Nacht abgeschafft hat und das wir trotzdem kaum eines Blickes würdigen.",
+    topic: "Licht",
+    cardImage: "images/chapters/8 - Als die Nacht verhandelbar wurde.jpg",
+    heroImage: "images/hero/8 - Als die Nacht verhandelbar wurde.jpg",
+    accentColor: null,
+    publishDate: "2026-06-29",
+    body: [
+
+      /* ── 0. Audio-Player (Text) ── */
+      {
+        type: "audio",
+        src: "audio/8 - Als die Nacht verhandelbar wurde Text.mp3",
+        image: "images/chapters/8 - Als die Nacht verhandelbar wurde.jpg",
+        label: "Kapitel 8 anhören"
+      },
+
+      /* ── 1. Intro ── */
+      {
+        type: "intro",
+        text: "Du tust es vermutlich ein Dutzend Mal am Tag, und du hast es vermutlich noch nie wirklich bemerkt. Du kommst in einen dunklen Raum, deine Hand wandert wie von selbst an die Wand, ein leises Klick, und die Dunkelheit ist weg. Einfach weg. Kein Streichholz, kein Warten. Du hast gerade, ganz nebenbei und schon an etwas anderes denkend, mit einem Fingertipp die Nacht aus dem Zimmer geworfen."
+      },
+      {
+        type: "paragraph",
+        text: "Halten wir das einen Moment fest, denn es ist größer, als es klingt. Du kannst die Nacht ausschalten. Wann du willst, so oft du willst. Das konnte vor dir kein einziger Mensch in der gesamten Geschichte, und das bis vor ungefähr 150 Jahren. Kein Pharao, kein Kaiser, kein Sonnenkönig. Du schon. Mit dem kleinen Finger, im Vorbeigehen."
+      },
+
+      /* ── 2. Als die Sonne noch der Chef war ── */
+      {
+        type: "heading",
+        text: "Als die Sonne noch der Chef war"
+      },
+      {
+        type: "paragraph",
+        text: "Über fast die gesamte Menschheitsgeschichte lief es nämlich genau andersherum. Nicht du hast über den Tag bestimmt, sondern die Sonne. Ging sie unter, legte das Leben weitgehend eine Pause ein. Natürlich konnte man ein Feuer schüren oder eine Kerze anzünden, aber das war kein Vergleich. Eine Kerze ist hübsch auf einem Geburtstagskuchen. Als einzige Lichtquelle für einen ganzen Abend ist sie ziemlich überschaubar. Sie flackert, sie rußt, sie riecht, und sie wirft gerade genug Licht, um die eigene Hand zu erkennen und sich an allem anderen zu stoßen."
+      },
+      {
+        type: "paragraph",
+        text: "Und Licht war teuer. Richtig teuer. Gutes Licht kam lange aus Walöl oder aus dem Talg geschlachteter Tiere und wer abends lesen wollte, verbrannte buchstäblich Geld. Licht war ein Luxus, kein Selbstverständnis. Die meisten Menschen legten sich schlicht hin, wenn es dunkel wurde, weil die Alternative ein teures, schummriges, qualmendes Halbdunkel war."
+      },
+      {
+        type: "paragraph",
+        text: "Dazu kam die Angst. Wer abends mit einer offenen Flamme durch die Wohnung lief, trug das Risiko gleich mit. Eine umgekippte Kerze, einmal kurz eingeschlafen, ein zu naher Vorhang und aus dem gemütlichen Lichtlein wurde der Brand, der die halbe Straße mitnahm. Ganze Städte sind so in Schutt und Asche gesunken. Licht zu machen hieß jahrhundertelang: jeden einzelnen Abend ein bisschen mit dem Feuer spielen."
+      },
+
+      /* ── 3. Der lange Weg zum Knopfdruck ── */
+      {
+        type: "heading",
+        text: "Der lange Weg zum Knopfdruck"
+      },
+      {
+        type: "paragraph",
+        text: "Dann kam, Schritt für Schritt, die Befreiung von der Sonne. Im frühen 19. Jahrhundert zogen Gaslaternen in die Städte, und mit ihnen ein heute fast vergessener Beruf: der Laternenanzünder, der jeden Abend mit einer langen Stange loszog und die Flammen einzeln entfachte. Das war tatsächlich ein Job. Dunkel wird es, Stange schultern, die ganze Stadt von Hand erleuchten."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Die ersten brauchbaren Streichhölzer kamen in den 1820er Jahren auf, und ein Londoner Händler verkaufte sie unter dem Namen „Lucifers“, nach Luzifer, was wörtlich „Lichtträger“ bedeutet. Wer Licht machen wollte, zündete also kurz einen kleinen Teufel an.",
+        attribution: "You won the Time Lottery"
+      },
+      {
+        type: "paragraph",
+        text: "Den wirklich großen Sprung aber brachte die Elektrizität. Schon um 1809 führte der englische Chemiker Humphry Davy ein grelles, zischendes Bogenlicht vor, gespeist von einer riesigen Batterie. Viel zu hell und zu wild fürs Wohnzimmer, aber es bewies das Unerhörte: Man kann Licht machen, ganz ohne Flamme. Den zahmen kleinen Bruder bauten dann Ende der 1870er Erfinder wie Joseph Swan in England und Thomas Edison in den USA, einen dünnen Faden in einer Glaskugel, der glühte, ohne zu verbrennen."
+      },
+      {
+        type: "paragraph",
+        text: "Und weil diese Glaskugeln eine bauchige, nach unten dickere Form hatten, gab ihnen der Volksmund einen Namen, den wir bis heute benutzen, auch wenn die Fachleute jedes Mal die Augen verdrehen: Glühbirne. Eine glühende Birne. Wir haben das Ding tatsächlich nach einem Obst benannt, einfach weil es so aussah. Korrekt müsste es „Glühlampe“ heißen."
+      },
+      {
+        type: "paragraph",
+        text: "Edison war von seiner Erfindung so überzeugt, dass er Anfang 1880 dem „New York Herald“ einen Satz gab, der fast prophetisch klingt: Sobald das elektrische Licht erst einmal allgemein in Gebrauch sei, werde „nur noch der Verschwender“ Talgkerzen abbrennen. Er sollte recht behalten. Heute brennt bei uns eine Kerze fast nur noch zur Deko, beim Date oder wenn der Strom ausfällt."
+      },
+
+      /* ── 4. Sheffield ── */
+      {
+        type: "heading",
+        text: "Die Nacht, in der Sheffield zur Mittagssonne wurde"
+      },
+      {
+        type: "paragraph",
+        text: "Am Abend des 14. Oktober 1878 passierte in der englischen Stadt Sheffield etwas, das die Menschen so noch nie gesehen hatten. Auf dem Fußballplatz an der Bramall Lane sollte ein Spiel stattfinden, die Blauen gegen die Roten, und zwar mitten in der Nacht. Möglich machte das ein gewisser John Tasker, ein Mann, der eigentlich aus dem Gummi- und Ledergeschäft kam und über die Isolierung von Drähten zur Elektrizität gefunden hatte. Er stellte vier elektrische Bogenlampen auf, je eine in einer Ecke des Platzes, montiert auf hölzernen Türmen von gut neun Metern Höhe. Den Strom lieferten zwei Dampfmaschinen hinter den Toren. Jede Lampe leuchtete mit der Kraft von rund 8.000 Kerzen."
+      },
+      {
+        type: "paragraph",
+        text: "Was dann geschah, war weniger ein Fußballspiel als ein kollektiver Staunanfall. Etwa 12.000 Menschen zahlten ihren Eintritt, und es kamen wohl noch einmal so viele, die im Schutz der Dunkelheit über die Mauern kletterten. Das eigentlich Verrückte war nicht das Spiel, sondern das Licht. Einige Zuschauerinnen spannten mitten in der Nacht ihre Regenschirme auf, als wären es Sonnenschirme, um sich vor der vermeintlichen Mittagssonne zu schützen. Die „Times“ notierte am nächsten Tag trocken, die Helligkeit habe die Spieler derart geblendet, dass sie reihenweise Fehler machten."
+      },
+      {
+        type: "paragraph",
+        text: "Man muss sich dieses Gefühl einmal klarmachen. Du hast dein ganzes Leben lang gewusst, dass es nachts dunkel ist. So ist die Welt eben, fertig. Und dann stehst du auf einem Feld, das hell ist wie am Mittag, obwohl längst Nacht ist. Kein Wunder, dass die Leute die Schirme aufspannten. John Tasker übrigens baute später Sheffields erste Telefonzentrale und das erste Kraftwerk der Stadt. Also hat der Mann nicht nur ein Fußballspiel erhellt, sondern später auch gleich noch die ganze Stadt. Für uns ist es das normalste der Welt, dass man nach Sonnenuntergang noch zum Fußballtraining geht oder in eine hell ausgeleuchtete Sporthalle, zum Tennis, Basketball spielen oder was auch immer. Die Zeit, in der das noch undenkbar gewesen wäre, ist noch nicht allzulange her und sobald die Sonne untergegangen war, kam das Leben buchstäblich zum Erliegen und man musste auf den nächsten Tagesanbruch warten. Da schätzt man es gleich noch viel mehr, wenn am Morgen die Sonne am Horizont aufgeht und die Dunkelheit langsam weicht."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Bis heute heißt die offizielle physikalische Einheit für Lichtstärke „Candela“, lateinisch für Kerze. Sie wurde tatsächlich einmal über eine echte Normkerze definiert, mit festgelegtem Gewicht und Abbrand. Im deutschsprachigen Raum maß man Helligkeit sogar lange in „Hefnerkerzen“. Die Wissenschaft hat das Licht also nach der Kerze benannt.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 5. Was uns das Licht eigentlich schenkt ── */
+      {
+        type: "heading",
+        text: "Was uns das Licht eigentlich schenkt"
+      },
+      {
+        type: "paragraph",
+        text: "Rechnen wir kurz nach, was dieser kleine Klick wirklich bedeutet. Die Sonne scheint, je nach Jahreszeit und Wohnort, vielleicht acht bis sechzehn Stunden am Tag. Den Rest hat uns die Natur eigentlich gestrichen. Das künstliche Licht gibt uns diese Stunden zurück. Jeder Abend, an dem du nach Feierabend noch liest, kochst, mit Freunden am Tisch sitzt, ein Kind ins Bett bringst oder einfach nur in Ruhe nichts tust, ist Lebenszeit, die deine Vorfahren schlicht verschlafen mussten oder zumindest im Dunkeln saßen."
+      },
+      {
+        type: "paragraph",
+        text: "Und es geht um weit mehr als Gemütlichkeit. Operationssäle, in denen nachts Leben gerettet werden. Die Straßenlaterne, die den Heimweg ein Stück sicherer macht. Die Spätschicht, das Krankenhaus, die Bäckerei, in der um drei Uhr morgens die Brötchen für deinen Sonntag entstehen. Unsere ganze Welt, die rund um die Uhr läuft, hängt an der schlichten Selbstverständlichkeit, dass jemand einen Schalter umlegt und es hell wird."
+      },
+      {
+        type: "paragraph",
+        text: "Am verblüffendsten aber ist, wie absurd billig dieses Wunder geworden ist. Der Wirtschaftswissenschaftler William Nordhaus hat einmal ausgerechnet, was Licht die Menschen früher an Arbeit gekostet hat, und das Ergebnis ist schwindelerregend. Im alten Babylon, vor rund 3.700 Jahren, musste ein Mensch über vierzig Stunden arbeiten, um sich so viel Lampenöl leisten zu können, wie eine Glühbirne in gut einer Stunde an Licht abgibt. Anders gesagt: Ein ganzer Arbeitstag brachte dir damals etwa zehn Minuten anständiges Licht."
+      },
+      {
+        type: "paragraph",
+        text: "Heute leuchtet die eigene Wohnung die ganze Nacht taghell und es kostet uns nur ein paar Cent."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** In einer Feuerwache im kalifornischen Livermore hängt eine Glühbirne, die seit 1901 fast ununterbrochen brennt, über 120 Jahre lang. Sie ist handgeblasen, schimmert heute nur noch schwach vor sich hin und steht im Guinness-Buch der Rekorde.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 6. Stell dir vor ── */
+      {
+        type: "heading",
+        text: "Stell dir vor, der Schalter macht nichts mehr"
+      },
+      {
+        type: "paragraph",
+        text: "Stell dir vor, heute Abend funktioniert kein einziger Schalter mehr. Kein Deckenlicht, keine Lampe, keine Straßenlaterne, kein leuchtendes Display. Die Sonne geht unter, und zum ersten Mal in deinem Leben bedeutet das, was es für fast alle Menschen vor dir bedeutet hat: Es ist vorbei für heute."
+      },
+      {
+        type: "paragraph",
+        text: "Du kannst nicht mehr lesen. Nicht mehr in Ruhe kochen, ohne dir in die Finger zu schneiden. Du sitzt nur noch im Dunkeln. Der Weg zur Toilette wird zur kleinen Expedition. Die Welt schrumpft auf den Radius einer einzigen, teuren, flackernden Flamme zusammen, falls du überhaupt eine zur Hand hast. Und das nicht für eine romantische Stunde, sondern jede Nacht, dein Leben lang."
+      },
+      {
+        type: "paragraph",
+        text: "Merkst du, worüber wir hier reden? Das ist kein nettes Gadget. Das ist die halbe Lebenszeit, die wir plötzlich in der Dunkelheit verbringen würden."
+      },
+
+      /* ── 7. Reflexion ── */
+      {
+        type: "heading",
+        text: "Eine kleine Reflexion über Licht und Schatten"
+      },
+      {
+        type: "paragraph",
+        text: "Es gibt allerdings auch eine leise Kehrseite, und die ist es wert, kurz erwähnt zu werden. Der japanische Schriftsteller Junichiro Tanizaki beschrieb 1933 in seinem Essay „Lob des Schattens“ genau diesen menschlichen Drang. Der Mensch, schrieb er, gehe „von der Kerze zur Öllampe, von der Öllampe zum Gaslicht, vom Gaslicht zum elektrischen Licht“, und seine Jagd nach einem immer helleren Licht höre nie auf, er scheue keine Mühe, noch „den kleinsten Schatten auszumerzen“."
+      },
+      {
+        type: "paragraph",
+        text: "Tanizaki trauerte ein wenig dem Halbdunkel nach, der Schönheit des Schattens, die im grellen Licht verschwindet. Und ja, ein bisschen etwas haben wir dabei verloren: den Sternenhimmel über der Stadt, das warme Flackern, das Gespräch, das im Halbdunkel anders klingt. Aber vielleicht ist das gar nicht der eigentliche Punkt. Der Punkt ist nicht, dass wir die Dunkelheit zurückhaben wollen. Der Punkt ist, dass wir sie so vollständig besiegt haben, dass wir den Sieg nicht einmal mehr bemerken. Und wir immer mehr Sachen in unseren Tag packen und nicht zur Ruhe kommen, obwohl die Sonne schon längst untergegangen ist."
+      },
+
+      /* ── 8. Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Ein kleiner Test für heute Abend"
+      },
+      {
+        type: "paragraph",
+        text: "Mach heute Abend für zwei Minuten jedes Licht in einem Raum aus. Handy weg, Augen offen, einfach im Dunkeln sitzen. Spür kurz nach, wie sich das anfühlt, wie klein die Welt auf einmal wird und wie sehr du anfängst zu lauschen, statt zu schauen. Und dann, ganz bewusst und in Zeitlupe, leg den Schalter um. Schau dem Raum dabei zu, wie er aus dem Nichts wieder auftaucht. Genau das ist der Moment, den du dir jeden Tag schenkst und den wir viel zu oft übersehen."
+      },
+
+      /* ── 9. Schluss ── */
+      {
+        type: "heading",
+        text: "Bevor du das nächste Mal den Schalter drückst"
+      },
+      {
+        type: "paragraph",
+        text: "Lass es uns noch einmal ganz nah heranholen. Du besitzt etwas, von dem jeder Mensch der Geschichte geträumt hätte. Ludwig der Vierzehnte, der „Sonnenkönig“, ließ in Versailles bei seinen berühmten Festen Tausende Kerzen anzünden, ein kleines Vermögen an Licht, ein Schauspiel für ganz Europa. Und trotzdem saß der mächtigste Mann seiner Zeit im Halbdunkeln und wäre um eine heutige Glühbirne oder LED Lampe heilfroh gewesen."
+      },
+      {
+        type: "paragraph",
+        text: "Du dagegen hast die kleine Sonne in den eigenen vier Wänden. Du legst einen Schalter um, und ein Raum wird heller, als der Sonnenkönig es je für möglich gehalten hat. Es kostet dich fast nichts, es funktioniert jedes Mal und es ist sofort da. Du hast die Nacht zu deinem Angestellten gemacht. Sie kommt nur noch, wenn du sie hereinlässt."
+      },
+      {
+        type: "paragraph",
+        text: "Und das Wunderbare und das Traurige daran sind dasselbe: dass du es nicht merkst. Dass dieses tägliche kleine Wunder so zuverlässig, so leise und so selbstverständlich ist, dass es komplett unter deinem Radar läuft. Du hast die Dunkelheit besiegt, die den Menschen jahrtausendelang Angst gemacht hat. Wir haben in der Zeitlotterie gewonnen und wir sollten das viel öfters feiern!"
+      },
+      {
+        type: "closing",
+        text: "Das nächste Mal, wenn deine Hand wie von selbst an die Wand wandert, halt eine einzige Sekunde inne. Es ist kein bloßer Klick. Es ist ein kleiner Sonnenaufgang, den du selbst bestellst, mitten in der Nacht."
+      },
+
+      /* ── 10. Sechs Fragen zum Nachdenken ── */
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Wann hast du das letzte Mal bewusst wahrgenommen, wie ein Raum hell wird, nur weil du den Schalter drückst?",
+          "Welche Stunden deines Lebens wären ohne künstliches Licht einfach gestrichen und was tust du in genau diesen Stunden am liebsten?",
+          "Wann hast du dich zuletzt im Dunkeln gefürchtet und was hat das Licht in diesem Moment für dich getan?",
+          "Gibt es etwas am sanften Halbdunkel, am Kerzenschein oder am Sternenhimmel, das dir fehlt, seit alles so hell sein kann, wie du willst?",
+          "Für welche andere selbstverständliche Sache in deinem Alltag könntest du heute so dankbar sein wie für das Licht, wenn du nur kurz hinsehen würdest?",
+          "Wie viele Stunden deines gestrigen Tages hätte es ohne künstliches Licht schlicht nicht gegeben und welche davon möchtest du am wenigsten missen?"
+        ]
+      },
+
+      /* ── 11. Podcast Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/8 - Als die Nacht verhandelbar wurde Podcast.mp3",
+        image: "images/chapters/8 - Als die Nacht verhandelbar wurde.jpg",
+        label: "Kapitel 8 - Podcast Folge - Als die Nacht verhandelbar wurde",
+        isPodcast: true
+      }
+    ],
     nextChapterId: null
   },
 
-  /* ── KAPITEL 8: Coming Soon — Die medizinische Versorgung ── */
+  /* ── KAPITEL 9: Coming Soon — Die medizinische Versorgung ── */
   {
     id: "medizin",
     status: "coming-soon",
-    order: 8,
+    order: 9,
     title: "Der stille Lebensretter",
     subtitle: "Impfungen, Antibiotika, Röntgen: Warum wir einer unsichtbaren Revolution täglich das Leben verdanken.",
     topic: "Medizin",
