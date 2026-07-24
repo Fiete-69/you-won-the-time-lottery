@@ -25,11 +25,11 @@
 
 const CHAPTERS = [
 
-  /* ── KAPITEL 1: Das Flugzeug ─────────────────────────────── */
+  /* ── KAPITEL 5: Das Flugzeug ─────────────────────────────── */
   {
     id: "flugzeug",
     status: "published",            // "published" | "coming-soon"
-    order: 1,
+    order: 5,
     title: "Heute hier, Morgen dort (und jeder findet's ganz normal)",
     subtitle: "Wir sitzen in einem Metallrohr, rasen mit 900 km/h durch die Luft und finden das langweilig. Kurz innehalten.",
     topic: "Luftfahrt",
@@ -44,7 +44,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/Fliegen V2.mp3",
         image: "images/chapters/Flugzeug.jpg",
-        label: "Kapitel 1 anhören"
+        label: "Kapitel 5 anhören"
       },
 
       /* ── 1. Ein Gedanke, der einen kurz umhaut ── */
@@ -180,18 +180,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/1 - Fliegen Podcast.mp3",
         image: "images/chapters/Flugzeug.jpg",
-        label: "Kapitel 1 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)",
+        label: "Kapitel 5 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)",
         isPodcast: true
       }
     ],
-    nextChapterId: "glas"
+    nextChapterId: "karten-navigation"
   },
 
-  /* ── KAPITEL 2: Das Glas ─────────────────────────────────── */
+  /* ── KAPITEL 1: Das Glas ─────────────────────────────────── */
   {
     id: "glas",
     status: "published",
-    order: 2,
+    order: 1,
     title: "Das unsichtbare Wunder",
     subtitle: "Es ist überall, aber du siehst es nie. Ein Stück geschmolzener Sand, der die Menschheitsgeschichte umgeschrieben hat.",
     topic: "Alltag",
@@ -206,7 +206,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Text.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 2 anhören"
+        label: "Kapitel 1 anhören"
       },
 
       /* ── 1. Einleitung ── */
@@ -414,18 +414,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Podcast.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 2 - Podcast Folge - Das unsichtbare Wunder",
+        label: "Kapitel 1 - Podcast Folge - Das unsichtbare Wunder",
         isPodcast: true
       }
     ],
     nextChapterId: "musik"
   },
 
-  /* ── KAPITEL 3: Musik ────────────────────────────────────── */
+  /* ── KAPITEL 2: Musik ────────────────────────────────────── */
   {
     id: "musik",
     status: "published",
-    order: 3,
+    order: 2,
     title: "Die universelle Sprache, die auf der ganzen Welt verstanden wird",
     subtitle: "Musik ist \u00FCberall. Sie macht dich traurig, gl\u00FCcklich, nostalgisch und mutig. Manchmal alles gleichzeitig.",
     topic: "Kultur",
@@ -440,7 +440,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Text.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 3 anh\u00F6ren"
+        label: "Kapitel 2 anh\u00F6ren"
       },
 
       /* ── 1. Einleitung ── */
@@ -692,18 +692,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Podcast.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 3 - Podcast Folge - Musik",
+        label: "Kapitel 2 - Podcast Folge - Musik",
         isPodcast: true
       }
     ],
     nextChapterId: "supermarkt"
   },
 
-  /* ── KAPITEL 4: Das Schlaraffenland ───────────────────── */
+  /* ── KAPITEL 3: Das Schlaraffenland ───────────────────── */
   {
     id: "supermarkt",
     status: "published",
-    order: 4,
+    order: 3,
     title: "Das Schlaraffenland gleich um die Ecke",
     subtitle: "Das Beste aus der ganzen Welt, vereint unter einem Dach. Immer verfügbar. Das ganze Jahr. Mehr Auswahl, als jeder Kaiser, König oder Pharao jemals hatte. Und alles liegt für dich bereit, nur wenige Minuten von deiner Haustüre entfernt.",
     topic: "Alltag",
@@ -718,7 +718,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/4 - Supermarkt Text.mp3",
         image: "images/chapters/Supermarkt.jpg",
-        label: "Kapitel 4 anh\u00F6ren"
+        label: "Kapitel 3 anh\u00F6ren"
       },
 
       /* ── 1. Intro ── */
@@ -899,18 +899,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/4 - Supermarkt Podcast.mp3",
         image: "images/chapters/Supermarkt.jpg",
-        label: "Kapitel 4 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
+        label: "Kapitel 3 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
         isPodcast: true
       }
     ],
     nextChapterId: "zeit"
   },
 
-  /* ── KAPITEL 5: Zeit ─────────────────────────────────────── */
+  /* ── KAPITEL 4: Zeit ─────────────────────────────────────── */
   {
     id: "zeit",
     status: "published",
-    order: 5,
+    order: 4,
     title: "Wie ein paar Zeiger uns vor dem totalen Chaos retten",
     subtitle: "Wir wissen jederzeit, wie spät es ist. Was für ein absurder, genialer Trick.",
     topic: "Alltag",
@@ -923,7 +923,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/5 - Zeit Text.mp3",
         image: "images/chapters/Zeit.jpg",
-        label: "Kapitel 5 anhören"
+        label: "Kapitel 4 anhören"
       },
       {
         type: "intro",
@@ -1040,11 +1040,11 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/5 - Zeit Podcast.mp3",
         image: "images/chapters/Zeit.jpg",
-        label: "Kapitel 5 - Podcast Folge - Wie ein paar Zeiger uns vor dem totalen Chaos retten",
+        label: "Kapitel 4 - Podcast Folge - Wie ein paar Zeiger uns vor dem totalen Chaos retten",
         isPodcast: true
       }
     ],
-    nextChapterId: "karten-navigation"
+    nextChapterId: "flugzeug"
   },
 
   /* ── KAPITEL 6: Karten & Navigation ─────────────────────── */
@@ -1654,22 +1654,250 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
-    nextChapterId: null
+    nextChapterId: "medizin"
   },
 
-  /* ── KAPITEL 9: Coming Soon — Die medizinische Versorgung ── */
+  /* ── KAPITEL 9: Der stille Lebensretter ── */
   {
     id: "medizin",
-    status: "coming-soon",
+    status: "published",
     order: 9,
     title: "Der stille Lebensretter",
     subtitle: "Impfungen, Antibiotika, Röntgen: Warum wir einer unsichtbaren Revolution täglich das Leben verdanken.",
     topic: "Medizin",
-    cardImage: "images/chapters/medizin-card.jpg",
-    heroImage: null,
+    cardImage: "images/chapters/9 - Der Stille Lebensretter.jpg",
+    heroImage: "images/hero/9 - Der Stille Lebensretter.jpg",
     accentColor: null,
-    publishDate: null,
-    body: [],
+    publishDate: "2026-07-24",
+    body: [
+
+      /* ── 0. Audio-Player (Text) ── */
+      {
+        type: "audio",
+        src: "audio/9 - Der Stille Lebensretter.mp3",
+        image: "images/chapters/9 - Der Stille Lebensretter.jpg",
+        label: "Kapitel 9 anhören"
+      },
+
+      /* ── 1. Intro ── */
+      {
+        type: "intro",
+        text: "Letzte Woche hast du dich geschnitten. Beim Zwiebelschneiden, an einer Kante Papier, beim Rasieren, ganz egal. Du hast dich kurz geärgert, den Finger unter kaltes Wasser gehalten, ein Pflaster draufgeklebt und die Sache zwei Minuten später wieder vergessen."
+      },
+      {
+        type: "paragraph",
+        text: "Halten wir das einen Moment fest, denn es ist viel größer, als es klingt. Genau dieser Schnitt, dieser lächerliche, alberne, kein bisschen erwähnenswerte Schnitt, hätte dich über fast die gesamte Menschheitsgeschichte umbringen können. Kein Witz. Eine kleine Wunde, ein paar Bakterien, drei Tage Fieber und das war es dann. Tschüss. Du klebst heute ein Pflaster drauf und denkst keine Sekunde länger daran. Das ist kein kleiner Fortschritt. Das ist der ganze Unterschied zwischen tot und kurz geärgert."
+      },
+
+      /* ── 2. Als Medizin vor allem Glück hieß ── */
+      {
+        type: "heading",
+        text: "Als Medizin vor allem Glück hieß"
+      },
+      {
+        type: "paragraph",
+        text: "Über fast die gesamte Geschichte war Medizin ungefähr so zuverlässig wie ein Münzwurf, nur mit schlechteren Quoten. Man glaubte an die vier Körpersäfte, an schlechte Luft, an böse Geister, an die Sterne, an so ziemlich alles außer an das, was tatsächlich half. Wurdest du krank, kam ein Bader, ließ dir zur Ader, verschrieb dir Quecksilber, klebte dir ein paar Blutegel an und riet ansonsten zum Beten. Manchmal wurdest du wieder gesund. Meistens half sich der Körper selbst, oder eben nicht."
+      },
+      {
+        type: "paragraph",
+        text: "Wie gut die beste Medizin der Welt damals war, zeigt sich am besten an denen, die sie sich leisten konnten. Im Dezember 1799 bekam George Washington, der mächtigste Mann Amerikas, eine schwere Halsentzündung. Seine Ärzte taten, was man eben tat und sie taten es gründlich: Innerhalb weniger Stunden zapften sie ihm rund 40 Prozent seines Blutes ab. Dazu Abführmittel und Blasen auf der Haut. Washington starb noch in derselben Nacht. Nicht trotz der Behandlung. Ziemlich sicher auch ein gutes Stück wegen ihr."
+      },
+      {
+        type: "paragraph",
+        text: "Das ist der eigentliche Schock an der Sache. Es ging nicht ums Geld. Der reichste, mächtigste Mensch eines ganzen Landes bekam die beste Behandlung seiner Zeit und sie brachte ihn um. Du dagegen bekommst heute an einem verregneten Dienstagnachmittag beim Hausarzt eine Versorgung, von der ein Washington nicht einmal zu träumen gewagt hätte. Gesundheit war über Jahrtausende nichts, was man kaufen konnte, egal wie voll die Schatzkammer war."
+      },
+
+      /* ── 3. Der Tag, an dem jemand den Schmerz abschaltete ── */
+      {
+        type: "heading",
+        text: "Der Tag, an dem jemand den Schmerz abschaltete"
+      },
+      {
+        type: "paragraph",
+        text: "Lange Zeit war das größte Problem nicht einmal die Krankheit, sondern die Behandlung selbst. Bis weit ins 19. Jahrhundert wurde operiert, während die Patienten bei vollem Bewusstsein waren. Festgeschnallt, einen Lederriemen zwischen den Zähnen, und dann ging es los. Der beste Chirurg war schlicht der schnellste: Der Londoner Robert Liston, genannt „das schnellste Messer im West End“, konnte ein Bein in unter drei Minuten absägen. Schnelligkeit war keine Angeberei. Sie war Gnade. Je kürzer der Schnitt, desto kürzer das Brüllen. Die Schriftstellerin Frances Burney überstand 1811 eine Brustamputation ohne jede Betäubung und beschrieb sie danach so genau, dass man ihren Brief bis heute kaum zu Ende lesen mag."
+      },
+      {
+        type: "paragraph",
+        text: "Und dann, an einem einzigen Morgen, war damit Schluss. Am 16. Oktober 1846, im Massachusetts General Hospital in Boston, führte der Zahnarzt William Morton einen Apparat mit Äther vor. Der Chirurg John Collins Warren schnitt einem schlafenden Patienten einen Tumor aus dem Hals, und der Mann lag einfach da. Kein Schreien. Kein Festhalten. Nichts. Überliefert ist der Satz, den Warren danach ans ungläubige Publikum richtete: „Gentlemen, this is no humbug.“ Meine Herren, das ist kein fauler Zauber. Der Hörsaal, in dem das geschah, heißt bis heute der Äther-Dom."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Das Wort „Anästhesie“ schlug wenig später der Arzt und Dichter Oliver Wendell Holmes vor. Es kommt aus dem Griechischen und bedeutet schlicht „ohne Empfindung“. Selten hat ein Wort so exakt gehalten, was es verspricht.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 4. Wasch dir die Hände, verdammt ── */
+      {
+        type: "heading",
+        text: "Wasch dir die Hände, verdammt"
+      },
+      {
+        type: "paragraph",
+        text: "Schmerzfrei operieren konnte man jetzt. Nur überleben tat man es trotzdem oft nicht, denn nach dem Schnitt kam die Infektion, und die holte sich ihren Anteil. Hier betritt einer der traurigsten Helden der Medizingeschichte die Bühne: Ignaz Semmelweis. 1847 fiel dem ungarischen Arzt in einer Wiener Geburtsklinik etwas Furchtbares auf. In der Abteilung, in der die Ärzte arbeiteten, starben dramatisch mehr Mütter am Kindbettfieber als nebenan bei den Hebammen. Der Grund war so simpel wie grausig: Die Ärzte kamen oft direkt vom Sezieren der Leichen ans Geburtsbett. Ungewaschen."
+      },
+      {
+        type: "paragraph",
+        text: "Semmelweis ordnete an, sich vorher die Hände mit Chlorkalk zu waschen. Die Sterblichkeit fiel von teils 18 Prozent auf rund zwei. Man möchte meinen, man hätte ihm dafür einen Orden umgehängt. Stattdessen wurde er ausgelacht, angefeindet, verlor seine Stelle und starb 1865 verbittert in einer Anstalt. Er hatte recht gehabt, nur ein paar Jahrzehnte zu früh. (Die Wissenschaft kann manchmal eine ziemlich nachtragende Diva sein.)"
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Bis heute gibt es den Begriff „Semmelweis-Reflex“: die reflexhafte Ablehnung einer neuen Erkenntnis, nur weil sie nicht ins gewohnte Weltbild passt. Ein Mann, eine Schüssel Chlorwasser, und ein eigener Fachbegriff fürs Sturköpfigsein.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 5. Eine Schimmelspur rettet einen Polizisten, fast ── */
+      {
+        type: "heading",
+        text: "Eine Schimmelspur rettet einen Polizisten, fast"
+      },
+      {
+        type: "paragraph",
+        text: "Dann kam die Erfindung, die den kleinen Schnitt vom Anfang endgültig harmlos machte. 1928 ließ der Bakteriologe Alexander Fleming aus reiner Schludrigkeit eine Bakterienkultur offen herumstehen. Es bildete sich Schimmel, und rund um den Schimmel war alles Bakterienleben tot. Das war das Penicillin. Es dauerte allerdings noch über ein Jahrzehnt, bis jemand genug davon herstellen konnte."
+      },
+      {
+        type: "paragraph",
+        text: "Wie gewaltig der Sprung war, zeigt der allererste Patient. 1941 lag in Oxford ein Polizist namens Albert Alexander mit einer Blutvergiftung im Sterben, ausgelöst von einer eigentlich harmlosen Wunde. (Die hübsche Geschichte vom Kratzer an einem Rosenstrauch ist übrigens eine Legende. In Wahrheit war es eine Verletzung aus einem Bombenangriff.) Die Ärzte gaben ihm das brandneue Penicillin. Innerhalb von Tagen sank das Fieber, er wachte auf, er aß wieder. Ein Wunder mit Puls. Und dann ging das Penicillin aus. Es gab schlicht nicht genug davon auf der ganzen Welt. Man filterte den Wirkstoff sogar aus seinem Urin zurück, um weitermachen zu können. Es reichte trotzdem nicht. Albert Alexander starb."
+      },
+      {
+        type: "paragraph",
+        text: "Lies das ruhig noch einmal. Er starb nicht, weil das Mittel nicht wirkte. Er starb, weil es zu wenig davon gab. Heute liegt genau dieser Stoff für ein paar Euro in jeder Apotheke."
+      },
+
+      /* ── 6. Eine Kuh besiegt die furchtbarste Seuche der Geschichte ── */
+      {
+        type: "heading",
+        text: "Eine Kuh besiegt die furchtbarste Seuche der Geschichte"
+      },
+      {
+        type: "paragraph",
+        text: "Bleibt der größte Gegner von allen: die Seuche, die ganze Landstriche entvölkerte. Und hier wird die Geschichte fast schon absurd schön. Ende des 18. Jahrhunderts bemerkte der englische Landarzt Edward Jenner etwas Merkwürdiges: Melkerinnen, die sich mit den harmlosen Kuhpocken angesteckt hatten, bekamen nie die tödlichen echten Pocken. 1796 wagte er das Experiment, impfte einen achtjährigen Jungen mit Kuhpocken, und der Junge blieb gegen die Pocken gefeit."
+      },
+      {
+        type: "paragraph",
+        text: "Und damit zum schönsten Sprachfund dieses Kapitels. Das lateinische Wort für Kuh ist „vacca“. Genau von dieser Kuh kommt unser Wort Vakzin, der Impfstoff. Jedes Mal, wenn heute irgendwo auf der Welt von einem Vakzin die Rede ist, in Laboren, in Nachrichten, auf Beipackzetteln, steckt darin eine kleine, längst vergessene englische Kuh aus dem 18. Jahrhundert. Muh."
+      },
+      {
+        type: "paragraph",
+        text: "Das Ende dieser Geschichte ist vielleicht das Großartigste, was unsere Spezies je zustande gebracht hat. Die Pocken töteten allein im 20. Jahrhundert geschätzt 300 Millionen Menschen. Dann begann eine weltweite Impfkampagne. 1977 trat in Somalia der letzte natürliche Fall auf. 1980 erklärte die Weltgesundheitsorganisation die Pocken für ausgerottet."
+      },
+      {
+        type: "pullquote",
+        text: "**Fun Fact:** Die Pocken sind bis heute die einzige menschliche Infektionskrankheit, die je vollständig von der Erde getilgt wurde. Eine Geißel, die dreitausend Jahre lang Kaiser und Bettler gleichermaßen dahinraffte, existiert heute nur noch tiefgekühlt in zwei Hochsicherheitslaboren. Sonst nirgendwo.",
+        attribution: "You won the Time Lottery"
+      },
+
+      /* ── 7. Was uns dieses unsichtbare Netz eigentlich schenkt ── */
+      {
+        type: "heading",
+        text: "Was uns dieses unsichtbare Netz eigentlich schenkt"
+      },
+      {
+        type: "paragraph",
+        text: "Rechnen wir kurz zusammen, was hier in gerade einmal rund 150 Jahren passiert ist. Über fast die gesamte Menschheitsgeschichte starb, je nach Ort und Zeit, etwa jedes vierte bis fast jedes zweite Kind, bevor es überhaupt fünf Jahre alt wurde. Lass diese Zahl einen Moment sacken. Fast die Hälfte. In jeder Familie, auf jedem Dorffriedhof, in jeder Generation. Heute liegt diese Zahl in Deutschland unter einem halben Prozent."
+      },
+      {
+        type: "paragraph",
+        text: "Das ist die eigentliche Nachricht hinter all diesen Geschichten. Es geht nicht nur darum, dass du nicht mehr an einem Schnitt im Finger stirbst. Es geht darum, dass deine Kinder mit überwältigender Wahrscheinlichkeit erwachsen werden. Dass eine Geburt heute meist ein freudiges Ereignis ist und kein offenes Lebensrisiko für Mutter und Kind. Dass Zahnweh ärgerlich ist und nicht potenziell tödlich. Wir sind die erste Epoche der Menschheit, in der all das der Normalfall ist und nicht das große Glück."
+      },
+
+      /* ── 8. Was, wenn das Netz plötzlich reißt ── */
+      {
+        type: "heading",
+        text: "Was, wenn das Netz plötzlich reißt"
+      },
+      {
+        type: "paragraph",
+        text: "Stell dir vor, all das wäre morgen früh verschwunden. Nicht die Handys, nicht das Internet, nicht der Strom, sondern nur dieses eine, unsichtbare Netz: die Medizin. Kein Penicillin mehr. Keine Narkose. Keine Impfung. Niemand, der sich vor einer Geburt die Hände wäscht."
+      },
+      {
+        type: "paragraph",
+        text: "Jeder Schnitt wäre wieder ein Glücksspiel. Jede Geburt ein Bangen. Jede verschleppte Mandelentzündung könnte dein letzter Husten sein. Du würdest nicht in einer ärmeren Version unserer Welt aufwachen. Du würdest in genau der Welt aufwachen, in der fast alle deine Vorfahren gelebt und viel zu oft gestorben sind. Diese Welt ist der Normalfall der Geschichte. Unsere ist die seltene, wundersame Ausnahme."
+      },
+
+      /* ── 9. Ein Blick ins Innere, ganz ohne Schnitt ── */
+      {
+        type: "heading",
+        text: "Ein Blick ins Innere, ganz ohne Schnitt"
+      },
+      {
+        type: "paragraph",
+        text: "Und dann ist da noch etwas, das die alten Bader endgültig vor Neid hätte erblassen lassen: Wir können heute in einen lebenden Menschen hineinschauen, ohne ihn auch nur ein Haar zu krümmen. Das Röntgenbild war erst der Anfang. Beim Kernspin, dem MRT, schiebt man dich in eine Röhre, die im Grunde ein gewaltiger Magnet ist. Der bringt für einen Moment die Wasserstoffatome in deinem Körper durcheinander, hört ihnen beim Zurückkippen zu und setzt aus diesem Flüstern ein Bild zusammen, auf dem man zum Beispiel deine Bandscheibe erkennt, als hätte jemand durch Zauberei in dich hineingesehen."
+      },
+      {
+        type: "paragraph",
+        text: "In der modernen Medizin gibt es Untersuchungsmethoden, die nach Sciencefiction klingen und die vor wenigen Jahrzehnten noch unvorstellbar waren. Schon einmal was von dem sperrigen Namen Positronen-Emissions-Tomographie, kurz PET, gehört? Halt dich kurz fest, denn das klingt wirklich wie aus einem Science-Fiction-Film und ist trotzdem ganz normaler Klinikalltag. Man spritzt dir eine winzige Menge einer leicht strahlenden Zuckerlösung. Dieser Zucker zerfällt in dir und schickt dabei Positronen los und ein Positron ist nichts anderes als ein Anti-Elektron, echte Antimaterie, genau der Stoff, um den in jedem Weltraumfilm so ein Getöse gemacht wird. Trifft so ein Positron auf eines der Elektronen in deinem Gewebe, löschen die beiden sich gegenseitig aus und senden zwei winzige Gammablitze aus. Der Scanner fängt Millionen dieser Blitze ein und malt daraus eine Karte deines Inneren, auf der man sieht, wo besonders viel Zucker verbraucht wird. Und weil Tumore gierige kleine Zuckerfresser sind, leuchten sie auf dieser Karte auf wie Städte bei Nacht. Was für ein Wunder der Medizin."
+      },
+      {
+        type: "paragraph",
+        text: "Lass das einen Moment sacken. Wir lassen tief in deinem Körper kontrolliert Materie und Antimaterie aufeinanderprallen, nur um einen Krebs zu finden, der so klein ist, dass ihn kein Mensch je spüren würde. Keine Generation vor uns, kein Kaiser, kein König, kein Pharao hatte nur annähernd die gleiche medizinische Versorgung wie wir heute."
+      },
+
+      /* ── 10. Reflexion ── */
+      {
+        type: "heading",
+        text: "Eine kleine Reflexion über das Schweigen"
+      },
+      {
+        type: "paragraph",
+        text: "Es gibt einen guten Grund, warum wir dieses ganze Wunder so selten bemerken, und der französische Chirurg René Leriche hat ihn 1936 unübertroffen schön auf den Punkt gebracht:"
+      },
+      {
+        type: "pullquote",
+        text: "Gesundheit ist das Leben im Schweigen der Organe.",
+        attribution: "René Leriche, 1936"
+      },
+      {
+        type: "paragraph",
+        text: "Solange alles funktioniert, schweigt dein Körper. Du spürst dein Herz nicht, deine Leber nicht, deine Nieren nicht, deinen kleinen Zeh nicht. Erst wenn etwas wehtut, meldet sich das Organ zu Wort, und plötzlich denkst du an nichts anderes mehr. Genau deshalb übersehen wir die Medizin so beharrlich: Ihr größtes Geschenk ist ein Nichts. Eine Abwesenheit. Das Fieber, das gar nicht erst kommt. Der Schmerz, der ausbleibt. Das Kind, das nicht stirbt. Und man kann nun einmal schwer dankbar sein für etwas, das man dank ihr niemals erleben muss."
+      },
+
+      /* ── 11. Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Ein kleiner Test für den nächsten Schnitt"
+      },
+      {
+        type: "paragraph",
+        text: "Das nächste Mal, wenn du dich schneidest, eine Tablette schluckst oder gelangweilt im Wartezimmer sitzt und auf deinen Namen wartest, halt eine einzige Sekunde inne. Schau dir das Pflaster an. Die kleine Pille in deiner Hand. Die Tür, durch die gleich jemand kommt, der weiß, was mit dir los ist. Genau das hier, diese Hilfe, dieses Wissen, diese Medizin, das hatte über Tausende von Jahren keiner, kein König, kein Kaiser, absolut niemand. Dich rettet es heute so nebenbei, dass es uns fast nicht mehr auffällt."
+      },
+
+      /* ── 12. Schluss ── */
+      {
+        type: "heading",
+        text: "Bevor du das nächste Mal ein Pflaster aufklebst"
+      },
+      {
+        type: "closing",
+        text: "Holen wir es zum Schluss noch einmal ganz nah heran. Du trägst einen Körper durch die Welt, der verletzlich ist. Der Unterschied zwischen dir und fast jedem Menschen, der je vor dir gelebt hat, ist nicht, dass dein Körper robuster wäre. Er ist genauso verletzlich wie eh und je. Der ganze Unterschied ist, dass um dich herum ein unsichtbares Netz gespannt ist, das dich auffängt, wenn du fällst. Und das dir vielleicht schon das Leben gerettet hat. Ohne, dass du es überhaupt bemerkt hast."
+      },
+
+      /* ── 13. Sechs Fragen zum Nachdenken ── */
+      {
+        type: "heading",
+        text: "Sechs Fragen zum Nachdenken"
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Wann hattest du zuletzt eine Verletzung oder Krankheit, die in einem anderen Jahrhundert lebensgefährlich gewesen wäre, und wie selbstverständlich bist du damit umgegangen?",
+          "Welche Menschen in deinem Leben wären ohne moderne Medizin vermutlich nicht mehr da oder nie geboren worden?",
+          "Wann hast du dich zuletzt über einen Arztbesuch oder ein volles Wartezimmer geärgert, statt kurz zu staunen, dass es sie überhaupt gibt?",
+          "Würdest du anders durch das Leben gehen, wenn es keine moderne Medizin gäbe und wenn du wüsstest, dass jede Infektion dir das Leben kosten könnte? Und wie fantastisch ist es bitte, dass wir uns darüber keine großen Gedanken machen müssen.",
+          "Stell dir vor, du dürftest einmal in deinen eigenen Körper hineinsehen wie auf einem MRT-Bild: Was würdest du dort am liebsten überprüfen, und wovor hättest du am meisten Angst?",
+          "Wenn du den Menschen, die dieses unsichtbare Netz über Generationen geknüpft haben, einen einzigen Satz sagen könntest, welcher wäre das?"
+        ]
+      },
+
+      /* ── 14. Podcast Audio Player ── */
+      {
+        type: "audio",
+        src: "audio/9 - Der Stille Lebensretter Podcast.mp3",
+        image: "images/chapters/9 - Der Stille Lebensretter.jpg",
+        label: "Kapitel 9 - Podcast Folge - Der stille Lebensretter",
+        isPodcast: true
+      }
+    ],
     nextChapterId: null
   }
 
