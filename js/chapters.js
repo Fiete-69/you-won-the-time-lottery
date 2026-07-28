@@ -30,8 +30,8 @@ const CHAPTERS = [
     id: "flugzeug",
     status: "published",            // "published" | "coming-soon"
     order: 5,
-    title: "Heute hier, Morgen dort (und jeder findet's ganz normal)",
-    subtitle: "Wir sitzen in einem Metallrohr, rasen mit 900 km/h durch die Luft und finden das langweilig. Kurz innehalten.",
+    title: "Heute hier, morgen dort",
+    subtitle: "Über drei Jahre Weltumsegelung, einen Piloten mit zwei Streifen Kaugummi und die Frechheit, die Erde auf einen einzigen Tag zusammenzufalten.",
     topic: "Luftfahrt",
     cardImage: "images/chapters/Flugzeug.jpg",
     heroImage: "images/hero/Fliegen.png",
@@ -39,159 +39,221 @@ const CHAPTERS = [
     publishDate: "2026-03-15",
     body: [
 
-      /* ── 0. Audio Player ── */
+      /* ── 0. Audio Player (Text) ── */
       {
         type: "audio",
-        src: "audio/Fliegen V2.mp3",
+        src: "audio/1 - Fliegen V2.mp3",
         image: "images/chapters/Flugzeug.jpg",
         label: "Kapitel 5 anhören"
       },
 
-      /* ── 1. Ein Gedanke, der einen kurz umhaut ── */
+      /* ── 1. Intro ── */
       {
         type: "intro",
-        text: "Stell dir vor, du erklärst deiner Urgroßmutter, dass du morgen früh in Frankfurt frühstückst und abends Sushi in Tokio isst. Sie würde dich mit verdrehten Augen ansehen und würde denken, dass du den Verstand verloren hast. Und weißt du was? Sie hätte nicht mal Unrecht. Denn vor wenigen Generationen war das Szenario noch undenkbar."
+        text: "Am 20. September 1519 verließen fünf Schiffe den spanischen Hafen Sanlúcar de Barrameda, an Bord rund 270 Männer unter dem Kommando von Ferdinand Magellan. Der Auftrag: einmal um die Welt. Drei Jahre später, am 6. September 1522, kehrte ein einziges dieser Schiffe zurück, die Victoria, und von den 270 Männern gingen 18 an Land. Magellan selbst war nicht dabei, er war auf den Philippinen erschlagen worden. Eine Erdumrundung kostete damals drei Jahre Lebenszeit und mit hoher Wahrscheinlichkeit das Leben."
       },
       {
         type: "paragraph",
-        text: "Was wir heute als völlig \u201Enormalen\u201C Dienstag betrachten: Koffer packen, zum Flughafen fahren, einsteigen, schlafen, aufwachen, andere Seite der Welt. Objektiv betrachtet ist das eines der verrücktesten Dinge, die die Menschheit je hingekriegt hat. Wir sitzen in einem **70 Tonnen schweren Metallrohr**, das mit **900 Stundenkilometern** in **zehn Kilometern Höhe** durch die Luft rast, trinken dabei Tomatensaft (warum eigentlich immer Tomatensaft?) und finden das alles sogar oft langweilig."
+        text: "Heute buchst du dieselbe Runde als Kette von Linienflügen und hast sie in gut zwei Tagen hinter dir. Das größte Risiko dabei: dass der Anschluss in Doha zu knapp ist und dein Koffer eigenständig nach Lissabon weiterreist."
+      },
+      {
+        type: "paragraph",
+        text: "Erzähl das mal deiner Urgroßmutter. Erzähl ihr, dass du morgen früh in Frankfurt frühstückst und abends in Tokio Sushi isst. Sie würde dich lange ansehen und dir dann sagen, dass du verrückt geworden bist. Und ganz ehrlich: Sie hätte nicht mal unrecht. Wir sitzen in einem **70 Tonnen schweren Metallrohr**, das mit **900 Stundenkilometern** durch eine Luft rast, die zehn Kilometer über dem Boden so dünn und mit minus 50 Grad so kalt ist, dass wir dort draußen in kurzer Zeit sterben würden. Und wir sitzen gemütlich in unserem Sitz, schauen ein paar Filme an, langweilen uns und fragen uns, wann wir endlich da sind."
+      },
+
+      /* ── 2. Zwölf Sekunden, die alles verändert haben ── */
+      {
+        type: "heading",
+        text: "Zwölf Sekunden, die alles verändert haben"
+      },
+      {
+        type: "paragraph",
+        text: "Über die längste Zeit unserer Geschichte war der Mensch das einzige Wesen auf diesem Planeten, das unbedingt fliegen wollte und es einfach nicht konnte. Vögel: kein Problem. Insekten: easy. Menschen: nein, sagt die Schwerkraft. Die Sehnsucht blieb trotzdem. Ikarus flog der Sonne entgegen, wir alle kennen das Ende. Leonardo da Vinci zeichnete im 15. Jahrhundert Flugmaschinen, die seiner Zeit um Jahrhunderte voraus waren und leider auch der Materialkunde seiner Zeit."
+      },
+      {
+        type: "paragraph",
+        text: "Am **17. Dezember 1903** war es dann so weit. In Kitty Hawk, North Carolina, hob eine Konstruktion aus Holz, Draht und Stoff vom Boden ab, gebaut von zwei Fahrradhändlern aus Ohio. Der erste Flug dauerte **zwölf Sekunden** und deckte rund 36 Meter ab. Halt dir diese Zahl einen Moment vor Augen. Die gesamte erste Flugstrecke der Menschheitsgeschichte war kürzer als die Spannweite eines heutigen Airbus A380, der auf knapp 80 Meter kommt. Der erste Flug der Welt hätte nicht einmal an einem modernen Großraumjet vorbeigereicht."
+      },
+      {
+        type: "paragraph",
+        text: "Und dann ging es schnell. So schnell, dass Menschen, die als Kinder von diesem Holzgestell in der Zeitung lasen, als Rentner mit einem Düsenjet über den Atlantik flogen. Ein einziges Menschenleben, vom Hüpfer im Sand bis zum Linienflug nach New York."
+      },
+
+      /* ── 3. Warum dein Pilot eigentlich ein Seemann ist ── */
+      {
+        type: "heading",
+        text: "Warum dein Pilot eigentlich ein Seemann ist"
+      },
+      {
+        type: "paragraph",
+        text: "Als die Fliegerei kam, fehlten für das Neue schlicht die Wörter. Also hat sich die Luftfahrt bedient und zwar dort, wo man sich mit dem Transport von Menschen über große Entfernungen auskannte: bei der Seefahrt. Deshalb reden wir bis heute vom Kapitän und der Crew, gehen an Bord, sitzen in der Kabine, zeigen unsere Bordkarte und starten von einem Flughafen. Ein Hafen. Für Flugzeuge."
+      },
+      {
+        type: "paragraph",
+        text: "Am schönsten ist es beim Piloten. Das Wort kommt über das Italienische aus dem mittelalterlichen Griechischen und geht zurück auf „pedon“, das Steuerruder. Ein Pilot war ursprünglich der Mann, der ein Schiff durch enge Hafeneinfahrten steuerte. Und das Cockpit war noch früher etwas ganz anderes: die Grube, in der Hahnenkämpfe stattfanden, später der enge Steuerstand kleiner Boote. Der Mensch, der dich mit 900 Stundenkilometern über den Atlantik bringt, heißt also wörtlich „der mit dem Ruder“ und sitzt sprachlich in einer Hahnenkampfgrube. Wir haben die Schiffe in den Himmel gehoben und einfach vergessen, die Wörter zu wechseln."
       },
       {
         type: "pullquote",
-        text: "Wir haben verlernt, staunend aus dem Fenster zu schauen. Dabei **fliegen wir**. *Wir. Fliegen. Einfach so.*",
+        text: "**Fun Fact:** Der kürzeste Linienflug der Welt verbindet die schottischen Orkney-Inseln Westray und Papa Westray, 2,7 Kilometer Luftlinie. Planmäßig dauert er gut anderthalb Minuten, der Rekord liegt bei 53 Sekunden. Die Strecke wird seit 1967 bedient, und sie ist kein Gag. Bei rauem Wetter ist das Meer dazwischen mit dem Boot schlicht nicht zu machen.",
         attribution: "You won the Time Lottery"
       },
 
-      /* ── 2. Hintergrund & Geschichte ── */
+      /* ── 4. Zwei Streifen Kaugummi für dreißig Kinder ── */
       {
         type: "heading",
-        text: "Wie wir vom Boden losgekommen sind"
+        text: "Zwei Streifen Kaugummi für dreißig Kinder"
       },
       {
         type: "paragraph",
-        text: "Jahrtausende lang war der Mensch das einzige Wesen auf diesem Planeten, das unbedingt fliegen wollte, aber es einfach nicht konnte. Vögel: kein Problem. Insekten: easy. Menschen: nope, Schwerkraft sagt nein."
+        text: "Berlin, Sommer 1948. Die Stadt ist blockiert, alle Land- und Wasserwege in die Westsektoren sind gesperrt, und zweieinhalb Millionen Menschen hängen an einer einzigen Nabelschnur. Flugzeugen, die im Minutentakt in Tempelhof landen. Einer der Piloten ist Gail Halvorsen, 27 Jahre alt, aus Utah. An einem Julitag steht er nach seiner Schicht am Zaun des Flughafens, wo etwa dreißig Kinder stehen und den Maschinen zusehen. Sie betteln nicht. Sie fragen ihn Löcher in den Bauch, über die Flugzeuge, über Amerika."
       },
       {
         type: "paragraph",
-        text: "Die Sehnsucht war trotzdem immer da. **Ikarus** flog der Sonne entgegen, und wir alle kennen das Ende. *(Spoiler: schlecht ausgegangen.)* **Leonardo da Vinci** zeichnete im 15. Jahrhundert Flugmaschinen, die seiner Zeit um Jahrhunderte voraus waren."
+        text: "Halvorsen hat zwei Streifen Kaugummi in der Tasche. Zwei, für dreißig Kinder. Er teilt sie durch den Zaun, und die Kinder, die nichts abbekommen haben, reißen sich das Papier in Stücke und riechen daran. Diese Szene lässt ihn nicht los. Er verspricht ihnen, beim nächsten Anflug etwas abzuwerfen und auf die Frage, woran sie ihn erkennen würden, sagt er: Ich wackle mit den Flügeln."
       },
       {
         type: "paragraph",
-        text: "Dann kamen **die Gebrüder Wright**. **1903**, in Kitty Hawk, North Carolina, hob ein Flugzeug zum ersten Mal kontrolliert ab, für ganze **zwölf Sekunden**. Zwölf Sekunden! Eine kurze Zeit, aber ein gewaltiger Schritt für die Menschheit."
+        text: "Aus Taschentüchern werden Mini-Fallschirme, an ihnen hängen Schokolade und Kaugummi. Erst zahlt Halvorsen aus der eigenen Tasche, dann machen die Kameraden mit, dann die Süßwarenindustrie in den USA. Aus der privaten Idee wird die Operation Little Vittles, über 23 Tonnen Süßigkeiten an rund 250.000 kleinen Fallschirmen. Die Kinder tauften ihn „Onkel Wackelflügel“, und für die Berliner heißen die Maschinen bis heute Rosinenbomber."
       },
       {
         type: "paragraph",
-        text: "Innerhalb *weniger Jahrzehnte* entwickelte sich aus diesem wackeligen Holzgestell mit Propeller das moderne Passagierflugzeug. Und plötzlich war die Welt eine andere. Nicht kleiner, aber *erreichbarer*."
+        text: "Man muss sich das einmal auf der Zunge zergehen lassen. Drei Jahre nach Kriegsende. Dieselbe Sorte Flugzeug, die kurz zuvor über dieser Stadt Bomben abgeworfen hat, wirft jetzt Kaugummi ab, geworfen von einem Mann, dessen Land bis eben der Feind war. Und darunter stehen Kinder und schauen nach oben. Wenn du wissen willst, was Fliegen mit Menschen machen kann, brauchst du eigentlich keine weitere Geschichte."
+      },
+
+      /* ── 5. Wie die Erde auf einen Tag geschrumpft ist ── */
+      {
+        type: "heading",
+        text: "Wie die Erde auf einen Tag geschrumpft ist"
+      },
+      {
+        type: "paragraph",
+        text: "Was das Flugzeug der Welt gebracht hat, ist nicht in erster Linie Geschwindigkeit. Es ist Erreichbarkeit. Vor dem Flugzeug war Entfernung ein Urteil. Wer nach Australien ging, verabschiedete sich für eine halbe Ewigkeit und die Familie wusste das. Briefe brauchten Monate, ein Wiedersehen war für die meisten nicht sicher. Heute ist Entfernung nur noch ein Preis und eine Zahl Stunden. Es gibt auf diesem Planeten kaum einen bewohnten Ort, den du nicht binnen eines Tages erreichen kannst. Lies den Satz ruhig zweimal. Jeden bewohnten Punkt dieser Erde. Innerhalb eines Tages."
+      },
+      {
+        type: "paragraph",
+        text: "Am 24. Juni 1939 startete das erste planmäßige Passagierflugzeug über den Atlantik, ein Flugboot von Pan American, die „Yankee Clipper“. Ein Ticket kostete **375 Dollar** einfach und 675 hin und zurück. Das entspricht heute grob **8.500 Dollar**, und für einen normalen Arbeiter waren das damals mehrere Monatslöhne. Fliegen war exakt das, wonach es klingt, etwas für sehr reiche Leute. Heute bekommst du Frankfurt nach New York und zurück für ein paar hundert Euro, also für ein paar Arbeitstage. Der Ozean, der Magellans Männer drei Jahre und fast das Leben kostete, ist heute ein Wochenendtrip mit Beinfreiheitsaufpreis."
+      },
+      {
+        type: "paragraph",
+        text: "Und die Dimension dahinter ist kaum zu fassen. Während du diesen Satz liest, sind weltweit rund **10.000 Flugzeuge** in der Luft, mit etwa **einer Million Menschen** an Bord. Eine komplette Großstadt, permanent, rund um die Uhr, über deinem Kopf. Pro Jahr steigen über vier Milliarden Passagiere ein. Magellans Flotte brauchte für eine Erdumrundung drei Jahre und verlor dabei 252 von 270 Männern. Heute landen in der Zeit, die du zum Lesen dieser Seite brauchst, irgendwo auf der Welt ein paar tausend Menschen wohlbehalten auf festem Boden."
       },
       {
         type: "pullquote",
-        text: "**Fun Fact:** Der kürzeste kommerzielle Flug der Welt dauert gerade einmal **57 Sekunden**. Er verbindet zwei schottische Inseln, die nur 2,7 Kilometer auseinanderliegen. Warum überhaupt fliegen? Weil das raue Meer oft keine Bootsfahrt erlaubt.",
+        text: "**Fun Fact:** Die erste Stewardess der Welt trat am 15. Mai 1930 ihren Dienst an. Ellen Church war Krankenschwester und wollte eigentlich Pilotin werden. Als daraus nichts wurde, überzeugte sie eine Fluggesellschaft, Krankenschwestern an Bord zu schicken, weil das die Passagiere beruhigen würde. Der Beruf der Flugbegleiterin entstand also aus einer abgelehnten Bewerbung.",
         attribution: "You won the Time Lottery"
       },
 
-      /* ── 3. Warum es unser Leben bereichert ── */
+      /* ── 6. Was passiert, wenn sich die Welt trifft ── */
       {
         type: "heading",
-        text: "Konkret, überdreht und ehrlich: Was das Fliegen bedeutet"
+        text: "Was passiert, wenn sich die Welt trifft"
       },
       {
         type: "paragraph",
-        text: "Lass uns kurz innehalten und uns vorstellen, wie die Welt *ohne* Flugzeuge aussähe."
+        text: "Manche Dinge gäbe es ohne Flugzeug schlicht nicht. Eine Fußball-Weltmeisterschaft zum Beispiel. Als 2014 in Brasilien gespielt wurde, reisten in vier Wochen rund eine Million Menschen aus 203 Ländern an. Ohne Flugzeug ginge diese Zahl gegen null, denn niemand nimmt eine sechswöchige Schiffspassage auf sich, um seine Mannschaft im Achtelfinale untergehen zu sehen. Eine WM ist erst durch das Flugzeug das geworden, was sie ist, der eine Moment, in dem die halbe Welt an einem Ort steht und dasselbe brüllt, nur in achtzig Sprachen."
       },
       {
         type: "paragraph",
-        text: "*Stell dir vor: Du willst deine Freundin in Neuseeland besuchen. Ohne Flugzeug.* Du packst deinen Koffer, buchst eine Schiffsreise, verabschiedest dich von deiner Familie, die ahnt, dass sie dich eine Weile nicht sehen wird, und schaukelst dann **wochenlang** über den Ozean. Wenn du ankommst, bist du seekrank, bärtig und hast hoffentlich noch nicht vergessen, warum du überhaupt gefahren bist. Deine Freundin hat aber inzwischen einen Neuseeländer geheiratet und die ganze Reise war für die Katz."
+        text: "Dann sind da die Dinge, die in keiner Statistik auftauchen. Eine Großmutter, die aus dem Flugzeug steigt und zum ersten Mal ein Kind auf den Arm nimmt, das auf einem anderen Kontinent geboren wurde. Jemand, der nach einem Anruf um drei Uhr nachts am nächsten Abend am richtigen Krankenbett sitzt. Zwei Menschen aus zwei Ländern, die sich in einem dritten kennenlernen und daraus ein gemeinsames Leben bauen. Vor hundertfünfzig Jahren war jede einzelne dieser Geschichten schlicht nicht vorgesehen. Dazu das Unspektakuläre, das nur klappt, weil etwas fliegt. Ärzte, Zelte und Wasserfilter, die binnen Stunden im Erdbebengebiet stehen. Eine Kühlbox mit einem Spenderorgan, die nachts quer durch Europa fliegt, weil ein Mensch am anderen Ende genau dieses Herz braucht und genau heute."
       },
       {
         type: "paragraph",
-        text: "Stattdessen: Du buchst einen Flug, schläfst ein bisschen, schaust zwei Filme, isst ein Fertiggericht, das du zuhause nie anfassen würdest, und landest **24 Stunden später** am anderen Ende der Welt. Frisch genug, um direkt zum Strand zu fahren."
+        text: "Und manchmal verschiebt das Flugzeug ganze Esskulturen. Im August 1972 löste Japan Airlines ein simples Logistikproblem. Die Frachtmaschinen brachten japanische Elektronik nach New York und flogen fast leer zurück. Also füllte man die Laderäume mit etwas, das an der amerikanischen Ostküste damals als minderwertig galt und oft als Tierfutter endete, Blauflossen-Thunfisch. In Tokio war genau dieser Fisch eine Delikatesse. Aus leeren Frachträumen wurde der weltweite Thunfischhandel und aus einem japanischen Gericht wurde etwas, das du heute an jeder zweiten Ecke bekommst. Dass in deiner Stadt jemand Sushi verkauft, hat also auch damit zu tun, dass ein paar Flugzeuge nicht leer nach Hause fliegen wollten."
+      },
+
+      /* ── 7. Stell dir vor, alle Flugzeuge bleiben am Boden ── */
+      {
+        type: "heading",
+        text: "Stell dir vor, alle Flugzeuge bleiben am Boden"
       },
       {
         type: "paragraph",
-        text: "Das Flugzeug hat nicht nur Reisen möglich gemacht, es hat die Art verändert, wie wir *die Welt denken*. Kontinente, die früher für die meisten Menschen abstrakte Begriffe auf einer Landkarte waren, sind heute Reiseziele. **Bangkok. Buenos Aires. Kapstadt. Reykjavik.** Alles erreichbar. Alles real."
-      },
-      {
-        type: "paragraph",
-        text: "Familien, die über Kontinente verteilt leben, können sich trotzdem sehen und umarmen. Kulturen begegnen sich. Menschen lernen, dass \u201Edie anderen\u201C gar nicht so anders sind. Und manchmal lernt man auch, dass das Essen in Vietnam tatsächlich *besser* ist als das, was man zuhause als \u201Evietnamesisch\u201C bezeichnet hat."
+        text: "Stell dir vor, ab morgen fliegt nichts mehr. Kein Verbot, keine Katastrophe, die Dinger funktionieren einfach nicht mehr. Deine Freundin in Neuseeland willst du trotzdem besuchen. Du buchst eine Schiffspassage, verabschiedest dich von Leuten, die dich eine ganze Weile nicht sehen werden und schaukelst wochenlang über den Ozean. Bis du angekommen bist hast du einen Vollbart und hast hoffentlich nicht vergessen, warum du überhaupt losgefahren bist. Die Weltmeisterschaft findet ohne auswärtige Fans statt. Der Auslandssemester-Plan deiner Tochter wird zur Auswanderung. Die Großmutter in Kanada sieht ihre Enkel auf Fotos. Das Spenderorgan erreicht den Patienten nicht. Und die Welt, die eben noch bequem in einen Tag passte, wird wieder das, was sie für den größten Teil der Menschheitsgeschichte war: unfassbar groß."
       },
       {
         type: "pullquote",
-        text: "**Fun Fact:** Jeden Tag sind weltweit rund **100.000 Flüge** in der Luft, das sind etwa **10 Millionen Menschen** gleichzeitig, die irgendwo zwischen Himmel und Erde hängen. Die längste Nonstop-Strecke der Welt verbindet Singapur mit New York: *knapp 19 Stunden in der Luft.*",
+        text: "**Fun Fact:** Das Rätsel, warum im Flugzeug ausgerechnet Tomatensaft angeblich so gut schmeckt, hat das Fraunhofer-Institut für Bauphysik im Auftrag der Lufthansa untersucht. Ergebnis: Am Boden schnitt der Saft schlecht ab und wurde als muffig beschrieben, im simulierten Kabinendruck dagegen als fruchtig und frisch. Der niedrige Druck und die trockene Luft dämpfen Süßes und Salziges, den herzhaften Umami-Geschmack der Tomate aber kaum. Du bist also nicht seltsam. Du bist Physik.",
         attribution: "You won the Time Lottery"
       },
 
-      /* ── 4. Kleine Reflexion ── */
+      /* ── 8. Eine Errungenschaft, die auch Nachteile mit sich bringt ── */
       {
         type: "heading",
-        text: "Ein echter Denkanstoß"
+        text: "Eine Errungenschaft, die auch Nachteile mit sich bringt"
       },
       {
         type: "paragraph",
-        text: "Wir reden viel darüber, was uns das Fliegen kostet: an Geld, an CO₂, an Nerven beim Check-in. Das sind echte Gespräche, die wir führen müssen. Aber manchmal vergessen wir dabei, was es uns *gibt*."
+        text: "Dass wir übers Fliegen streiten, gehört dazu und zwar zu Recht. Übers Klima, über Kurzstrecken, die ein Zug besser könnte, über Städte unter Einflugschneisen. Diese Gespräche sind nicht das Gegenteil von Staunen. Man darf etwas ernsthaft in Frage stellen und trotzdem begreifen, wie unglaublich es ist."
+      },
+
+      /* ── 9. Mini-Alltags-Test ── */
+      {
+        type: "heading",
+        text: "Ein kleiner Test für den nächsten Kondensstreifen"
+      },
+      {
+        type: "paragraph",
+        text: "Wenn du das nächste Mal einen Kondensstreifen am Himmel siehst, bleib zwei Sekunden stehen. Da oben, zehn Kilometer über dir, sitzen gerade etwa 200 bis 300 Menschen in einem Sessel. Jemand schläft mit offenem Mund, jemand fliegt zu einem geliebten Menschen, jemand sieht gleich zum ersten Mal ein Land, von dem er sein Leben lang geträumt hat. Und wenn du es genau wissen willst. Eine Flugradar-App zeigt dir zu genau diesem Streifen am Himmel, welcher Flug das ist, wo er gestartet ist und wo er landen wird. Halte nur für ein paar Sekunden inne und überlege dir, wie verrückt dieses Szenario für die Menschen ein paar Generationen vor dir geklungen hätte."
+      },
+
+      /* ── 10. Schluss ── */
+      {
+        type: "heading",
+        text: "Bevor du das nächste Mal einsteigst"
+      },
+      {
+        type: "paragraph",
+        text: "Fünfhundert Jahre liegen zwischen Magellans Victoria und deiner Bordkarte. Dazwischen, zwei Fahrradhändler mit einem Holzgestell, ein Pilot, der Kaugummi an Taschentüchern abwarf, eine abgelehnte Bewerberin, die den Beruf der Flugbegleiterin erfand, und Millionen Menschen, die Türme besetzen, Triebwerke prüfen und nachts Radarschirme beobachten, damit du sicher ankommst."
       },
       {
         type: "pullquote",
-        text: "Es gibt uns die Welt. Nicht als Bild im Reiseprospekt. Nicht als Doku auf Netflix. Sondern *wirklich*. Leibhaftig, mit allen Gerüchen, Geräuschen und Geschmäckern.",
-        attribution: "You won the Time Lottery"
+        text: "Zu unserer Befreiung genügt es, daß man uns dazu verhilft, ein Ziel zu erkennen, das uns mit anderen Menschen verbindet.",
+        attribution: "Antoine de Saint-Exupéry"
       },
       {
         type: "paragraph",
-        text: "Das Salz der Meeresluft in **Lissabon**. Der Lärm eines Marktplatzes in **Marrakesch**. Die Stille eines Reisfeldes in **Japan** bei Sonnenaufgang."
-      },
-      {
-        type: "paragraph",
-        text: "Das Flugzeug ist kein Wunder mehr für uns, aber *vielleicht sollte es das wieder sein*. Zumindest für einen kurzen Moment, wenn wir das nächste Mal abheben und die Erde unter uns kleiner wird."
+        text: "Genau das tut ein Flugzeug. Es bringt dich nicht einfach woandershin. Es bringt dich zu anderen Menschen. Zu deiner Schwester in Kanada, zu einem Markt in Marrakesch, zu einem Stadion voller Fremder, die dieselbe Hymne singen wie du."
       },
       {
         type: "closing",
-        text: "Dann kurz die Kopfhörer rausnehmen. Aus dem Fenster schauen. Und denken: **Krass. Wir fliegen gerade. Einfach so.**"
+        text: "Deine Urgroßmutter hätte für die Strecke, die du beim nächsten Mal verschläfst, Monate gebraucht. Du bekommst sie für den Gegenwert von ein paar Arbeitstagen, inklusive Tomatensaft. Also beim nächsten Start kurz die Kopfhörer raus, aus dem Fenster schauen und einmal denken: **Wahnsinn. Wir fliegen gerade. Einfach so.**"
       },
 
-      /* ── 5. Mini-Alltags-Test ── */
+      /* ── 11. Sechs Fragen zum Nachdenken ── */
       {
         type: "heading",
-        text: "Mini-Alltags-Test: Der Staunen-Moment"
-      },
-      {
-        type: "paragraph",
-        text: "Beim nächsten Flug oder beim nächsten Mal, wenn du ein Flugzeug am Himmel siehst: *Halte kurz inne. Schau hin.* Und erinnere dich daran, dass da oben Menschen sitzen, die gerade in wenigen Stunden ans andere Ende der Welt reisen. Was für deine Urgroßmutter ein **Wunder** gewesen wäre, ist für dich Alltag. Lass das kurz sacken."
-      },
-
-      /* ── 6. Nachdenk-Fragen ── */
-      {
-        type: "heading",
-        text: "Nachdenk-Fragen"
+        text: "Sechs Fragen zum Nachdenken"
       },
       {
         type: "list",
         ordered: true,
         items: [
-          "Welche Reise hat dich am meisten verändert und wärst du ohne das Flugzeug jemals hingekommen?",
-          "Gibt es ein Land oder einen Ort, den du immer besuchen wolltest aber bisher noch nicht hast? Was hält dich wirklich davon ab?",
-          "Wann hast du zuletzt wirklich gestaunt, nicht über eine App oder ein Meme, sondern über etwas in der echten Welt?",
-          "Wie würde dein Leben aussehen, wenn Reisen so aufwendig wäre wie vor 150 Jahren? Was würdest du vermissen?",
-          "Nimmst du dir beim Reisen Zeit, wirklich anzukommen? Oder bist du schon wieder am Planen, bevor du überhaupt gelandet bist?",
-          "Wenn du morgen einen Freiflug gewinnen würdest und jeden Ort auf der Welt besuchen könntest? Wo würde die Reise hingehen?"
+          "Welche Reise hat dich am meisten verändert und wärst du ohne Flugzeug jemals dort angekommen?",
+          "Welcher Mensch in deinem Leben wäre ohne Flugzeuge unerreichbar weit weg?",
+          "Wann hast du zuletzt beim Starten oder Landen bewusst aus dem Fenster geschaut, statt auf ein Display?",
+          "Was würdest du am meisten vermissen, wenn Reisen wieder Wochen statt Stunden dauern würde?",
+          "Welchen Ort auf dieser Welt wolltest du immer sehen und was hält dich eigentlich wirklich davon ab?",
+          "Wo in deinem Alltag ist etwas so perfekt und selbstverständlich geworden, dass du es gar nicht mehr bemerkst?"
         ]
       },
 
-      /* ── 7. Podcast Audio Player ── */
+      /* ── 12. Podcast Audio Player ── */
       {
         type: "audio",
-        src: "audio/1 - Fliegen Podcast.mp3",
+        src: "audio/1 - Fliegen Podcast V2.mp3",
         image: "images/chapters/Flugzeug.jpg",
-        label: "Kapitel 5 - Podcast Folge - Heute hier, Morgen dort (und jeder findet\u2019s ganz normal)",
+        label: "Kapitel 5 - Podcast Folge - Heute hier, morgen dort",
         isPodcast: true
       }
     ],
     nextChapterId: "karten-navigation"
   },
 
-  /* ── KAPITEL 1: Das Glas ─────────────────────────────────── */
+  /* ── KAPITEL 3: Das Glas ─────────────────────────────────── */
   {
     id: "glas",
     status: "published",
-    order: 1,
+    order: 3,
     title: "Das unsichtbare Wunder",
     subtitle: "Es ist überall, aber du siehst es nie. Ein Stück geschmolzener Sand, der die Menschheitsgeschichte umgeschrieben hat.",
     topic: "Alltag",
@@ -206,7 +268,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Text.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 1 anhören"
+        label: "Kapitel 3 anhören"
       },
 
       /* ── 1. Einleitung ── */
@@ -414,18 +476,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Podcast.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 1 - Podcast Folge - Das unsichtbare Wunder",
+        label: "Kapitel 3 - Podcast Folge - Das unsichtbare Wunder",
         isPodcast: true
       }
     ],
-    nextChapterId: "musik"
+    nextChapterId: "zeit"
   },
 
-  /* ── KAPITEL 2: Musik ────────────────────────────────────── */
+  /* ── KAPITEL 1: Musik ────────────────────────────────────── */
   {
     id: "musik",
     status: "published",
-    order: 2,
+    order: 1,
     title: "Die universelle Sprache, die auf der ganzen Welt verstanden wird",
     subtitle: "Musik ist \u00FCberall. Sie macht dich traurig, gl\u00FCcklich, nostalgisch und mutig. Manchmal alles gleichzeitig.",
     topic: "Kultur",
@@ -440,7 +502,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Text.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 2 anh\u00F6ren"
+        label: "Kapitel 1 anh\u00F6ren"
       },
 
       /* ── 1. Einleitung ── */
@@ -692,18 +754,18 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Podcast.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 2 - Podcast Folge - Musik",
+        label: "Kapitel 1 - Podcast Folge - Musik",
         isPodcast: true
       }
     ],
     nextChapterId: "supermarkt"
   },
 
-  /* ── KAPITEL 3: Das Schlaraffenland ───────────────────── */
+  /* ── KAPITEL 2: Das Schlaraffenland ───────────────────── */
   {
     id: "supermarkt",
     status: "published",
-    order: 3,
+    order: 2,
     title: "Das Schlaraffenland gleich um die Ecke",
     subtitle: "Das Beste aus der ganzen Welt, vereint unter einem Dach. Immer verfügbar. Das ganze Jahr. Mehr Auswahl, als jeder Kaiser, König oder Pharao jemals hatte. Und alles liegt für dich bereit, nur wenige Minuten von deiner Haustüre entfernt.",
     topic: "Alltag",
@@ -718,7 +780,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/4 - Supermarkt Text.mp3",
         image: "images/chapters/Supermarkt.jpg",
-        label: "Kapitel 3 anh\u00F6ren"
+        label: "Kapitel 2 anh\u00F6ren"
       },
 
       /* ── 1. Intro ── */
@@ -899,11 +961,11 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/4 - Supermarkt Podcast.mp3",
         image: "images/chapters/Supermarkt.jpg",
-        label: "Kapitel 3 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
+        label: "Kapitel 2 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
         isPodcast: true
       }
     ],
-    nextChapterId: "zeit"
+    nextChapterId: "glas"
   },
 
   /* ── KAPITEL 4: Zeit ─────────────────────────────────────── */
