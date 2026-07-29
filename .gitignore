@@ -10,3 +10,11 @@ desktop.ini
 
 # Claude
 .claude/settings.local.json
+
+# Environment variables — NEVER commit
+.env
+.env.local
+.env*.local
+
+# MCP config holds API keys — NEVER commit
+.mcp.json

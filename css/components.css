@@ -314,3 +314,82 @@ a.chapter-card {
   display: flex;
   flex-direction: column;
 }
+
+/* ==========================================================================
+   PODCAST PLATFORMS — subscribe links below the podcast hero
+   ========================================================================== */
+
+.podcast-platforms {
+  background: var(--color-bg-section);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: var(--space-10);
+}
+
+.podcast-platforms__inner {
+  max-width: 42rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.podcast-platforms__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-text-primary);
+  margin: 0 0 var(--space-2);
+}
+
+.podcast-platforms__text {
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-6);
+}
+
+.podcast-platforms__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+.platform-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: border-color var(--dur-fast) var(--ease-out),
+              box-shadow var(--dur-fast) var(--ease-out),
+              transform var(--dur-fast) var(--ease-out);
+}
+
+.platform-link:hover,
+.platform-link:focus-visible {
+  border-color: var(--color-green);
+  color: var(--color-green-dark);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.platform-link__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .platform-link {
+    transition: none;
+  }
+  .platform-link:hover,
+  .platform-link:focus-visible {
+    transform: none;
+  }
+}
