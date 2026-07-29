@@ -117,6 +117,37 @@
   margin-bottom: 0;
 }
 
+.site-footer__platforms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.footer-platform {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  color: var(--color-text-secondary);
+  transition: color var(--dur-fast) var(--ease-out),
+              background-color var(--dur-fast) var(--ease-out);
+}
+
+.footer-platform svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-platform:hover,
+.footer-platform:focus-visible {
+  color: var(--color-green-dark);
+  background-color: var(--color-green-light);
+}
+
 .site-footer__impressum {
   margin-top: var(--space-8);
   padding-top: var(--space-6);
