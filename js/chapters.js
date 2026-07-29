@@ -242,7 +242,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/1 - Fliegen Podcast V2.mp3",
         image: "images/chapters/Flugzeug.jpg",
-        label: "Kapitel 5 - Podcast Folge - Heute hier, morgen dort",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -476,7 +476,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/2 - Glas Podcast.mp3",
         image: "images/chapters/Glas.jpg",
-        label: "Kapitel 3 - Podcast Folge - Das unsichtbare Wunder",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -754,7 +754,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/3 - Musik Podcast.mp3",
         image: "images/chapters/Musik.jpg",
-        label: "Kapitel 1 - Podcast Folge - Musik",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -961,7 +961,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/4 - Supermarkt Podcast.mp3",
         image: "images/chapters/Supermarkt.jpg",
-        label: "Kapitel 2 - Podcast Folge - Das Schlaraffenland gleich um die Ecke",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -1102,7 +1102,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/5 - Zeit Podcast.mp3",
         image: "images/chapters/Zeit.jpg",
-        label: "Kapitel 4 - Podcast Folge - Wie ein paar Zeiger uns vor dem totalen Chaos retten",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -1296,7 +1296,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/6 - Karten und Navigation Podcast.mp3",
         image: "images/chapters/6 - Karten & Navigation.jpg",
-        label: "Kapitel 6 - Podcast Folge - Die Kunst, nicht verloren zu gehen",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -1491,7 +1491,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/7 - Fernseher & Bildschirme Podcast.mp3",
         image: "images/chapters/7 - Fernseher & Bildschirme.jpg",
-        label: "Kapitel 7 - Podcast Folge - Das Fenster zur Welt",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -1712,7 +1712,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/8 - Als die Nacht verhandelbar wurde Podcast.mp3",
         image: "images/chapters/8 - Als die Nacht verhandelbar wurde.jpg",
-        label: "Kapitel 8 - Podcast Folge - Als die Nacht verhandelbar wurde",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],
@@ -1956,7 +1956,7 @@ const CHAPTERS = [
         type: "audio",
         src: "audio/9 - Der Stille Lebensretter Podcast.mp3",
         image: "images/chapters/9 - Der Stille Lebensretter.jpg",
-        label: "Kapitel 9 - Podcast Folge - Der stille Lebensretter",
+        label: "Das Gespräch zum Kapitel",
         isPodcast: true
       }
     ],

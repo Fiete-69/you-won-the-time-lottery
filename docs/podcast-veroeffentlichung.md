@@ -1,7 +1,7 @@
 # Podcast-Veröffentlichung: Spotify for Creators
 
 Arbeitsdokument für den Upload. Alles hier ist zum Kopieren gedacht.
-Gewählte Spur: **Text-Spur** (vorgelesenes Kapitel, ElevenLabs). Die Podcast-Spuren (NotebookLM-Gespräche) bleiben Website-exklusiv.
+Gewählte Spur: **Text-Spur** (vorgelesenes Kapitel, ElevenLabs). Die NotebookLM-Dialoge bleiben Website-exklusiv und heißen dort **"Die Gespräche"**, damit sie nicht mit dem Podcast verwechselt werden. Das Wort "Podcast" ist auf der Website ausschließlich für die vorgelesene Fassung reserviert, also für das, was auf Spotify und Co. läuft.
 
 Reihenfolge: Einleitung als Auftakt, danach die Kapitel in Website-Reihenfolge (`order`-Feld in `js/chapters.js`).
 
