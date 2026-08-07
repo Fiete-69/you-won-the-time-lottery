@@ -1960,8 +1960,96 @@ const CHAPTERS = [
         isPodcast: true
       }
     ],
+    nextChapterId: "toilette-kanalisation"
+  },
+
+  /* ── KAPITEL 10: Toilette & Kanalisation ─────────────────── */
+  {
+    id: "toilette-kanalisation",
+    status: "published",
+    order: 10,
+    title: "Drücken, rauschen, weg",
+    subtitle: "Das unterirdische Wunder, das mehr Leben gerettet hat als so manche Pille.",
+    topic: "Alltag",
+    cardImage: "images/chapters/10 - Toilette & Kanalisation.jpg",
+    heroImage: "images/hero/10 - Toilette & Kanalisation.jpg",
+    accentColor: null,
+    publishDate: "2026-08-07",
+    body: [
+    {
+      type: "audio",
+      src: "audio/10 - Toilette & Kanalisation Text.mp3",
+      image: "images/chapters/10 - Toilette & Kanalisation.jpg",
+      label: "Kapitel 10 anhören"
+    },
+    { type: "intro", text: "Du machst es mehrmals am Tag und du denkst dabei an alles Mögliche, nur nicht an das, was da gerade passiert. Du drückst auf einen Knopf oder ziehst an einem Hebel. Es rauscht kurz. Und dann ist das, was eben noch sehr persönlich und sehr deins war, einfach weg. Für immer. Du wirst es nie wiedersehen, und ganz ehrlich, das ist auch besser so." },
+    { type: "paragraph", text: "Halten wir diesen Moment trotzdem einmal fest, denn er ist viel größer, als er aussieht. Ein paar Liter sauberes Wasser, sauber genug zum Trinken übrigens, schießen durch eine gebogene Röhre und tragen alles fort, lautlos, geruchlos, sofort. Du musst nichts anfassen, nichts wegtragen, nichts vergraben. Du musst dir nicht einmal merken, dass es passiert ist. Es verschwindet in einem riesigen, unsichtbaren System unter deinen Füßen, das Tag und Nacht arbeitet, ohne dass du je einen Gedanken daran verschwendest. Krass, wenn man kurz darüber nachdenkt. Also tun wir das jetzt mal. Die Rede ist natürlich von der Kanalisation." },
+    { type: "heading", text: "Als die Straße noch die Toilette war" },
+    { type: "paragraph", text: "Über fast die gesamte Menschheitsgeschichte war das nämlich keine Selbstverständlichkeit, sondern ein echtes Problem. Die Lösung hieß lange: Topf. Man machte sein Geschäft in einen Nachttopf und der Inhalt landete dort, wo Platz war. Im Hinterhof, im Fluss, im Rinnstein. Oder, besonders charmant, einfach aus dem Fenster auf die Gasse." },
+    { type: "paragraph", text: "Dabei hatte die Menschheit das Problem schon einmal halbwegs im Griff. Das alte Rom besaß mit der Cloaca Maxima einen gewaltigen Abwasserkanal und öffentliche Toiletten mit fließendem Wasser, auf denen man in geselliger Runde nebeneinander saß, ganz ohne Trennwände. Die Römer hatten sogar eine eigene Göttin für die Kanalisation, Cloacina. Und dann ging dieses Wissen, wie so vieles, für mehr als tausend Jahre fast vollständig verloren. Der Mensch hatte das Klo erfunden, wieder vergessen und musste noch einmal von vorn anfangen." },
+    { type: "paragraph", text: "In Edinburgh hatte man fürs Entleeren später sogar einen Warnruf. Wer seinen Topf aus dem Fenster kippte, rief vorher \u201EGardyloo!\u201C auf die Straße hinunter, vermutlich verballhornt aus dem Französischen \u201Egare à l\u2019eau\u201C, \u201EAchtung, Wasser\u201C. Wobei Wasser hier sehr großzügig formuliert ist. Wer zu langsam war oder zu tief in Gedanken, hatte Pech. Die Städte rochen entsprechend. Man gewöhnte sich daran, so wie man sich an vieles gewöhnt, was eigentlich furchtbar ist." },
+    { type: "paragraph", text: "Sogar das Wort verrät, wie wenig die Sache lange mit Hygiene zu tun hatte. \u201EToilette\u201C kommt vom französischen toilette und das heißt schlicht \u201Ekleines Tuch\u201C, eine Verkleinerung von toile, dem Stoff. Gemeint war ursprünglich das Tüchlein auf dem Frisiertisch, dann das morgendliche Zurechtmachen, dann das Ankleidezimmer, und erst ganz am Ende das stille Örtchen selbst. Ein Wort, das sich vom Stück Stoff bis zur Porzellanschüssel hochgearbeitet hat. Nicht schlecht für ein Tuch." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Eine Spültoilette gab es schon erstaunlich früh. 1596 baute der englische Dichter Sir John Harington eine für seine Patentante, niemand Geringeren als Königin Elisabeth I., und taufte sie \u201EAjax\u201C. Das war ein Wortwitz auf \u201Ea jakes\u201C, damals derbes Englisch für Klo. Die Idee verschwand danach wieder für fast zweihundert Jahre in der Versenkung, was man auch über manch anderen Inhalt sagen könnte.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "paragraph", text: "Denn an einer entscheidenden Stelle hakte es noch. Selbst wer Wasser durch eine Schüssel laufen ließ, hatte das nächste Problem direkt darunter: Der Gestank der Grube oder des Kanals stieg ungehindert wieder nach oben ins Haus. Gelöst hat das ein Uhrmacher. 1775 ließ sich der Schotte Alexander Cumming eine gebogene Röhre patentieren, in der immer ein Schluck Wasser stehen bleibt. Diese kleine Wasserkurve, das S, das du heute hinter jeder Toilette und unter jedem Waschbecken findest, ist eine der unterschätztesten Erfindungen der Welt. Sie hält den Gestank der ganzen Kanalisation mit nichts als einem Schluck Wasser draußen. Genial in seiner Einfachheit." },
+    { type: "heading", text: "Der große Gestank" },
+    { type: "paragraph", text: "Richtig dramatisch wurde es, als die Städte im 19. Jahrhundert explodierten und Millionen Menschen ihre Notdurft weiterhin Richtung Fluss schickten, aus dem sie gleichzeitig ihr Trinkwasser holten. Was dabei herauskam, war kein Geruchsproblem, sondern ein Massensterben. Die Cholera raffte in London und anderswo zehntausende Menschen dahin und kaum jemand verstand, warum." },
+    { type: "paragraph", text: "Einer ahnte es. 1854 zeichnete der Londoner Arzt John Snow akribisch nach, wo die Cholera-Toten wohnten und alle Spuren führten zu einer einzigen Wasserpumpe in der Broad Street. Er ließ den Schwengel der Pumpe abmontieren, damit niemand mehr daraus trinken konnte und die Fälle gingen zurück. Damals glaubten fast alle, Krankheit komme von schlechter Luft, von \u201Eüblen Dünsten\u201C. Dass es das Wasser war, das ahnte niemand." },
+    { type: "paragraph", text: "Den letzten Anstoß gab dann ausgerechnet die Nase, nicht die Wissenschaft. Im heißen Sommer 1858 stank die Themse so erbärmlich, dass im Parlament direkt am Fluss kaum noch zu arbeiten war. Man tränkte die Vorhänge in Chlorkalk und erwog ernsthaft, die Regierung aufs Land zu verlegen. Dieser \u201EGreat Stink\u201C, der große Gestank, brachte endlich in Bewegung, was Jahrzehnte liegen geblieben war." },
+    { type: "paragraph", text: "Ein Ingenieur namens Joseph Bazalgette bekam den Auftrag, London ein Abwassersystem zu bauen. Was er ablieferte, war monströs: rund zweitausend Kilometer Kanäle, gemauert aus über dreihundert Millionen Ziegeln, die Hauptröhren eiförmig geformt, damit das Wasser auch bei wenig Durchfluss schnell genug bleibt und nichts liegen bleibt. Und Bazalgette tat etwas, für das man ihn feiern sollte. Er rechnete aus, wie dick die Rohre für alle Londoner sein müssten, und verdoppelte den Durchmesser dann einfach. Seine Begründung, sinngemäß: Das machen wir nur einmal, und das Unvorhergesehene kommt bestimmt. Seine Kanäle tragen die Stadt bis heute, über hundertfünfzig Jahre später." },
+    { type: "heading", text: "Wohin das Wasser dann verschwindet" },
+    { type: "paragraph", text: "Damit war das Problem allerdings erst einmal nur verschoben, nicht gelöst. Weg ist weg, schön und gut, aber irgendwo muss das Zeug ja ankommen. Und was dort passiert, ist der eigentlich verrücktere Teil der Geschichte." },
+    { type: "paragraph", text: "Dein Abwasser landet im Klärwerk und dort wird es in Stufen auseinandergenommen. Zuerst grob mechanisch: Ein Rechen fischt heraus, was niemals hätte hineingehören dürfen, Feuchttücher, Wattestäbchen, gelegentlich ein Gebiss. Danach ein Sandfang, in dem sich Kies und Sand absetzen. Danach ein Vorklärbecken, in dem alles Schwerere in Ruhe nach unten sinkt. Bis hierhin ist es simple Physik, nur eben im ganz großen Maßstab." },
+    { type: "paragraph", text: "Und dann kommt der Teil, bei dem man kurz still werden sollte. Die eigentliche Reinigung erledigt nämlich keine Maschine, sondern eine Belegschaft aus Milliarden Bakterien. Im Belebungsbecken lebt eine Kultur aus Mikroorganismen, die genau das frisst, was wir loswerden wollen. Man belüftet sie, rührt um, misst Sauerstoff, Temperatur und Nährstoffe und hält das Ganze bei Laune wie eine ausgesprochen empfindliche Nutztierherde. Kippt die Kultur, fällt die Reinigung aus. Das ist Hochtechnologie, die aussieht wie eine braune Brühe." },
+    { type: "paragraph", text: "Danach folgt die Nachklärung, vielerorts ein Sandfilter, mancherorts sogar eine Desinfektionsstufe. Und am Ende fließt Wasser zurück in den Fluss, das sauberer ist, als dieser Fluss mitten in der Stadt jemals von allein war. Wir kippen unseren Dreck hinein und holen Wasser heraus. Kein Zauber, nur Verfahrenstechnik, ein paar Becken und sehr, sehr viele Bakterien, die ihren Job machen, während niemand hinschaut." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Wir sind darin inzwischen so gut, dass es ins Gegenteil kippt. Seit rund um den Bodensee flächendeckend Klärwerke stehen, ist der See wieder so nährstoffarm wie in den frühen Fünfzigern. Klingt nach einem reinen Erfolg, ist für die Fische aber ein Problem: Wo kaum noch Phosphat im Wasser ist, wächst kaum Plankton, und wo kein Plankton wächst, gibt es wenig zu fressen. Die Fangerträge sind nach 2012 noch einmal um rund drei Viertel eingebrochen. Wir haben das Wasser sauber geputzt, bis der Speiseplan leer war.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "heading", text: "Das größte medizinische Wunder ist unsichtbar" },
+    { type: "paragraph", text: "Und genau hier wird es richtig erstaunlich. 2007 fragte das renommierte British Medical Journal seine Leserschaft, was die größte medizinische Errungenschaft seit 1840 sei. Zur Wahl standen die Antibiotika, die Narkose, die Entdeckung der DNA, der Impfstoff. Gewonnen hat keines davon. Gewonnen hat die \u201Esanitäre Revolution\u201C, also sauberes Wasser und die Kanalisation. Das Wegspülen, über das niemand redet, schlug die Pille und die Spritze." },
+    { type: "paragraph", text: "Das klingt übertrieben, ist es aber nicht. Solange sich Trinkwasser und Abwasser vermischen, sterben Menschen reihenweise an Krankheiten, die wir heute kaum noch beim Namen kennen. Cholera, Typhus, Ruhr. Sobald man die beiden Wasser konsequent voneinander trennt, verschwinden diese Krankheiten aus einer Stadt fast wie von selbst. Kein Heldenarzt, keine Wunderpille. Nur Rohre, Gefälle und ein bisschen Wasser an der richtigen Stelle." },
+    { type: "paragraph", text: "Und das Verrückte ist, wie wenig das heute kostet und wie wenig früher alles Geld der Welt geholfen hat. Eine Toilettenspülung verbraucht Wasser für den Bruchteil eines Cents. Früher dagegen konnte dich kein Reichtum vor dem Gestank schützen. Als 1861 der britische Prinzgemahl Albert starb, gaben die Ärzte Typhus an und der Verdacht fiel auch auf die schlechten Abflüsse seiner Residenz. Der Ehemann der mächtigsten Königin der Welt, und nicht einmal er war vor dem sicher, was die meisten von uns heute achtlos wegspülen." },
+    { type: "paragraph", text: "Bis heute ist dieses Wunder nicht überall angekommen. Milliarden Menschen haben noch immer keine sicher getrennte Toilette und Hunderte Millionen verrichten ihre Notdurft notgedrungen unter freiem Himmel. Für sie ist all das kein selbstverständliches Rauschen, sondern immer noch eine Frage von Krankheit und sogar Tod." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Die Sache ist so ernst, dass die Vereinten Nationen ihr einen eigenen Gedenktag gewidmet haben. Am 19. November ist Welttoilettentag. Kein Scherz, ein offizieller Tag der UN, weil eine funktionierende Toilette für einen großen Teil der Menschheit eben kein Witz ist, sondern Lebensrettung.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "heading", text: "Was das Abwasser über uns ausplaudert" },
+    { type: "paragraph", text: "Weil ohnehin alles an einer Stelle zusammenläuft, führt eine Stadt in ihrer Kanalisation nebenbei ein ziemlich ehrliches Protokoll über sich selbst. Der Körper baut vieles nur teilweise ab, der Rest geht den bekannten Weg. Und was unten ankommt, lässt sich messen." },
+    { type: "paragraph", text: "Abwassermonitoring heißt das, und in Europa läuft es seit Jahren systematisch: Das Abwasser von weit über hundert Städten wird analysiert und daraus liest sich ab, was in diesen Städten konsumiert wird. München liegt dabei bei Kokain und MDMA unter den ersten fünf deutschen Städten. Am aufschlussreichsten ist aber nicht die Menge, sondern der Takt: Bei Partydrogen steigen die Werte von Freitag bis Montag deutlich an und sacken unter der Woche wieder ab. Eine Stadt hat einen Wochenendpuls und das Klärwerk kennt ihn genauer als jede Umfrage." },
+    { type: "paragraph", text: "Richtig nützlich wurde die Methode in der Pandemie. Coronaviren tauchen im Abwasser auf, bevor Menschen sich testen lassen, weil das Klärwerk nicht darauf wartet, dass jemand einen Termin macht. So ließ sich am Zulauf ablesen, ob gerade eine Welle anrollt, ohne dass ein einziger Mensch dafür etwas tun musste. In Deutschland läuft diese Abwasser-Überwachung inzwischen dauerhaft weiter. Auch Medikamentenrückstände landen dort, vom Schmerzmittel bis zum Antibiotikum." },
+    { type: "paragraph", text: "Es ist ein seltsamer Gedanke: Das Ehrlichste, was eine Stadt über sich preisgibt, steht nicht in ihren Statistiken, sondern fließt durch ihren Abfluss. Niemand beschönigt, was er spült." },
+    { type: "heading", text: "Stell dir vor, es rauscht nicht mehr" },
+    { type: "paragraph", text: "Stell dir vor, in deiner Stadt fällt die Kanalisation aus. Nicht für eine Stunde, sondern für eine Woche. Schon nach dem ersten Tag spülst du und nichts geht mehr weg. Es bleibt. Und es ist nicht nur deins, es ist das von allen, in jeder Wohnung, in jedem Haus, in jeder Straße gleichzeitig." },
+    { type: "paragraph", text: "Nach zwei, drei Tagen kippt die Stimmung in der Stadt. Der Geruch ist überall, du bekommst ihn nicht mehr aus der Nase. Und dann kommen, ganz leise und ganz schnell, die alten Krankheiten zurück, die wir längst vergessen hatten. Genau das war über Jahrtausende der Normalzustand der Menschheit. Eine einzige Woche reicht, um uns daran zu erinnern, auf welch dünnem, sauberem Faden unser ganzes komfortables Leben hängt." },
+    { type: "heading", text: "Ein kleiner Test für das nächste Mal" },
+    { type: "paragraph", text: "Beim nächsten Mal, wenn du spülst, tu mir einen Gefallen. Drück bewusst, und denk dem Wasser einmal hinterher. Stell dir den ganzen Weg vor: durch die kleine Wasserkurve gleich hinter der Schüssel, in das Rohr in der Wand, hinunter unter die Straße, in einen größeren Kanal, in einen noch größeren, bis zum Klärwerk, wo das Wasser tatsächlich wieder sauber gemacht wird. Diese ganze Reise dauert für dich genau einen Knopfdruck. Für die Menschheit hat sie ein paar tausend Jahre gedauert." },
+    { type: "heading", text: "Bevor du das nächste Mal spülst" },
+    { type: "paragraph", text: "Halten wir es zum Schluss noch einmal ganz ehrlich fest. Über fast die gesamte Geschichte hätten Menschen sehr viel dafür gegeben, das zu haben, was für dich völlig normal ist. Eine saubere, geruchlose Schüssel, frisches Wasser, das alles auf Knopfdruck fortträgt und ein riesiges System darunter, das dafür sorgt, dass nichts davon je wieder zu dir zurückkommt." },
+    { type: "paragraph", text: "Es ist das Wunder, über das niemand spricht, gerade weil es so gut funktioniert. Würde es schlecht funktionieren, würden wir über nichts anderes mehr reden. Es ist unsichtbar, geruchlos und beinahe lautlos, und genau das ist sein größter Triumph." },
+    { type: "closing", text: "Das nächste Mal, wenn es kurz rauscht und alles einfach verschwindet, halt eine Sekunde inne. Du hast gerade etwas benutzt, das mehr Menschenleben gerettet hat als die meisten berühmten Erfindungen der Welt." },
+    { type: "heading", text: "Sechs Fragen zum Nachdenken" },
+    {
+      type: "list",
+      ordered: true,
+      items: [
+        "Wann hast du das letzte Mal bewusst daran gedacht, was nach dem Spülen eigentlich passiert und wohin all das verschwindet?",
+        "Welche Krankheiten aus früheren Jahrhunderten kennst du eigentlich nur noch als Wörter, weil sauberes Wasser und eine Kanalisation sie aus deinem Leben verbannt haben?",
+        "Wie würde sich dein Alltag schon in der ersten Woche verändern, wenn deine Toilette und die Kanalisation plötzlich nicht mehr funktionieren würden?",
+        "Wenn dein Abwasser ein ehrliches Protokoll deines Lebens wäre, was würde es über deine letzte Woche verraten?",
+        "Für welche andere unsichtbare Infrastruktur in deinem Leben, die einfach immer läuft, hast du dich noch nie bedankt?",
+        "Wenn du den Menschen, die dieses System erdacht und gebaut haben, einen einzigen Satz sagen könntest, welcher wäre das?"
+      ]
+    }
+    ],
     nextChapterId: null
-  }
+  },
 
   /*
    * ── VORLAGE FÜR EIN NEUES KAPITEL ──────────────────────────
