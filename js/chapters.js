@@ -2046,6 +2046,13 @@ const CHAPTERS = [
         "Für welche andere unsichtbare Infrastruktur in deinem Leben, die einfach immer läuft, hast du dich noch nie bedankt?",
         "Wenn du den Menschen, die dieses System erdacht und gebaut haben, einen einzigen Satz sagen könntest, welcher wäre das?"
       ]
+    },
+    {
+      type: "audio",
+      src: "audio/10 - Toilette & Kanalisation Podcast-Gespräch.mp3",
+      image: "images/chapters/10 - Toilette & Kanalisation.jpg",
+      label: "Das Gespräch zum Kapitel",
+      isPodcast: true
     }
     ],
     nextChapterId: null
