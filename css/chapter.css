@@ -103,6 +103,14 @@
   max-width: 800px;
 }
 
+.chapter-hero__subtitle {
+  font-size: clamp(var(--text-base), 2vw, var(--text-lg));
+  line-height: var(--leading-normal);
+  color: rgba(253, 250, 245, 0.88);
+  text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+  max-width: 680px;
+}
+
 /* ── CHAPTER HEADER (below hero) ────────────────────────────── */
 
 .chapter-header {

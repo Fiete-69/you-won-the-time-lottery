@@ -89,6 +89,7 @@
               <span class="chapter-hero__number">Kapitel ${num}</span>
             </div>
             <h1 class="chapter-hero__title">${esc(ch.title)}</h1>
+            ${ch.subtitle ? `<p class="chapter-hero__subtitle">${esc(ch.subtitle)}</p>` : ''}
           </div>
         </div>
       </section>
