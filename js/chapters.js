@@ -2055,6 +2055,92 @@ const CHAPTERS = [
       isPodcast: true
     }
     ],
+    nextChapterId: "feuer"
+  },
+
+  /* ── KAPITEL 11: Feuer ─────────────────── */
+  {
+    id: "feuer",
+    status: "published",
+    order: 11,
+    title: "Der Funke, der alles veränderte",
+    subtitle: "Über die älteste Superkraft der Menschheit: warum ein Gletschermann Glut spazieren trug, wieso das Feuerzeug älter ist als das Streichholz und weshalb in deiner Hosentasche etwas steckt, wofür Könige früher Personal beschäftigten.",
+    topic: "Alltag",
+    cardImage: "images/chapters/11 - Feuer.jpg",
+    heroImage: "images/hero/11 - Feuer.jpg",
+    accentColor: null,
+    publishDate: "2026-08-13",
+    body: [
+    {
+      type: "audio",
+      src: "audio/11 - Feuer Text.mp3",
+      image: "images/chapters/11 - Feuer.jpg",
+      label: "Kapitel 11 anhören"
+    },
+    { type: "intro", text: "Klick." },
+    { type: "paragraph", text: "Es ist einer der unscheinbarsten Handgriffe deines Alltags: Daumen aufs Rädchen, klick, Flamme. Oder Drehknopf am Herd, klack klack klack, wumm, blauer Feuerkranz. Dauer: eine Sekunde. Gedanken, die du dir dabei machst: null." },
+    { type: "paragraph", text: "Und jetzt die unbequeme Wahrheit: Du beherrschst damit ganz nebenbei die Fähigkeit, für die unsere Vorfahren über Hunderttausende von Jahren alles gegeben hätten. Feuer auf Knopfdruck, jederzeit, an jedem Ort, sogar bei Regen. Du trägst in deiner Hosentasche etwas herum, das den größten Teil der Menschheitsgeschichte als Wunder, Schatz und Staatsangelegenheit galt." },
+    { type: "paragraph", text: "Zeit, diesem Klick mal die Ehre zu erweisen, die er verdient." },
+    { type: "heading", text: "Die mühsamste Flamme der Welt" },
+    { type: "paragraph", text: "Wann genau der Mensch das Feuer gezähmt hat, weiß niemand sicher, es war vor sehr, sehr langer Zeit, vermutlich schon lange vor dem modernen Menschen. Sicher ist, am Anfang konnte man Feuer nicht machen, man konnte es nur finden. Ein Blitzeinschlag, ein brennender Baum, und dann hieß es zugreifen und vor allem, nie wieder ausgehen lassen. Feuer war kein Werkzeug, Feuer war ein Haustier. Eines, das ständig gefüttert werden wollte und starb, wenn man ein einziges Mal nicht aufpasste." },
+    { type: "paragraph", text: "Selbst als Menschen später lernten, Feuer selbst zu entfachen, mit Feuerstein und Pyrit oder durch Bohren mit Holz auf Holz, blieb das eine schweißtreibende, störanfällige Angelegenheit. Wer schon mal in einem Survival-Kurs versucht hat, mit zwei Stöcken Glut zu erzeugen, weiß, nach zwanzig Minuten hat man Blasen an den Händen, einen roten Kopf und ungefähr so viel Feuer wie vorher. Die Glut am Leben zu halten war deshalb oft schlauer, als jedes Mal neu anzufangen." },
+    { type: "paragraph", text: "Wie ernst das genommen wurde, zeigt das alte Rom. Im Tempel der Göttin Vesta brannte ein heiliges Feuer, das niemals erlöschen durfte, bewacht von eigens dafür abgestellten Priesterinnen, den Vestalinnen. Ging die Flamme aus, galt das als böses Omen für den ganzen Staat, und für die zuständige Priesterin wurde es richtig ungemütlich. Man stelle sich die Stellenanzeige vor: „Verantwortungsvolle Tätigkeit im Zentrum der Macht. Aufgabe: Ein Feuer nicht ausgehen lassen. Fehlertoleranz: keine.“" },
+    { type: "paragraph", text: "Feuer veränderte dabei nicht nur den Speiseplan, sondern womöglich uns selbst. Gekochtes Essen ist leichter zu kauen und zu verdauen als rohes, der Körper kommt mit weniger Aufwand an mehr Energie. Manche Forschende vermuten deshalb, dass erst das Kochen unsere großen, hungrigen Gehirne möglich gemacht hat. Falls das stimmt, ist der Herd nicht irgendein Haushaltsgerät. Dann ist er der Grund, der uns bei der Evolution geholfen hat, einen gewaltigen Schritt in Richtung moderner Mensch zu machen." },
+    { type: "heading", text: "Mini-Geschichte: Der Mann, der das Feuer spazieren trug" },
+    { type: "paragraph", text: "1991 fanden Wanderer in den Ötztaler Alpen eine über 5.000 Jahre alte Gletschermumie, die heute jeder als Ötzi kennt. Spannend ist nicht nur der Mann selbst, sondern sein Gepäck. Ötzi hatte unter anderem ein Döschen aus Birkenrinde dabei, ausgepolstert mit frischen Ahornblättern, darin Reste von Holzkohle. Die wahrscheinlichste Erklärung: Er transportierte darin glimmende Glut, sorgfältig verpackt wie ein rohes Ei. Dazu trug er Zunderschwamm bei sich, einen Baumpilz, der Funken fängt wie ein Schwamm das Wasser." },
+    { type: "paragraph", text: "Ein Mann überquert vor 5.000 Jahren die Alpen und eines seiner wertvollsten Besitztümer ist eine Handvoll glühender Kohle in einer Blätterbox. Das war das Feuerzeug der Jungsteinzeit, zerbrechlich, pflegebedürftig und überlebenswichtig. Wenn du das nächste Mal dein Feuerzeug nicht findest und genervt schnaubst, denk kurz an Ötzi. Der hätte für dein Problem ein mildes Lächeln übrig gehabt." },
+    { type: "heading", text: "Vom heiligen Herdfeuer zum Drehknopf" },
+    { type: "paragraph", text: "Über Jahrtausende war der Herd wortwörtlich die Mitte des Hauses, eine offene Feuerstelle, um die herum sich alles abspielte. Gekocht, geheizt, getrocknet, erzählt, alles am selben Fleck. Der Rauch zog dabei lange einfach durch den Raum ab, Schornsteine setzten sich in Europa erst nach und nach durch. Gemütlich stellen wir uns das heute vor. Verraucht, rußig und brandgefährlich war es tatsächlich." },
+    { type: "paragraph", text: "Wie zentral diese Feuerstelle für unser Denken war, steckt bis heute in unserer Sprache. Das lateinische Wort für Herd lautet „focus“. Als Gelehrte später einen Begriff für den Brennpunkt suchten, den Punkt, in dem sich alles bündelt, nahmen sie das Wort für die Feuerstelle. Wenn du dich heute fokussierst, sammelst du dich also sprachgesehen am Herdfeuer. Schöner kann man kaum ausdrücken, was dieser Ort für die Menschen war." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Das englische Wort „curfew“ für Ausgangssperre kommt vom französischen „couvre-feu“, zu Deutsch: „Deck das Feuer zu!“ Im Mittelalter läutete abends vielerorts eine Glocke, auf die hin alle Herdfeuer abgedeckt oder gelöscht werden mussten, damit die dicht gebauten, hölzernen Städte nicht im Schlaf abbrannten. Die abendliche Sperrstunde war ursprünglich also schlicht Brandschutz.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "paragraph", text: "Der große Komfortsprung kam erstaunlich spät. Erst im 19. Jahrhundert wurde Feuermachen plötzlich einfach. 1826 rieb der englische Apotheker John Walker einen mit Chemikalien beschichteten Holzspan über raues Papier, und das Ding flammte auf. Das Streichholz war geboren. Walker verkaufte seine Zündhölzer im Laden, verzichtete aber auf ein Patent, weshalb andere mit der Idee reich wurden. Die ersten Generationen von Streichhölzern waren übrigens launisch bis lebensgefährlich, erst die schwedischen Sicherheitszündhölzer machten daraus das harmlose Alltagsding, das wir kennen." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Das Feuerzeug ist älter als das Streichholz. Schon 1823, drei Jahre vor Walkers Zündholz, entwickelte der deutsche Chemiker Johann Wolfgang Döbereiner ein Tischfeuerzeug, das mit Wasserstoff und einem Platin-Katalysator eine Flamme erzeugte. Das „Döbereiner-Feuerzeug“ stand in vornehmen Haushalten herum wie heute eine Espressomaschine. Die Reihenfolge ist also genau andersherum, als jeder vermuten würde.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "paragraph", text: "Danach ging es Schlag auf Schlag: Gasherde, Elektroherde, Backöfen mit Temperaturregler statt Glutgefühl, Induktionsfelder, bei denen nicht mal mehr eine Flamme zu sehen ist. Aus dem Tier, das gefüttert werden wollte, wurde ein Knopf. Und schließlich kam noch ein Gerät dazu, das gar kein Feuer mehr braucht." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Die Mikrowelle wurde durch einen Schokoriegel erfunden. Der amerikanische Ingenieur Percy Spencer arbeitete 1945 an Radartechnik, als er bemerkte, dass der Riegel in seiner Hosentasche neben dem laufenden Gerät geschmolzen war. Statt sich nur über die Sauerei zu ärgern, experimentierte er weiter, erst mit Maiskörnern, die prompt zu Popcorn aufpoppten. Das erste Seriengerät war allerdings ein Trumm von der Größe eines Kühlschranks. Der Weg vom Lagerfeuer zur Ein-Minuten-Tasse-Milch war damit endgültig abgeschlossen.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "heading", text: "Warum Herd und Feuerzeug unser Leben bereichern" },
+    { type: "paragraph", text: "Fang beim Offensichtlichen an: warmes Essen. Jede Suppe, jede Bratkartoffel, jeder Sonntagsbraten, jede Pizza mit knusprigem Rand verdankt sich der Tatsache, dass in deiner Küche jederzeit kontrollierte Hitze zur Verfügung steht. Nicht nach einer Stunde Vorbereitung, nicht wenn das Wetter mitspielt, sondern sofort. Du entscheidest spontan um 21 Uhr, dass es jetzt Nudeln gibt und zehn Minuten später gibt es Nudeln. Für den größten Teil der Menschheitsgeschichte wäre allein dieser Satz pure Science-Fiction gewesen." },
+    { type: "paragraph", text: "Dann die Beiläufigkeit, Kerzen beim Abendessen, der Grill am Samstag, das Teelicht in der Laterne, das Lagerfeuer im Urlaub. Alles eine Sache von Sekunden, weil irgendwo immer ein Feuerzeug oder eine Streichholzschachtel liegt. Ganz ehrlich, ein Feuerzeug kostet ungefähr so viel wie ein Brötchen und enthält eine Fähigkeit, für die Herrscher früher eigenes Personal beschäftigten. Es ist vermutlich das meistunterschätzte Stück Hightech, das man verlieren kann, ohne sich zu ärgern." },
+    { type: "paragraph", text: "Und schließlich das Soziale. Um Essen, das warm gemacht wird, versammeln sich Menschen, das war am Herdfeuer so und ist am Raclette-Abend nicht anders. Der Herd ist bis heute der Ort, an dem Besuch grundsätzlich herumsteht, egal wie schön das Wohnzimmer ist. Irgendetwas in uns weiß noch, wo die Mitte des Hauses ist." },
+    { type: "heading", text: "Stell dir vor, du müsstest dein Feuer hüten" },
+    { type: "paragraph", text: "Stell dir vor, es gäbe weder Feuerzeug noch Streichholz noch Herdknopf. Dein Tag beginnt damit, dass du in der Asche von gestern nach Glut stocherst und betest. Ist nichts mehr da, hast du zwei Möglichkeiten, eine halbe Stunde Funken schlagen und pusten, oder mit einer Schale zu den Nachbarn gehen und um Glut bitten, was Menschen über Jahrhunderte tatsächlich taten. Kaffee am Morgen? Erst, wenn das Feuer steht. Spontan kochen? Gibt es nicht, Feuer ist ein Projekt mit Vorlaufzeit. Kalter Regen auf dem Heimweg, und zu Hause wartet kein warmer Ofen, sondern die Frage, ob die Glut durchgehalten hat. Man versteht plötzlich sehr gut, warum so ziemlich jede Kultur der Welt Feuergötter verehrte. Für etwas, das so launisch und so überlebenswichtig ist, fängt man irgendwann an zu beten." },
+    { type: "heading", text: "Kleine Reflexion: Das Tier im Knopf" },
+    { type: "paragraph", text: "Charles Darwin schrieb sinngemäß, die Beherrschung des Feuers sei vermutlich die größte Entdeckung des Menschen überhaupt, mit Ausnahme der Sprache. Das ist eine bemerkenswerte Rangliste, Sprache, Feuer, dann lange nichts. Und von diesen beiden Urgewalten ist eine heute ein Plastikding für 1,50 Euro an der Supermarktkasse." },
+    { type: "closing", text: "Vielleicht ist das die eigentliche Pointe, Fortschritt heißt nicht, dass Wunder verschwinden. Fortschritt heißt, dass Wunder billig werden. Das Feuer ist nicht weniger erstaunlich als vor 100.000 Jahren, es ist nur zuverlässiger geworden. Und ganz verschwunden ist die alte Ehrfurcht ohnehin nicht. Sobald irgendwo eine echte Flamme brennt, eine Kerze, ein Grill, ein Kaminfeuer, schauen alle hin. Niemand starrt versonnen in einen Wasserkocher. Aber in ein Feuer? Immer. Das Tier von damals wohnt jetzt im Drehknopf, aber wenn es kurz rausdarf, erkennen wir es sofort wieder." },
+    { type: "heading", text: "Alltags-Test" },
+    { type: "paragraph", text: "Zünde heute Abend eine Kerze an aber nicht mit dem Feuerzeug, sondern mit einem Streichholz. Nimm dir dafür zehn Sekunden mehr Zeit als nötig, das Geräusch beim Anreißen, der Schwefelgeruch, die erste kleine Flamme, die du mit der Hand schützt. Das ist, in homöopathischer Dosis, das Ritual, das Menschen über Jahrtausende täglich vollzogen haben, nur dass bei ihnen das Abendessen davon abhing. Bonusaufgabe für den nächsten Kochabend, Zähl mit, wie oft du ganz selbstverständlich Hitze auf Knopfdruck benutzt, vom Wasserkocher über den Herd bis zum Ofen. Du wirst überrascht sein, wie oft du an einem einzigen Abend kleine Feuer befiehlst." },
+    { type: "heading", text: "Sechs Fragen zum Nachdenken" },
+    {
+      type: "list",
+      ordered: true,
+      items: [
+        "Wann hast du zuletzt bewusst in eine echte Flamme geschaut, und was hat das mit dir gemacht?",
+        "Welches warme Essen bedeutet für dich Zuhause und wer hat es früher für dich gekocht?",
+        "Was wäre an deinem gestrigen Tag ohne Hitze auf Knopfdruck anders gelaufen?",
+        "Wo versammeln sich die Menschen in deiner Wohnung oder Haus wirklich und warum wohl gerade dort?",
+        "Welche „billigen Wunder“ in deinem Alltag würdest du vermutlich erst bemerken, wenn sie weg wären?",
+        "Wenn du wie Ötzi nur eine Handvoll überlebenswichtiger Dinge tragen könntest, was würdest du mitnehmen?"
+      ]
+    },
+    {
+      type: "audio",
+      src: "audio/11 - Feuer Podcast-Gespräch.mp3",
+      image: "images/chapters/11 - Feuer.jpg",
+      label: "Das Gespräch zum Kapitel",
+      isPodcast: true
+    }
+    ],
     nextChapterId: null
   },
 
