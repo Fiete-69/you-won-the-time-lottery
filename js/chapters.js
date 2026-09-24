@@ -2141,6 +2141,106 @@ const CHAPTERS = [
       isPodcast: true
     }
     ],
+    nextChapterId: "auto"
+  },
+
+  /* ── KAPITEL 12: Auto ─────────────────── */
+  {
+    id: "auto",
+    status: "published",
+    order: 12,
+    title: "Das bequeme Zimmer mit Aussicht",
+    subtitle: "Über eine Mutter mit Hutnadel, einen Mann mit roter Fahne und eine Reise, bei der das Wetter draußen bleibt.",
+    topic: "Mobilität",
+    cardImage: "images/chapters/12 - Auto.jpg",
+    heroImage: "images/hero/12 - Auto.jpg",
+    accentColor: null,
+    publishDate: "2026-09-24",
+    body: [
+    {
+      type: "audio",
+      src: "audio/12 - Auto Text.mp3",
+      image: "images/chapters/12 - Auto.jpg",
+      label: "Kapitel 12 anhören"
+    },
+    { type: "intro", text: "Dienstagmorgen, November, kurz vor sieben. Der Regen kommt waagerecht, der Wind reißt an den Bäumen, und irgendwo scheppert eine Mülltonne über die Straße. Du ziehst die Autotür zu. Klack. Und plötzlich ist das Unwetter da draußen nur noch ein Film ohne Ton." },
+    { type: "paragraph", text: "Du drückst auf einen Knopf, und nach einer Minute wird dein Hintern warm. Du drückst auf einen zweiten, und dein Lieblingssong läuft. Die Scheibenwischer schieben den Regen beiseite, als wäre er ein kleines Missverständnis. Du sitzt in einem gepolsterten Sessel, in einem Glaskasten, der dich mit 120 Kilometern pro Stunde durch einen Herbststurm trägt. Trocken. Warm. Mit Rundumblick." },
+    { type: "paragraph", text: "Ganz ehrlich: Wenn du das einem Menschen aus dem Jahr 1850 erzählen würdest, würde er dich für verrückt halten. Oder für einen König. Vermutlich für beides." },
+    { type: "heading", text: "Als der Motor noch Hafer fraß" },
+    { type: "paragraph", text: "Jahrtausendelang gab es genau zwei Möglichkeiten, von A nach B zu kommen: auf den eigenen Füßen oder mit einem Tier. Wer es sich leisten konnte, hatte ein Pferd. Wer es sich richtig leisten konnte, hatte eine Kutsche. Und die war, sagen wir es freundlich, romantisch vor allem auf Gemälden. In echt rumpelte, schaukelte und zog es, und wenn es regnete, wurde man nass, nur eben mit Stil." },
+    { type: "paragraph", text: "Wer keine eigene Kutsche hatte, nahm die Postkutsche, die Holzklasse der Vergangenheit: eng, zugig, Knie an Knie mit Fremden, alle paar Stunden ein Halt zum Pferdewechseln. Für längere Strecken rechnete man in Tagen, nicht in Stunden. Im Winter halfen Fußwärmer mit glühender Kohle, dicke Decken und die Körperwärme des Sitznachbarn, ob man den nun mochte oder nicht." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Das Wort „Kutsche“ kommt aus Ungarn. Im Dorf Kocs wurde im 15. Jahrhundert ein besonders leichter, gut gefederter Reisewagen gebaut, der „kocsi szekér“, der Wagen aus Kocs. Der Name reiste mit durch Europa: Daraus wurden die deutsche Kutsche, die französische coche und die englische coach. Und weil Oxford-Studenten um 1830 ihren Nachhilfelehrer „coach“ nannten, der sie sicher durch die Prüfung kutschierte, ruft heute jeder, der seinen Fußballtrainer Coach nennt, ein ungarisches Dorf mit ein paar tausend Einwohnern.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "paragraph", text: "Und dann gab es noch ein Problem, den Mist. Ein Pferd hinterlässt grob zehn Kilo davon am Tag, dazu literweise Urin. Um 1900 lebten allein in New York weit über hunderttausend Pferde. Rechne selbst, aber nicht beim Essen. Im Sommer wehte der getrocknete Dreck als Staub durch die Straßen, im Regen wurde er zu Brei, und die Fliegen dazu kann man sich denken. Die Großstadt der Pferdezeit roch nicht nach Freiheit. Sie roch nach Stall." },
+    { type: "paragraph", text: "Als die ersten Motorwagen auftauchten, hielt sich die Begeisterung trotzdem in Grenzen. In Großbritannien galt ab 1865 der Locomotive Act, bald nur noch „Red Flag Act“ genannt: Motorfahrzeuge durften auf dem Land höchstens vier Meilen pro Stunde fahren, in Ortschaften zwei, also ungefähr Schritttempo. Und vor jedem musste ein Mensch zu Fuß mit einer roten Fahne hergehen, um Leute und Pferde zu warnen. Man baute also eine Maschine, die schneller sein konnte als jedes Tier, und stellte ihr einen Spaziergänger in den Weg. Die Fahne fiel 1878 weg, der Mann vor dem Wagen blieb. Erst 1896 wurden die Regeln wirklich gelockert. Die Autofahrer feierten mit einer Fahrt von London nach Brighton, und genau diese Strecke fahren Oldtimer seit 1927, von ein paar Unterbrechungen abgesehen, jedes Jahr im November nach." },
+    { type: "heading", text: "Die Frau, die einfach losfuhr" },
+    { type: "paragraph", text: "Am 29. Januar 1886 meldete ein Mannheimer Ingenieur namens Carl Benz ein „Fahrzeug mit Gasmotorenbetrieb“ zum Patent an. Drei Räder, ein Motor mit gerade mal einem Dreiviertel PS, Spitze etwa 16 km/h. Heute gilt das Papier als Geburtsurkunde des Automobils. Damals interessierte es so gut wie niemanden. Carl tüftelte, verbesserte, zweifelte. Käufer blieben aus." },
+    { type: "paragraph", text: "Dann kam ein Morgen Anfang August 1888. Bertha Benz, Carls Frau, weckte ihre Söhne Eugen und Richard, 15 und 13 Jahre alt. Carl schlief noch, gefragt wurde er nicht. Die drei schoben den Motorwagen aus der Werkstatt, warfen ihn an und fuhren los. Ziel: Pforzheim, wo Berthas Mutter lebte. Gut 100 Kilometer. So weit war noch nie jemand mit einem Automobil gefahren." },
+    { type: "paragraph", text: "Was folgte, ist ein Roadtrip, den dir kein Drehbuchautor abkaufen würde. Das Benzin ging aus, Tankstellen gab es keine, also kaufte Bertha in der Stadt-Apotheke in Wiesloch Ligroin, ein Reinigungsmittel. Wiesloch nennt die Apotheke bis heute stolz die erste Tankstelle der Welt. Als eine Kraftstoffleitung verstopfte, putzte Bertha sie der Überlieferung nach mit ihrer Hutnadel frei, ein blankes Zündkabel isolierte sie mit einem Strumpfband. An steilen Hügeln stiegen die Jungs aus und schoben. Und als die hölzernen Bremsklötze nachgaben, ließ sie bei einem Schuhmacher Leder aufnageln. Nebenbei erfunden: der Bremsbelag." },
+    { type: "paragraph", text: "Am Abend rollten die drei in Pforzheim ein, verstaubt, erschöpft und ziemlich zufrieden. Bertha schickte ihrem Mann ein Telegramm. Sein Gesicht beim Lesen hätte man gern gesehen. Die Fahrt sprach sich herum, Carl baute unter anderem einen zusätzlichen Gang für Steigungen ein, und aus der belächelten Bastelei wurde langsam ein Produkt. Die erste große Werbekampagne der Autogeschichte bestand also aus einer Mutter, zwei Teenagern und einer Hutnadel." },
+    { type: "heading", text: "Ein Wohnzimmer mit Tempo 130" },
+    { type: "paragraph", text: "Heute sind allein in Deutschland rund 49 Millionen Pkw zugelassen. Dass daraus ein Alltagsding wurde, lag vor allem an Henry Ford, der ab 1913 sein Model T am Fließband bauen ließ. Kostete das Auto 1908 noch 850 Dollar, war es Mitte der Zwanziger für unter 300 zu haben. Plötzlich konnten sich die Leute ein Auto leisten, die es bauten." },
+    { type: "paragraph", text: "Aber das eigentlich Verrückte ist nicht die Geschwindigkeit. Es ist die Kapsel. Die ersten Autos waren offen. Wer fuhr, trug Staubmantel, Schutzbrille und Lederkappe und sah nach jeder Ausfahrt aus, als hätte er einen Sandsturm durchquert. Erst Mitte der Zwanziger verkauften sich in den USA mehr geschlossene Wagen als offene. Das Auto wurde zum Zimmer." },
+    { type: "paragraph", text: "Und dieses Zimmer wurde warm. Hier lohnt ein Blick ins Wörterbuch: Das französische „Chauffeur“ heißt wörtlich Heizer, von chauffer, heizen. Das Wort stammt aus der Zeit, als Fahrzeuge noch befeuert werden wollten und der Mann vorne tatsächlich mit Kessel und Kohle zu tun hatte. Heute heizt dein Sitz. Mitte der Sechziger gab es die Sitzheizung als teures Extra in amerikanischen Luxuslimousinen, Anfang der Siebziger machte Saab sie als einer der ersten Hersteller zur Serienausstattung. Inzwischen steckt sie in Kleinwagen. Der Heizer ist in Rente, der Knopf hat übernommen." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Das erste erfolgreiche Autoradio kam 1930 von einer kleinen Firma aus Chicago, der Galvin Manufacturing Corporation. Den Produktnamen bastelten die Gründer aus „Motor“ und der Endung des damals populären Grammophons Victrola: Motorola. Der Name lief so gut, dass sich die ganze Firma später danach benannte.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "paragraph", text: "Dann der Blick nach draußen. Im Winter 1902 saß eine Frau aus Alabama namens Mary Anderson in einer New Yorker Straßenbahn und sah zu, wie der Fahrer immer wieder das Fenster aufmachte, um Schnee von der Scheibe zu kratzen. Sie fuhr nach Hause und entwarf einen Wischer, den man per Hebel von innen bedient. 1903 bekam sie das Patent. Die Industrie winkte ab, das Patent lief aus, bevor Scheibenwischer zur Standardausstattung wurden. Jedes Mal, wenn du im Platzregen trotzdem klar siehst, winkt dir also eine Frau zu, die nie einen Cent daran verdient hat." },
+    { type: "paragraph", text: "Und dann das Übersehene: Für viele Menschen ist das Auto der einzige wirklich private Raum im ganzen Alltag. Hier wird laut und falsch gesungen, geweint, telefoniert, geschwiegen, Selbstgespräche geführt. Nirgendwo sonst sitzt man gleichzeitig mitten im Verkehr und komplett für sich. Die Kutsche hatte einen Kutscher, der alles mithörte. Du hast eine Tür, die klack macht und plötzlich bist du ganz für dich allein." },
+    { type: "heading", text: "Ganz Europa vor der Haustür" },
+    { type: "paragraph", text: "Und dann spielt das Auto mit etwas zusammen, das mindestens genauso wundersam ist: dem Straßennetz. Europa ist von Straßen durchzogen wie ein Blatt von seinen Adern. Jede Stadt, jedes Dorf, fast jeder einzelne Bauernhof hängt irgendwo daran. Du setzt dich morgens in München ins Auto, hast nach gut zwei Stunden den Brenner hinter dir und bestellst am frühen Nachmittag in Italien deinen ersten Espresso. Oder du fährst nach Paris, nach Amsterdam, in ein Bergdorf in den Pyrenäen, dessen Namen du gestern noch nicht aussprechen konntest. Kein Fahrplan, kein Umsteigen, kein Gepäcklimit. Der Kofferraum nimmt, was reinpasst, und die Straße bringt dich bis vor die Tür deiner Ferienwohnung." },
+    { type: "paragraph", text: "Wie besonders das ist, zeigt ein Blick auf einen berühmten Reisenden. Als Johann Wolfgang von Goethe im September 1786 frühmorgens heimlich aus Karlsbad zu seiner Italienreise aufbrach, war er mit der Postkutsche gut eine Woche unterwegs, bis er am Gardasee stand. Und das galt damals als flott. Eine vergleichbare Strecke schaffst du heute problemlos an einem einzigen Tag, und das um einiges bequemer als damals." },
+    { type: "paragraph", text: "Wie weit dieses Zusammenspiel reicht, hat der Tscheche Dan Přibáň ausprobiert. Ab 2007 fuhr er mit seinem Team in gelben Trabants, kleinen DDR-Autos mit Zweitaktmotor, über die Seidenstraße, quer durch Afrika bis Kapstadt, durch Südamerika und Australien. Am 26. August 2018 rollte sein gelber Trabant zurück nach Prag, als erster Trabant, der einmal um die ganze Welt gefahren ist. Unterwegs schaffte er es in Asien sogar auf 5.329 Meter Höhe, und alle Expeditionen zusammen kamen auf fast 90.000 Kilometer. Wenn ein Auto, das man eher im Museum vermuten würde, einmal um den Globus kommt, dann steht vor deiner Tür nicht einfach ein Fahrzeug. Da steht eine Einladung an die ganze Welt." },
+    { type: "heading", text: "Hundert Pferde, null Mist" },
+    { type: "paragraph", text: "Rechnen wir kurz. Ein ganz normaler Kompaktwagen hat heute leicht 100 PS. Das sind, zumindest auf dem Papier, hundert Pferde unter der Motorhaube. Hundert echte Pferde bräuchten einen Stall so groß wie eine Turnhalle, mehrere Pfleger und würden zusammen jeden Tag rund eine Tonne Mist hinterlassen. Dein Auto braucht einen Parkplatz." },
+    { type: "paragraph", text: "Und der Preis? Ein warmer, trockener Platz auf einer Reise durch den Schneesturm war früher schlicht nicht zu haben, auch nicht für Kaiser. Auch in der Prunkkutsche zog es, nur eben auf Samt. Heute fährst du für ungefähr das Geld von zwei Cappuccinos rund 50 Kilometer weit, im beheizten Sessel, mit Musik. Bertha Benz musste für ihre Tankfüllung noch in die Apotheke." },
+    {
+      type: "pullquote",
+      text: "**Fun Fact:** Beim allerersten Indianapolis 500 Rennen, im Jahr 1911, fuhr Ray Harroun ohne den damals üblichen Beifahrer, der nach hinten schaute und vor Überholern warnte. Stattdessen montierte er einen Spiegel an seinen Wagen. Er gewann. Erfunden hat er den Rückspiegel wohl nicht, aber berühmt gemacht.",
+      attribution: "You won the Time Lottery"
+    },
+    { type: "heading", text: "Stell dir vor, du müsstest satteln" },
+    { type: "paragraph", text: "Stell dir vor, morgen früh gibt es kein Auto mehr. Keins. Du musst um acht bei der Arbeit sein, 25 Kilometer entfernt. Also klingelt der Wecker um halb fünf. Stall, Futter, Ausmisten, Satteln, bei Laternenlicht. Draußen: derselbe Novemberregen wie im ersten Absatz dieses Kapitels. Nach zehn Minuten ist dein Mantel durch, nach einer Stunde alles darunter. Das Pferd hat heute keine Lust, und du kannst ihm nicht mal seinen Lieblingssong anmachen. Kurz vor acht kommst du an, nass bis auf die Knochen, riechst nach Tier, und nach Feierabend geht das Ganze rückwärts, diesmal im Dunkeln. Den Wocheneinkauf? Satteltaschen. Oma am Sonntag besuchen, 80 Kilometer entfernt? Ein Wochenendprojekt, wenn das Wetter hält." },
+    { type: "heading", text: "Die Kapsel und der Kopf" },
+    { type: "paragraph", text: "Das Seltsame ist: Wir haben uns so schnell an das Wunder gewöhnt, dass wir nur noch die Minuten zählen, die es uns kostet, und uns ärgern, wenn wir ein paar Minuten länger zur Arbeit brauchen als sonst, weil mal wieder viel Verkehr war." },
+    { type: "paragraph", text: "Der römische Philosoph Seneca schrieb einem Freund, der ständig herumreiste, um seine Schwermut loszuwerden, einen Satz, der knapp 2.000 Jahre alt ist und trotzdem perfekt ins Handschuhfach passt:" },
+    {
+      type: "pullquote",
+      text: "„Animum debes mutare, non caelum.“ Du musst deine Einstellung ändern, nicht den Himmel über dir.",
+      attribution: "Seneca"
+    },
+    { type: "paragraph", text: "Das Auto kann dich fast überallhin bringen. Den Blick auf das, was es da gerade für dich tut, musst du selbst mitbringen." },
+    { type: "paragraph", text: "Und ja, ganz ehrlich: Das Auto hat eine Rechnung. Abgase, Unfälle, Lärm, Städte, die für Parkplätze gebaut wurden statt für Menschen. Man darf das ernst nehmen und trotzdem staunen. Beides passt in dasselbe Auto." },
+    { type: "heading", text: "Der Klack-Test" },
+    { type: "paragraph", text: "Mach beim nächsten Einsteigen einen kleinen Versuch. Tür zu, Motor aus, alles aus, 30 Sekunden lang. Hör hin, wie gedämpft das Wetter plötzlich klingt. Dann schalte die Dinge einzeln ein: Heizung, Sitzheizung, Wischer, Musik. Und überleg bei jedem Knopf, wer das vor 150 Jahren für dich erledigt hätte. Ein Heizer. Ein Diener mit Wärmflasche. Ein Mann, der nachts um halb fünf das Pferd füttert. Eine Kapelle auf dem Rücksitz. Du wirst merken: Du fährst jeden Morgen mit Personal, das es gar nicht gibt." },
+    { type: "heading", text: "Bevor du das nächste Mal den Motor startest" },
+    { type: "closing", text: "Zwischen der Hutnadel von Wiesloch und dem Knopf für deine Sitzheizung liegen keine 140 Jahre. Dazwischen: eine Mutter, die einfach losfuhr, eine Frau in der Straßenbahn, die sich über Schnee ärgerte, Fließbänder, Tüftler und ein paar Millionen Mechaniker. Das Ergebnis steht jetzt vor deiner Tür. Ein kleines, warmes Zimmer auf vier Rädern, das dich durch Regen, Sturm und Schnee trägt, schneller als jedes Pferd, bequemer als jede Kaiserkutsche, mit deiner Musik und mit Blick auf die Welt. Kein Kaiser, keine Königin der Kutschenzeit hat je so reisen können. Du machst das jeden Tag. Zeitlotterie: gewonnen." },
+    { type: "heading", text: "Sechs Fragen zum Nachdenken" },
+    {
+      type: "list",
+      ordered: true,
+      items: [
+        "Wann hast du zuletzt bewusst genossen, im Warmen zu sitzen, während draußen das Wetter tobt?",
+        "Welche Autofahrt aus deinem Leben hast du nie vergessen, und was genau macht sie so besonders?",
+        "Welcher Mensch in deinem Leben wäre ohne Auto plötzlich eine Tagesreise entfernt?",
+        "Worüber ärgerst du dich im Auto am häufigsten, und wie groß wäre dieser Ärger auf einem Kutschbock im Regen?",
+        "Wo in deinem Leben wartest du gerade auf Erlaubnis, obwohl du, wie Bertha Benz, einfach losfahren könntest?",
+        "Was ist dein Auto für dich wirklich: Transportmittel, Rückzugsort, Statussymbol oder Konzertsaal?"
+      ]
+    },
+    {
+      type: "audio",
+      src: "audio/12 - Auto Podcast-Gespräch.mp3",
+      image: "images/chapters/12 - Auto.jpg",
+      label: "Das Gespräch zum Kapitel",
+      isPodcast: true
+    }
+    ],
     nextChapterId: null
   },
 
